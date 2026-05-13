@@ -1,0 +1,601 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-4.2 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FSSCameraSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import AVFAudio
+import AVFoundation
+import AVKit
+import Alamofire
+import CocoaMQTT
+import CommonCrypto
+import CoreAudioTypes
+import CryptoKit
+import FLISDK
+@_exported import FSSCameraSDK
+import FSSCameraSDK.FSSSwift
+import Foundation
+import Network
+import NetworkExtension
+import Swift
+import UIKit
+import UserNotifications
+import VideoToolbox
+import WebRTC
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol FSSSupportDelegate : AnyObject {
+  func onConnectDeviceSuccess(devType: Swift.Int, serial: Swift.String)
+  func onConnectDeviceFailed(serial: Swift.String, statusCode: Swift.Int, message: Swift.String)
+}
+public protocol FSSPlayCameraDelegate : AnyObject {
+  func onStartPlayInfo(serial: Swift.String)
+  func onErrorPlayInfo(serial: Swift.String)
+  func onSnapImage(serial: Swift.String, path: Swift.String, result: Swift.Int)
+  func onStartRecord(serial: Swift.String, path: Swift.String, result: Swift.Int)
+  func onStopRecord(serial: Swift.String, path: Swift.String, result: Swift.Int)
+  func onReconnectPlay(serial: Swift.String)
+  func onStopPlay(serial: Swift.String)
+  func onChangeQuality(serial: Swift.String)
+  func onTalkBackControlStart()
+  func onTalkBackControlStop()
+  func onTalkBackControlError(param1: Swift.Int)
+}
+public enum PtzDirection : Swift.String {
+  case corner1
+  case corner2
+  case corner3
+  case corner4
+  case none
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum TokenType : Swift.String {
+  case normal
+  case sso
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class FSSSupport : ObjectiveC.NSObject {
+  public static var shared: FSSCameraSDK.FSSSupport
+  public func setToken(token: Swift.String, tokenType: FSSCameraSDK.TokenType = .normal)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startStream(serial: Swift.String, stream: Swift.Int? = nil, playView: FSSCameraSDK.LiveStreamView, fssPlayCameraDelegate: any FSSCameraSDK.FSSPlayCameraDelegate)
+  #endif
+  public func stopStream(serial: Swift.String)
+  public func idleStream(serial: Swift.String)
+  public func isStreaming(serial: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func snapImage(serial: Swift.String, path: Swift.String = "FssMedia/SnapPhotos", nSeq: Swift.Int, imageName: Swift.String? = nil)
+  #endif
+  public func sound(serial: Swift.String, value: Swift.Int)
+  public func logout(serial: Swift.String)
+  public func changeStreamType(serial: Swift.String, stream: Swift.Int)
+  public func startDouTalk(serial: Swift.String)
+  public func stopDouTalk(serial: Swift.String)
+  public func handlePanAndTilt(serial: Swift.String, direction: FSSCameraSDK.PtzDirection)
+  public func startRecord(serial: Swift.String, path: Swift.String = "FssMedia/VideosRecord")
+  public func stopRecord(serial: Swift.String)
+  public func listenDisconnected(serial: Swift.String, completion: @escaping () -> ())
+  public func listenAlarm(completion: @escaping (_ sec: Swift.Int) -> ())
+  public func getCameraStorageInfo(serial: Swift.String, completion: @escaping (_ isSuccess: Swift.Bool, _ total: Swift.Int, _ free: Swift.Int) -> ())
+  public func formatStorage(serial: Swift.String, startCompletion: @escaping (_ success: Swift.Bool) -> (), endCompletion: @escaping (_ success: Swift.Bool) -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension FSSCameraSDK.FSSSupport {
+  public func connectDevice(serial: Swift.String, fssSupportDelegate: any FSSCameraSDK.FSSSupportDelegate)
+}
+extension FSSCameraSDK.FSSSupport : FSSCameraSDK.DeviceManagerWrapDelegate {
+  @objc dynamic public func addDeviceResult(_ sId: Swift.String, result: Swift.Int32, seq: Swift.Int32)
+  @objc dynamic public func getDeviceChannel(_ sId: Swift.String, result: Swift.Int32, seq: Swift.Int32)
+  @objc dynamic public func deleteDevice(_ sId: Swift.String, result: Swift.Int32)
+}
+extension FSSCameraSDK.FSSSupport : FSSCameraSDK.LiveStreamViewDelegate {
+  @objc dynamic public func startedPlayInfo(_ cameraLiveStreamView: FSSCameraSDK.LiveStreamView)
+  @objc dynamic public func errorStartPlay(_ cameraLiveStreamView: FSSCameraSDK.LiveStreamView)
+  @objc dynamic public func startedPlay(_ cameraLiveStreamView: FSSCameraSDK.LiveStreamView, result: Swift.Int32, dssResult: Swift.Int32)
+  @objc dynamic public func onStopPlay(_ cameraLiveStreamView: FSSCameraSDK.LiveStreamView)
+  @objc dynamic public func onReconnectPlay(_ cameraLiveStreamView: FSSCameraSDK.LiveStreamView)
+  public func snapImageResult(_ cameraLiveStreamView: FSSCameraSDK.LiveStreamView, result: Swift.Int32, path: Swift.String)
+  @objc dynamic public func startRecordResult(_ cameraLiveStreamView: FSSCameraSDK.LiveStreamView, result: Swift.Int32, path: Swift.String)
+  @objc dynamic public func stopRecordResult(_ cameraLiveStreamView: FSSCameraSDK.LiveStreamView, result: Swift.Int32, path: Swift.String)
+  @objc dynamic public func changeQuality(_ cameraLiveStreamView: FSSCameraSDK.LiveStreamView)
+  @objc dynamic public func talkBackControlStart(_ result: Swift.Int32)
+  @objc dynamic public func talkBackControlStop(_ result: Swift.Int32)
+  @objc dynamic public func talkBackControlError(_ param1: Swift.Int32)
+}
+extension FSSCameraSDK.FSSSupport : FSSCameraSDK.MPFileConfigWrapDelegate {
+  @objc dynamic public func clearCmrStorageResult(_ isSuccess: Swift.Bool)
+  @objc dynamic public func getCmrStorageInfoCallback(_ isSuccess: Swift.Bool, withTotalStorage totalMB: Swift.Float, withFreeStorage freeMB: Swift.Float)
+}
+public struct CloudVideoObject {
+  public let start: Swift.Int
+  public let end: Swift.Int
+  public let duration: Swift.Int
+  public let url: Swift.String
+  public let isEncrypted: Swift.Bool
+}
+public enum FSSCryptor {
+  public enum Error : Swift.Int, Swift.Error {
+    case hmacMismatch
+    case unknownHeader
+    case messageTooShort
+    case memoryFailure
+    case invalidCredentialType
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.Int)
+    #endif
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public static func encrypt(data: Foundation.Data, withPassword password: Swift.String) -> Foundation.Data
+  public static func decrypt(data: Foundation.Data, withPassword password: Swift.String) throws -> Foundation.Data
+  public static func randomData(ofLength length: Swift.Int) -> Foundation.Data
+}
+extension FSSCameraSDK.FSSCryptor {
+  @_hasMissingDesignatedInitializers final public class FormatV3 {
+    public static let keySize: Swift.Int
+    public static let saltSize: Swift.Int
+    public static func makeKey(forPassword password: Swift.String, withSalt salt: Foundation.Data) -> Foundation.Data
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers final public class EncryptorV3 {
+    convenience public init(password: Swift.String)
+    convenience public init(encryptionKey: Foundation.Data, hmacKey: Foundation.Data)
+    final public func encrypt(data: Foundation.Data) -> Foundation.Data
+    final public func update(withData data: Foundation.Data) -> Foundation.Data
+    final public func finalData() -> Foundation.Data
+    @objc deinit
+  }
+  final public class DecryptorV3 {
+    public init(password: Swift.String)
+    public init(encryptionKey: Foundation.Data, hmacKey: Foundation.Data)
+    final public func decrypt(data: Foundation.Data) throws -> Foundation.Data
+    final public func update(withData data: Foundation.Data) throws -> Foundation.Data
+    final public func finalData() throws -> Foundation.Data
+    @objc deinit
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class SDDownloadManager : ObjectiveC.NSObject {
+  public typealias DownloadCompletionBlock = (_ error: (any Swift.Error)?, _ fileUrl: Foundation.URL?) -> Swift.Void
+  public typealias DownloadProgressBlock = (_ progress: CoreFoundation.CGFloat) -> Swift.Void
+  public typealias BackgroundDownloadCompletionHandler = () -> Swift.Void
+  final public var backgroundCompletionHandler: FSSCameraSDK.SDDownloadManager.BackgroundDownloadCompletionHandler?
+  final public var showLocalNotificationOnBackgroundDownloadDone: Swift.Bool
+  final public var localNotificationText: Swift.String?
+  public static let shared: FSSCameraSDK.SDDownloadManager
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func downloadFile(withRequest request: Foundation.URLRequest, inDirectory directory: Swift.String? = nil, withName fileName: Swift.String? = nil, isReplaceFile: Swift.Bool = true, onProgress progressBlock: FSSCameraSDK.SDDownloadManager.DownloadProgressBlock? = nil, onCompletion completionBlock: @escaping FSSCameraSDK.SDDownloadManager.DownloadCompletionBlock) -> Swift.String?
+  #endif
+  final public func getDownloadKey(withUrl url: Foundation.URL) -> Swift.String
+  final public func currentDownloads() -> [Swift.String]
+  final public func cancelAllDownloads()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func cancelDownload(forUniqueKey key: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func pause(forUniqueKey key: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func resume(forUniqueKey key: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func isDownloadInProgress(forKey key: Swift.String?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func alterDownload(withKey key: Swift.String?, onProgress progressBlock: FSSCameraSDK.SDDownloadManager.DownloadProgressBlock?, onCompletion completionBlock: @escaping FSSCameraSDK.SDDownloadManager.DownloadCompletionBlock)
+  #endif
+  @objc deinit
+}
+extension FSSCameraSDK.SDDownloadManager : Foundation.URLSessionDelegate, Foundation.URLSessionDownloadDelegate {
+  @objc final public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
+  @objc final public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didWriteData bytesWritten: Swift.Int64, totalBytesWritten: Swift.Int64, totalBytesExpectedToWrite: Swift.Int64)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  #endif
+  @objc final public func urlSessionDidFinishEvents(forBackgroundURLSession session: Foundation.URLSession)
+}
+@_hasMissingDesignatedInitializers open class CameraSDKInit {
+  public static let shared: FSSCameraSDK.CameraSDKInit
+  public var server: Swift.String
+  public var package: Swift.String
+  public var signalHost: Swift.String
+  public var signalPort: Swift.Int
+  public var gis: Swift.String
+  public func initSDK(server: Swift.String, signalHost: Swift.String, signalPort: Swift.Int, gis: Swift.String, package: Swift.String = "package", log: Swift.Bool = false)
+  @objc deinit
+}
+public enum FssVideoType {
+  case playback
+  case motion
+  public static func == (a: FSSCameraSDK.FssVideoType, b: FSSCameraSDK.FssVideoType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum SdkType : Swift.Int {
+  case xm
+  case fss
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct VideoObjectCallBack {
+  public let serial: Swift.String
+  public var camera_name: Swift.String
+  public let start_time: Swift.Int
+  public let end_time: Swift.Int
+  public var begin_search_time: Swift.Int
+  public var end_search_time: Swift.Int
+  public var method: Swift.String
+  public var motion_image_url: [Swift.String]
+  public var is_video: Swift.Bool
+  public let motion_image_local: Swift.String
+  public let file_type: Swift.String
+}
+public protocol FssGetVideoListDelegate : AnyObject {
+  func onGetDeviceFilesSuccess(serial: Swift.String, videoList: [FSSCameraSDK.VideoObjectCallBack])
+  #if compiler(>=5.3) && $NonescapableTypes
+  func onGetDeviceFilesFailed(serial: Swift.String, statusCode: Swift.Int?, errorMessage: Swift.String?)
+  #endif
+  func onGetMonthDeviceFile(serial: Swift.String, data: [Swift.String])
+}
+public protocol FssPlayVideoInfoDelegate : AnyObject {
+  func onStartPlay(_ startTime: Swift.Int, time: Swift.Int, timeRight: Swift.String, firstParam: Swift.Int)
+  func onPlayingInfo(_ playTime: Swift.Int, stopTime: Swift.Int, timeLeft: Swift.String, timeRight: Swift.String)
+  func onEndPlay(serial: Swift.String)
+  func onStopPlay(serial: Swift.String)
+  func onPausePlay(serial: Swift.String)
+  func onSpeedPlay(serial: Swift.String, speed: Swift.Int)
+  func onErrorStartPlay(serial: Swift.String, statusCode: Swift.Int, errorMessage: Swift.String)
+  func onErrorPlay(serial: Swift.String, statusCode: Swift.Int, errorMessage: Swift.String)
+  func onSnapImage(path: Swift.String, result: Swift.Int)
+  func onReconnectPlay()
+  func onLoading(isLoading: Swift.Bool)
+}
+@objc public class FssPlayer : ObjectiveC.NSObject {
+  public static let downloadThumbNotification: Foundation.Notification.Name
+  public var displayView: UIKit.UIView
+  public init(serial: Swift.String)
+  @objc deinit
+}
+extension FSSCameraSDK.FssPlayer {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func fssVideoStartDownload(serial: Swift.String, startTime: Swift.Int, cameraName: Swift.String = "", startCompletion: @escaping (_ success: Swift.Bool) -> (), downloadProgress: @escaping (Swift.Int) -> (), downloadFinished: @escaping (_ success: Swift.Bool, _ downloadPath: Swift.String?) -> ())
+  #endif
+  public func fssVideoStopDownload(serial: Swift.String, startTime: Swift.Int, completion: @escaping () -> ())
+}
+extension FSSCameraSDK.FssPlayer {
+  public func setToken(token: Swift.String)
+  public func getMonthVideo(by date: Foundation.Date, serial: Swift.String, videoType: FSSCameraSDK.FssVideoType, callback: any FSSCameraSDK.FssGetVideoListDelegate)
+  public func devFindFile(serial: Swift.String, startTime: Swift.Int, endTime: Swift.Int, pictureFilePath: Swift.String = "FssMedia/SdPhotos", videoType: FSSCameraSDK.FssVideoType, callback: any FSSCameraSDK.FssGetVideoListDelegate)
+  public func playByMotion(sdkType: Swift.Int = SdkType.xm.rawValue, serial: Swift.String, startTime: Swift.Int, startSearchInterval: Swift.Int = 600, endTime: Swift.Int, endSearchInterval: Swift.Int = 600, callback: any FSSCameraSDK.FssPlayVideoInfoDelegate)
+  public func playByURL(sdkType: Swift.Int = SdkType.xm.rawValue, serial: Swift.String, url: Swift.String, callback: any FSSCameraSDK.FssPlayVideoInfoDelegate)
+  public func playBySD(sdkType: Swift.Int = SdkType.xm.rawValue, serial: Swift.String, startTime: Swift.Int, endTime: Swift.Int, callback: any FSSCameraSDK.FssPlayVideoInfoDelegate)
+  public func stop()
+  public func pause()
+  public func resume()
+  public func sound(value: Swift.Int)
+  public func speed(value: Swift.Int)
+  public func seek(time: Swift.Int)
+  public func snapImage(path: Swift.String = "FssMedia/SnapPhotos")
+  public func getPlayerState() -> FSSCameraSDK.MPVideoState
+  public func downloadVideoThumb(_ serial: Swift.String, startTime: Swift.Int, pictureFilePath: Swift.String = "FssMedia/SdPhotos")
+  public func disposed()
+}
+extension FSSCameraSDK.FssPlayer {
+  public func listenAlarm(completion: @escaping (_ sec: Swift.Int) -> ())
+  public func setAlarm(serial: Swift.String, state: Swift.Bool, completion: @escaping (_ isSuccess: Swift.Bool) -> ())
+  public func getCameraStorageInfo(serial: Swift.String, completion: @escaping (_ isSuccess: Swift.Bool, _ total: Swift.Int, _ free: Swift.Int) -> ())
+  public func formatStorage(serial: Swift.String, startCompletion: @escaping (_ success: Swift.Bool) -> (), endCompletion: @escaping (_ success: Swift.Bool) -> ())
+}
+extension FSSCameraSDK.FssPlayer {
+  public func xmMediaCloudRecordPlay(serial: Swift.String, startTime: Swift.Int, startSearchInterval: Swift.Int, endTime: Swift.Int, endSearchInterval: Swift.Int, delegate: any FSSCameraSDK.FssPlayVideoInfoDelegate)
+}
+extension FSSCameraSDK.FssPlayer : FSSCameraSDK.DeviceManagerWrapDelegate {
+  @objc dynamic public func addDeviceResult(_ sId: Swift.String, result: Swift.Int32, seq: Swift.Int32)
+  @objc dynamic public func getDeviceChannel(_ sId: Swift.String, result: Swift.Int32, seq: Swift.Int32)
+}
+extension FSSCameraSDK.FssPlayer : FSSCameraSDK.MPFileConfigWrapDelegate {
+  @objc dynamic public func mpGetVideoResult(_ result: Swift.Int, withRecord arrayFile: Foundation.NSMutableArray)
+  @objc dynamic public func mpResultGetVi(byTime result: Swift.Int)
+  @objc dynamic public func tpGetMonthVideoDateResult(_ result: Swift.Int, data: Foundation.NSMutableArray)
+  @objc dynamic public func clearCmrStorageResult(_ isSuccess: Swift.Bool)
+  @objc dynamic public func getCmrStorageInfoCallback(_ isSuccess: Swift.Bool, withTotalStorage totalMB: Swift.Float, withFreeStorage freeMB: Swift.Float)
+}
+extension FSSCameraSDK.FssPlayer : FSSCameraSDK.MPplayerWrapDelegate {
+  @objc dynamic public func onErrorStartPlay()
+  @objc dynamic public func onErrorPlaying()
+  @objc dynamic public func startPlayVideoTimeResult(_ startTime: Swift.Int, time: Swift.Int, timeRight: Swift.String, firstParam: Swift.Int)
+  @objc dynamic public func mpResultPlaySdCard(_ paraStart: Swift.Int32, withPlay paraPlay: Swift.Int32, withEnd paraEnd: Swift.Int32, playTime: Swift.Int, stopTime: Swift.Int, timeLeft: Swift.String, timeRight: Swift.String)
+  @objc dynamic public func playVideoInfoResult(_ playTime: Swift.Int, stopTime: Swift.Int, timeLeft: Swift.String, timeRight: Swift.String)
+  @objc dynamic public func onStopPlay(_ result: Swift.Int32)
+  @objc dynamic public func onPlayEnd()
+  @objc dynamic public func onPausePlay(_ result: Swift.Int32, isPause: Swift.Bool)
+  @objc dynamic public func onPlaySpeed(_ speed: Swift.Int32)
+  @objc dynamic public func mpOnReconnectPlay()
+  @objc dynamic public func mpSnapShotResult(_ path: Swift.String, result: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public func motionSearchVideoResult(_ motionList: Foundation.NSMutableArray?)
+  #endif
+  @objc dynamic public func mpDownloadThumbAnrResult(_ dict: [Swift.String : Swift.String], isSuccess: Swift.Bool)
+}
+extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
+  convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
+  #endif
+}
+public protocol PictureInPictureManagerDelegate : ObjectiveC.NSObject {
+  func pictureInPictureManager(_ serials: [Swift.String], restoreUserInterfaceForPictureInPictureStopWithCompletionHandler completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  func pictureInPictureManagerDidStartPictureInPicture(_ serials: [Swift.String])
+  func pictureInPictureManagerDidStopPictureInPicture(_ serials: [Swift.String])
+  func pictureInPictureControllerWillStartPictureInPicture(_ serials: [Swift.String])
+  func pictureInPictureControllerWillStopPictureInPicture(_ serials: [Swift.String])
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class PictureInPictureManager : ObjectiveC.NSObject {
+  public static let shared: FSSCameraSDK.PictureInPictureManager
+  public var isPictureInPictureActive: Swift.Bool {
+    get
+  }
+  public var isPictureInPictureSupported: Swift.Bool {
+    get
+  }
+  public func startPictureInPicture()
+  public func stopPictureInPicture()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @available(iOS 15.0, *)
+  public func configure(for videoView: UIKit.UIView, serials: [Swift.String], rowAndColumnNumber: (Swift.Int, Swift.Int)? = nil, defaultImage: UIKit.UIImage? = nil, defaultImageColor: UIKit.UIColor?, emptyImage: UIKit.UIImage? = nil, emptyImageColor: UIKit.UIColor? = nil, borderWidth: CoreFoundation.CGFloat = 0, borderColor: UIKit.UIColor? = nil, preferredContentSize: CoreFoundation.CGSize = CGSize(width: min(320, UIScreen.main.bounds.width), height: min(320, UIScreen.main.bounds.width) * 9 / 16.0), canStartPictureInPictureAutomaticallyFromInline: Swift.Bool = true, callback: (any FSSCameraSDK.PictureInPictureManagerDelegate)? = nil)
+  #endif
+  @objc deinit
+}
+extension FSSCameraSDK.PictureInPictureManager : AVKit.AVPictureInPictureControllerDelegate {
+  @objc dynamic public func pictureInPictureControllerWillStartPictureInPicture(_ pictureInPictureController: AVKit.AVPictureInPictureController)
+  @objc dynamic public func pictureInPictureControllerWillStopPictureInPicture(_ pictureInPictureController: AVKit.AVPictureInPictureController)
+  @objc dynamic public func pictureInPictureControllerDidStartPictureInPicture(_ pictureInPictureController: AVKit.AVPictureInPictureController)
+  @objc dynamic public func pictureInPictureControllerDidStopPictureInPicture(_ pictureInPictureController: AVKit.AVPictureInPictureController)
+  @objc dynamic public func pictureInPictureController(_ pictureInPictureController: AVKit.AVPictureInPictureController, restoreUserInterfaceForPictureInPictureStopWithCompletionHandler completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+}
+public protocol ISDKFileManager : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func searchMotionFile(serial: Swift.String, startTime: Swift.Int, startSearchInterval: Swift.Int, endTime: Swift.Int, endSearchInterval: Swift.Int, completion: @escaping ((startTime: Foundation.Date?, endTime: Foundation.Date?, size: Swift.Int)?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func searchDevFindFile(serial: Swift.String, startTime: Swift.Int, startSearchInterval: Swift.Int, endTime: Swift.Int, endSearchInterval: Swift.Int, completion: @escaping ((startTime: Foundation.Date?, endTime: Foundation.Date?, size: Swift.Int)?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func devFindFile(_ serial: Swift.String, startTime: Swift.Int, endTime: Swift.Int, thumbPath: Swift.String, type: FSSCameraSDK.FssVideoType, completion: @escaping (Swift.Int?, [FSSCameraSDK.VideoObjectCallBack]) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func cloudFindFile(_ serial: Swift.String, startTime: Foundation.Date, endTime: Foundation.Date, completion: @escaping (Swift.Int?, [FSSCameraSDK.CloudVideoObject]) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getMonthVideo(by date: Foundation.Date, serial: Swift.String, videoType: FSSCameraSDK.FssVideoType, completion: @escaping (Swift.Int?, [Swift.String]) -> ())
+  #endif
+  func downloadCloudMotion(_ serial: Swift.String, startTime: Swift.Int, startSearchInterval: Swift.Int, endTime: Swift.Int, endSearchInterval: Swift.Int, dir: Swift.String, fileName: Swift.String, start: @escaping (Swift.Bool) -> (), progress: @escaping (Swift.Float, Swift.Float) -> (), end: @escaping (Swift.Bool, Swift.String) -> ())
+  func downloadCloudFullRecordByTime(serial: Swift.String, startTime: Swift.Int, endTime: Swift.Int, isEncrypted: Swift.Bool, dir: Swift.String, fileName: Swift.String, start: @escaping (Swift.Bool) -> (), progress: @escaping (Swift.Float, Swift.Float) -> (), end: @escaping (Swift.Bool, Swift.String) -> ())
+  func downloadSD(_ serial: Swift.String, startTime: Swift.Int, dir: Swift.String, fileName: Swift.String, start: @escaping (Swift.Bool) -> (), progress: @escaping (Swift.Float, Swift.Float) -> (), end: @escaping (Swift.Bool, Swift.String) -> ())
+  func stopDownload()
+  func disposed()
+}
+public class FSSFileManager {
+  public static let downloadThumbNotification: Foundation.Notification.Name
+  public static let shared: FSSCameraSDK.FSSFileManager
+  public init()
+  public func observePauseDownloadWhenEnterbackgroud()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func searchMotionFile(serial: Swift.String, startTime: Swift.Int, startSearchInterval: Swift.Int, endTime: Swift.Int, endSearchInterval: Swift.Int, completion: @escaping ((startTime: Foundation.Date?, endTime: Foundation.Date?, size: Swift.Int)?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func searchDevFindFile(serial: Swift.String, startTime: Swift.Int, startSearchInterval: Swift.Int, endTime: Swift.Int, endSearchInterval: Swift.Int, completion: @escaping ((startTime: Foundation.Date?, endTime: Foundation.Date?, size: Swift.Int)?) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func devFindFile(_ serial: Swift.String, startTime: Swift.Int, endTime: Swift.Int, type: FSSCameraSDK.FssVideoType, completion: @escaping (Swift.Int?, [FSSCameraSDK.VideoObjectCallBack]) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func cloudFindFile(_ serial: Swift.String, startTime: Foundation.Date, endTime: Foundation.Date, completion: @escaping (Swift.Int?, [FSSCameraSDK.CloudVideoObject]) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func getMonthVideo(by date: Foundation.Date, serial: Swift.String, videoType: FSSCameraSDK.FssVideoType, completion: @escaping (Swift.Int?, [Swift.String]) -> ())
+  #endif
+  public func downloadCloudMotion(_ serial: Swift.String, startTime: Swift.Int, startSearchInterval: Swift.Int, endTime: Swift.Int, endSearchInterval: Swift.Int, dir: Swift.String, fileName: Swift.String, start: @escaping (Swift.Bool) -> (), progress: @escaping (Swift.Float, Swift.Float) -> (), end: @escaping (Swift.Bool, Swift.String) -> ())
+  public func downloadCloudFullRecordByTime(serial: Swift.String, startTime: Swift.Int, endTime: Swift.Int, isEncrypted: Swift.Bool, dir: Swift.String, fileName: Swift.String, start: @escaping (Swift.Bool) -> (), progress: @escaping (Swift.Float, Swift.Float) -> (), end: @escaping (Swift.Bool, Swift.String) -> ())
+  public func downloadSD(_ serial: Swift.String, startTime: Swift.Int, dir: Swift.String, fileName: Swift.String, start: @escaping (Swift.Bool) -> (), progress: @escaping (Swift.Float, Swift.Float) -> (), end: @escaping (Swift.Bool, Swift.String) -> ())
+  public func downloadUrl(url: Swift.String, dir: Swift.String, fileName: Swift.String, start: @escaping (Swift.Bool) -> (), progress: @escaping (Swift.Float, Swift.Float) -> (), end: @escaping (Swift.Bool, Swift.String) -> ())
+  public func stopDownload(serial: Swift.String)
+  public func stopDownload()
+  public func disposed()
+  @objc deinit
+}
+public let successRange: Swift.Range<Swift.Int>
+public enum ConnectionStep : Swift.Int {
+  case new
+  case statusReponsed
+  case infoResponsed
+  case addDevice
+  case addDeviceResult
+  case startGetDeviceChannel
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum CameraConfigStatus {
+  case none
+  case receivingInfo
+  case receivedInfo
+  case sendingConfig
+  case cameraReceivedConfig
+  case searchingDevice
+  case failed
+  case success
+  public static func == (a: FSSCameraSDK.CameraConfigStatus, b: FSSCameraSDK.CameraConfigStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol FSSDeviceManagerConfigWifiDelegate : AnyObject {
+  func fssDeviceManager(config serial: Swift.String, status: FSSCameraSDK.CameraConfigStatus)
+  func fssDeviceManager(config serial: Swift.String, countdown time: Swift.Int, status: FSSCameraSDK.CameraConfigStatus)
+}
+extension FSSCameraSDK.FSSDeviceManagerConfigWifiDelegate {
+  public func fssDeviceManager(config serial: Swift.String, status: FSSCameraSDK.CameraConfigStatus)
+}
+public protocol FSSDeviceManagerDelegate : AnyObject {
+  func fssDeviceManager(connectSuccess devType: Swift.Int, serial: Swift.String, seq: Swift.Int)
+  func fssDeviceManager(connectFailed serial: Swift.String, statusCode: Swift.Int, message: Swift.String, seq: Swift.Int)
+  func fssDeviceManager(deviceStatus serial: Swift.String, status: Swift.Bool, seq: Swift.Int)
+}
+extension FSSCameraSDK.FSSDeviceManagerDelegate {
+  public func fssDeviceManager(connectSuccess devType: Swift.Int, serial: Swift.String, seq: Swift.Int)
+  public func fssDeviceManager(connectFailed serial: Swift.String, statusCode: Swift.Int, message: Swift.String, seq: Swift.Int)
+  public func fssDeviceManager(deviceStatus serial: Swift.String, status: Swift.Bool, seq: Swift.Int)
+}
+@objc @_inheritsConvenienceInitializers public class FSSDeviceManager : ObjectiveC.NSObject {
+  public static func getListenAlarmNotificationName(serial: Swift.String) -> Foundation.Notification.Name
+  public static let listenPrivateModeStateNotificationName: Foundation.Notification.Name
+  public static func getListenPrivateModeStateNotificationName(serial: Swift.String) -> Foundation.Notification.Name
+  public static func getListenStatusNotificationName(serial: Swift.String) -> Foundation.Notification.Name
+  weak public var configWifiDelegate: (any FSSCameraSDK.FSSDeviceManagerConfigWifiDelegate)?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension FSSCameraSDK.FSSDeviceManager {
+  public func isAlarmSupport(_ serial: Swift.String) -> Swift.Bool
+  public static var shared: FSSCameraSDK.FSSDeviceManager
+  public func setToken(token: Swift.String)
+  public func register(delegate: any FSSCameraSDK.FSSDeviceManagerDelegate) -> Swift.Int
+  public func unregister(_ id: Swift.Int)
+  public func configAlarm(serial: Swift.String, isEnable: Swift.Bool, interval: Swift.Int = 60, completion: @escaping (Swift.Bool) -> ())
+  public func ffmpegConvert(command: Swift.String, completion: @escaping (Swift.Int32) -> ())
+  public func connectDevice(serials: [Swift.String], id: Swift.Int)
+  public func startStream(serial: Swift.String, playView: FSSCameraSDK.LiveStreamView, stream: Swift.Int = 0, play: Swift.Bool = true)
+  public func deleteDevice(serial: Swift.String)
+  public func deleteAllDevice()
+  public func observerCount() -> Swift.Int
+  public func getCameraStatus(serials: [Swift.String], completion: @escaping ([(serial: Swift.String, status: Swift.Bool)]) -> ())
+  public func getCameraStatus(serials: [Swift.String], id: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startSmartConfig(_ serial: Swift.String, ssid: Swift.String, ssidPass: Swift.String, timeOut: Swift.Int, sdk: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startAPModeConfig(_ serial: Swift.String, productCode: Swift.String, devSSID: Swift.String, devPass: Swift.String, ssid: Swift.String, password: Swift.String, configUser: Swift.String, configPass: Swift.String, timeOut: Swift.Int, sdk: Swift.String? = nil, connectWifiCompletion: @escaping (_ bool: Swift.Bool, _ ssid: Swift.String, _ password: Swift.String, _ completion: @escaping () -> ()) -> ())
+  #endif
+  public func retry(serial: Swift.String, configWifi state: FSSCameraSDK.CameraConfigStatus, timeOut: Swift.Int)
+  public func stopConfig(_ serial: Swift.String)
+  public func stopStream(serial: Swift.String, isDisconnect: Swift.Bool = false)
+  public func disponse(serial: Swift.String)
+  public func openSound(serial: Swift.String, value: Swift.Int)
+  public func changeStream(serial: Swift.String, stream: Swift.Int)
+  public func snapImage(serial: Swift.String, path: Swift.String, nSeq: Swift.Int)
+  public func startRecord(serial: Swift.String, path: Swift.String)
+  public func stopRecord(serial: Swift.String)
+  public func startDouTalk(serial: Swift.String)
+  public func stopDouTalk(serial: Swift.String)
+  public func controZStartlPTAction(serial: Swift.String, direction: Swift.Int)
+  public func controZStoplPTAction(serial: Swift.String, direction: Swift.Int)
+  public func sendKeepAliveTalk(serial: Swift.String)
+  public func openMic(serial: Swift.String, isOpen: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func setPrivateMode(serial: Swift.String, isOn: Swift.Bool, completion: @escaping (_ code: Swift.Int?) -> Swift.Void)
+  #endif
+  public func getCameraStatus(serial: Swift.String, completion: @escaping (Swift.Bool) -> ())
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func decrypt(value: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func formatStorage(serial: Swift.String, isFormat: Swift.Bool = true, startCompletion: @escaping (Swift.Bool, Swift.Int?) -> (), endCompletion: @escaping (Swift.Bool, Swift.Int?) -> ())
+  #endif
+}
+public class FSSMediaPlayer {
+  public init()
+  weak public var delegate: (any FSSCameraSDK.FssPlayVideoInfoDelegate)?
+  public var displayView: UIKit.UIView
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func downloadVideoThumb(_ serial: Swift.String, startTime: Swift.Int, pictureFilePath: Swift.String = "FssMedia/SdPhotos", imageView: FLISDK.FImageView? = nil, placeHolder: UIKit.UIImage? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func playByMotion(serial: Swift.String, startTime: Swift.Int, startSearchInterval: Swift.Int = 600, endTime: Swift.Int, endSearchInterval: Swift.Int = 600, readySeekToDate: Foundation.Date? = nil)
+  #endif
+  public func playBySD(serial: Swift.String, startTime: Swift.Int, endTime: Swift.Int)
+  public func playByURL(serial: Swift.String, url: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func playCloudFullRecordByTime(serial: Swift.String, start: Foundation.Date, end: Foundation.Date, isEncrypted: Swift.Bool?, readySeekToDate: Foundation.Date? = nil)
+  #endif
+  public func stop()
+  public func pause()
+  public func resume()
+  public func speed(value: Swift.Float)
+  public func sound(value: Swift.Int)
+  public func seek(time: Swift.Int)
+  public func snapImage(path: Swift.String = "FssMedia/SnapPhotos")
+  public func getPlayerState() -> FSSCameraSDK.MPVideoState
+  public func disposed()
+  @objc deinit
+}
+public enum PanTiltDirectType : Swift.String {
+  case Up, Down, Left, Right, None
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ResolutionType : Swift.Int {
+  case HD, FHD, SD
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension FSSCameraSDK.PtzDirection : Swift.Equatable {}
+extension FSSCameraSDK.PtzDirection : Swift.Hashable {}
+extension FSSCameraSDK.PtzDirection : Swift.RawRepresentable {}
+extension FSSCameraSDK.TokenType : Swift.Equatable {}
+extension FSSCameraSDK.TokenType : Swift.Hashable {}
+extension FSSCameraSDK.TokenType : Swift.RawRepresentable {}
+extension FSSCameraSDK.FSSCryptor.Error : Swift.Equatable {}
+extension FSSCameraSDK.FSSCryptor.Error : Swift.Hashable {}
+extension FSSCameraSDK.FSSCryptor.Error : Swift.RawRepresentable {}
+extension FSSCameraSDK.FssVideoType : Swift.Equatable {}
+extension FSSCameraSDK.FssVideoType : Swift.Hashable {}
+extension FSSCameraSDK.SdkType : Swift.Equatable {}
+extension FSSCameraSDK.SdkType : Swift.Hashable {}
+extension FSSCameraSDK.SdkType : Swift.RawRepresentable {}
+extension FSSCameraSDK.ConnectionStep : Swift.Equatable {}
+extension FSSCameraSDK.ConnectionStep : Swift.Hashable {}
+extension FSSCameraSDK.ConnectionStep : Swift.RawRepresentable {}
+extension FSSCameraSDK.CameraConfigStatus : Swift.Equatable {}
+extension FSSCameraSDK.CameraConfigStatus : Swift.Hashable {}
+extension FSSCameraSDK.PanTiltDirectType : Swift.Equatable {}
+extension FSSCameraSDK.PanTiltDirectType : Swift.Hashable {}
+extension FSSCameraSDK.PanTiltDirectType : Swift.RawRepresentable {}
+extension FSSCameraSDK.ResolutionType : Swift.Equatable {}
+extension FSSCameraSDK.ResolutionType : Swift.Hashable {}
+extension FSSCameraSDK.ResolutionType : Swift.RawRepresentable {}

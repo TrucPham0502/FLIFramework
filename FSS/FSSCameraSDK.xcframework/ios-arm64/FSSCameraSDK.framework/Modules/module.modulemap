@@ -1,0 +1,26 @@
+//
+//  module.modulemap
+//  FSSSDKExample
+//
+//  Created by TrucPham on 01/04/2022.
+//
+
+framework module FSSCameraSDK [system] {
+    umbrella header "FSSCameraSDK.h"
+    export *
+    explicit module FSSSwift {
+        header "CameraSDK.h"
+        header "LiveStreamView.h"
+        header "UserAccountModelWrap.h"
+        header "DeviceManagerWrap.h"
+        header "MPFileConfigWrap.h"
+        header "MPplayerWrap.h"
+    }
+   
+}
+
+
+module FSSCameraSDK.Swift {
+  header "FSSCameraSDK-Swift.h"
+  requires objc
+}

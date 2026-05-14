@@ -742,10 +742,6 @@ public protocol FDeviceDelegate : ObjectiveC.NSObject {
   func fDevice(_ device: FLISDK.FDevice, status: Swift.Bool)
   func fDevice(_ device: FLISDK.FDevice, connectionPercent percent: Swift.Int, step: FLISDK.ConnectionStep)
 }
-extension FLISDK.FDeviceDelegate {
-  public func fDevice(_ device: FLISDK.FDevice, streamQuality quality: FLISDK.StreamQuality, fps: Swift.Int, bitrate: Swift.String)
-  public func fDevice(_ device: FLISDK.FDevice, connectionPercent percent: Swift.Int, step: FLISDK.ConnectionStep)
-}
 public enum FDeviceResult {
   case error(error: FLISDK.FDeviceError)
   case stateChanged(FLISDK.DeviceConnectionState)

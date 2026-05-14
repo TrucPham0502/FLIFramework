@@ -588,6 +588,11 @@ extension FLISDK.FPictureInPictureManager : AVKit.AVPictureInPictureControllerDe
   @objc dynamic public func pictureInPictureControllerDidStopPictureInPicture(_ pictureInPictureController: AVKit.AVPictureInPictureController)
   @objc dynamic public func pictureInPictureController(_ pictureInPictureController: AVKit.AVPictureInPictureController, restoreUserInterfaceForPictureInPictureStopWithCompletionHandler completionHandler: @escaping (Swift.Bool) -> Swift.Void)
 }
+extension Dispatch.DispatchTimeInterval : Swift.CustomDebugStringConvertible {
+  public var debugDescription: Swift.String {
+    get
+  }
+}
 final public class FImageManager {
   public init()
   #if compiler(>=5.3) && $NonescapableTypes
@@ -694,11 +699,6 @@ extension FLISDK.FSSCryptor {
     @objc deinit
   }
 }
-extension Dispatch.DispatchTimeInterval : Swift.CustomDebugStringConvertible {
-  public var debugDescription: Swift.String {
-    get
-  }
-}
 public enum FDeviceError : Swift.Error {
   case CLIENT_ID_NOT_FOUND
   case FORMAT_STORAGE_ERROR
@@ -740,9 +740,11 @@ public protocol FDeviceDelegate : ObjectiveC.NSObject {
   func fDevice(_ device: FLISDK.FDevice, error: FLISDK.FDeviceError)
   func fDevice(_ device: FLISDK.FDevice, privateModeChanged status: Swift.Bool)
   func fDevice(_ device: FLISDK.FDevice, status: Swift.Bool)
+  func fDevice(_ device: FLISDK.FDevice, connectionPercent percent: Swift.Int, step: FLISDK.ConnectionStep)
 }
 extension FLISDK.FDeviceDelegate {
   public func fDevice(_ device: FLISDK.FDevice, streamQuality quality: FLISDK.StreamQuality, fps: Swift.Int, bitrate: Swift.String)
+  public func fDevice(_ device: FLISDK.FDevice, connectionPercent percent: Swift.Int, step: FLISDK.ConnectionStep)
 }
 public enum FDeviceResult {
   case error(error: FLISDK.FDeviceError)

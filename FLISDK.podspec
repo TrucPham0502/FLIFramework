@@ -16,20 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'Core' do |ss|
     ss.dependency 'CocoaMQTT'
-
-    ss.libraries = 'c++', 'expat', 'z', 'iconv', 'resolv', 'xml2'
-
-    ss.frameworks = 'OpenAL',
-                    'AVFoundation',
-                    'AudioToolbox',
-                    'CoreAudio',
-                    'CoreVideo',
-                    'CoreMedia',
-                    'VideoToolbox',
-                    'Network',
-                    'SystemConfiguration',
-                    'CoreTelephony'
-
+    ss.libraries = 'c++'
     ss.vendored_frameworks = [
       'WebRTC.xcframework',
       'FLISDK.xcframework',

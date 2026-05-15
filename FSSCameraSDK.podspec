@@ -16,7 +16,6 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'Core' do |ss|
     ss.dependency 'CocoaMQTT'
-    ss.dependency 'FLISDK'
     ss.libraries = 'c++'
     ss.vendored_frameworks = [
       'FSS/*.xcframework'

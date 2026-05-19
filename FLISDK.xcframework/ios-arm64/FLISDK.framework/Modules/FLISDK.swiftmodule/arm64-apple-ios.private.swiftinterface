@@ -14,6 +14,7 @@ import CoreMedia
 import CoreTelephony
 import CoreVideo
 import CryptoKit
+import Darwin
 @_exported import FLISDK
 import Foundation
 import Metal
@@ -65,6 +66,19 @@ public struct ABTestConfigModel {
 }
 public enum FDeviceFactory {
   public static func make(serial: Swift.String) -> FLISDK.FDevice
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class LogUploadViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var onDismiss: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onComplete: ((_ success: Swift.Bool) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(fileURL: Foundation.URL, webhookURL: Swift.String, recipientEmail: Swift.String, cc: [Swift.String] = [], subject: Swift.String, body: Swift.String = "")
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  #endif
+  @objc deinit
 }
 public enum FPCloudlaybackType {
   case hls(isEncrypted: Swift.Bool)
@@ -253,6 +267,11 @@ extension FLISDK.FBleConfigManager : CoreBluetooth.CBCentralManagerDelegate, Cor
 }
 public class FObservableManager<T> where T : Swift.Decodable, T : Swift.Encodable {
   public init()
+  weak public var dataSource: (any FLISDK.FObservableDataSource)? {
+    get
+    set
+  }
+  public var didReceiveRawMessage: (Swift.String) -> Swift.Void
   public var didReceiveMessage: (T) -> Swift.Void {
     get
     set
@@ -262,6 +281,11 @@ public class FObservableManager<T> where T : Swift.Decodable, T : Swift.Encodabl
   #endif
   public func disconnect()
   @objc deinit
+}
+public protocol FObservableDataSource : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func fObservable(needCredentials completion: @escaping (_ username: Swift.String, _ password: Swift.String, _ error: FLISDK.FDeviceError?) -> Swift.Void)
+  #endif
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FRendererView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency weak public var delegate: (any FLISDK.FRendererViewDelegate)?
@@ -434,6 +458,10 @@ extension FLISDK.FDeviceManager : FLISDK.FSignalDataSource {
   public func initSDK(server: Swift.String, signalHost: Swift.String, signalPort: Swift.Int, token: Swift.String, gis: Swift.String, package: Swift.String = "package", log: Swift.Bool = true)
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class Console {
+  public static var didReceiveLog: (Swift.String) -> ()
+  @objc deinit
+}
 public protocol FDeviceConfigManagerDelegate : AnyObject {
   func fDeviceConfigManager(_ manager: FLISDK.FDeviceConfigManager, didDiscoverDevices devices: [any FLISDK.FBLEDevice])
   #if compiler(>=5.3) && $NonescapableTypes
@@ -588,6 +616,21 @@ extension FLISDK.FPictureInPictureManager : AVKit.AVPictureInPictureControllerDe
   @objc dynamic public func pictureInPictureControllerDidStopPictureInPicture(_ pictureInPictureController: AVKit.AVPictureInPictureController)
   @objc dynamic public func pictureInPictureController(_ pictureInPictureController: AVKit.AVPictureInPictureController, restoreUserInterfaceForPictureInPictureStopWithCompletionHandler completionHandler: @escaping (Swift.Bool) -> Swift.Void)
 }
+@objc @_inheritsConvenienceInitializers public class LogUploader : ObjectiveC.NSObject {
+  public var onProgress: ((Swift.Double) -> Swift.Void)?
+  public var onProgressDetail: ((_ bytesSent: Swift.Int64, _ totalBytes: Swift.Int64) -> Swift.Void)?
+  public var onComplete: ((Swift.Bool) -> Swift.Void)?
+  public func cancel()
+  public func upload(fileURL: Foundation.URL, to webhookURL: Swift.String, recipientEmail: Swift.String, cc: [Swift.String] = [], subject: Swift.String, body: Swift.String = "")
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension FLISDK.LogUploader : Foundation.URLSessionTaskDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didSendBodyData bytesSent: Swift.Int64, totalBytesSent: Swift.Int64, totalBytesExpectedToSend: Swift.Int64)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: (any Swift.Error)?)
+  #endif
+}
 extension Dispatch.DispatchTimeInterval : Swift.CustomDebugStringConvertible {
   public var debugDescription: Swift.String {
     get
@@ -699,13 +742,13 @@ extension FLISDK.FSSCryptor {
     @objc deinit
   }
 }
-public enum FDeviceError : Swift.Error {
-  case CLIENT_ID_NOT_FOUND
-  case FORMAT_STORAGE_ERROR
-  case NOT_OFFER_REQUEST_TYPE
+public enum FDeviceError : Swift.Error, Foundation.LocalizedError {
+  case EE_DEV_CLIENT_ID_NOT_FOUND
+  case EE_DEV_FORMAT_STORAGE_ERROR
+  case EE_DEV_NOT_OFFER_REQUEST_TYPE
   case NOT_SUPPORTED
   case CANCEL
-  case USERNAME_PASSWORD_INVALID
+  case EE_DEV_USERNAME_PASSWORD_INVALID
   case TIMEOUT
   case EE_DEV_CHANNEL_CLOSED
   case EE_DEV_SDP_NOT_FOUND
@@ -718,7 +761,7 @@ public enum FDeviceError : Swift.Error {
   case EE_DEV_DECRYPT_PASSWORD_FAILED
   case EE_PERMISSION_DENIED
   case EE_DEV_CANT_CONNECT
-  case EE_LOGIN_FAILED
+  case EE_DEV_LOGIN_FAILED
   case EE_DSS_NOT_READY
   case EE_DSS_NOT_FOUND
   case EE_FILE_NOT_FOUND
@@ -727,12 +770,21 @@ public enum FDeviceError : Swift.Error {
   case EE_DEV_OFFLINE
   case EE_DEV_CCU
   case EE_DEV_SD_DOWNLOAD_FAILED
-  case EE_CONNECTION_UNSUPPORTED
+  case EE_DEV_CONNECTION_UNSUPPORTED
   case DEV_PRIVATE_MODE
   case NOT_IMPLEMENTED
+  case EE_DEV_PEER_CONNECTION_NIL
   public var code: Swift.Int {
     get
   }
+  public var message: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
 }
 public protocol FDeviceDelegate : ObjectiveC.NSObject {
   func fDevice(_ device: FLISDK.FDevice, stateChanged state: FLISDK.DeviceConnectionState)
@@ -764,6 +816,7 @@ public class FDevice {
   public var emergencyAlarmChangeTimeCallback: FLISDK.EmergencyAlarmChangeTimeCallback?
   final public let serial: Swift.String
   public var resolution: FLISDK.ResolutionType
+  public var autoAdaptResolution: Swift.Bool
   public var connectionState: FLISDK.DeviceConnectionState
   public var state: FLISDK.FStreamState {
     get
@@ -803,10 +856,6 @@ public protocol FSignalDataSource : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
   func fliSignal(_ serial: Swift.String, auth completion: @escaping (_ username: Swift.String, _ password: Swift.String, _ error: FLISDK.FDeviceError?) -> ())
   #endif
-}
-@_hasMissingDesignatedInitializers public class Console {
-  public static var didReceiveLog: (Swift.String) -> ()
-  @objc deinit
 }
 infix operator ??? : DefaultPrecedence
 infix operator ??= : DefaultPrecedence

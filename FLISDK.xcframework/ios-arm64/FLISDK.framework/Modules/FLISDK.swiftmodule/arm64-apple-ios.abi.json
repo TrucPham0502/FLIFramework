@@ -1564,6 +1564,668 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogUploadViewController",
+        "printedName": "LogUploadViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onDismiss",
+            "printedName": "onDismiss",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK23LogUploadViewControllerC9onDismissyycSgvp",
+            "mangledName": "$s6FLISDK23LogUploadViewControllerC9onDismissyycSgvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK23LogUploadViewControllerC9onDismissyycSgvg",
+                "mangledName": "$s6FLISDK23LogUploadViewControllerC9onDismissyycSgvg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK23LogUploadViewControllerC9onDismissyycSgvs",
+                "mangledName": "$s6FLISDK23LogUploadViewControllerC9onDismissyycSgvs",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK23LogUploadViewControllerC9onDismissyycSgvM",
+                "mangledName": "$s6FLISDK23LogUploadViewControllerC9onDismissyycSgvM",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onComplete",
+            "printedName": "onComplete",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK23LogUploadViewControllerC10onCompleteySbcSgvp",
+            "mangledName": "$s6FLISDK23LogUploadViewControllerC10onCompleteySbcSgvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK23LogUploadViewControllerC10onCompleteySbcSgvg",
+                "mangledName": "$s6FLISDK23LogUploadViewControllerC10onCompleteySbcSgvg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK23LogUploadViewControllerC10onCompleteySbcSgvs",
+                "mangledName": "$s6FLISDK23LogUploadViewControllerC10onCompleteySbcSgvs",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK23LogUploadViewControllerC10onCompleteySbcSgvM",
+                "mangledName": "$s6FLISDK23LogUploadViewControllerC10onCompleteySbcSgvM",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fileURL:webhookURL:recipientEmail:cc:subject:body:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogUploadViewController",
+                "printedName": "FLISDK.LogUploadViewController",
+                "usr": "c:@M@FLISDK@objc(cs)LogUploadViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6FLISDK23LogUploadViewControllerC7fileURL07webhookG014recipientEmail2cc7subject4bodyAC10Foundation0G0V_S2SSaySSGS2Stcfc",
+            "mangledName": "$s6FLISDK23LogUploadViewControllerC7fileURL07webhookG014recipientEmail2cc7subject4bodyAC10Foundation0G0V_S2SSaySSGS2Stcfc",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FLISDK@objc(cs)LogUploadViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s6FLISDK23LogUploadViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "FLISDK",
+            "overriding": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FLISDK@objc(cs)LogUploadViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s6FLISDK23LogUploadViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "FLISDK",
+                "overriding": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FLISDK@objc(cs)LogUploadViewController(im)viewDidLoad",
+            "mangledName": "$s6FLISDK23LogUploadViewControllerC11viewDidLoadyyF",
+            "moduleName": "FLISDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "traitCollectionDidChange",
+            "printedName": "traitCollectionDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITraitCollection?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITraitCollection",
+                    "printedName": "UIKit.UITraitCollection",
+                    "usr": "c:objc(cs)UITraitCollection"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FLISDK@objc(cs)LogUploadViewController(im)traitCollectionDidChange:",
+            "mangledName": "$s6FLISDK23LogUploadViewControllerC24traitCollectionDidChangeyySo07UITraitG0CSgF",
+            "moduleName": "FLISDK",
+            "overriding": true,
+            "objc_name": "traitCollectionDidChange:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogUploadViewController",
+                "printedName": "FLISDK.LogUploadViewController",
+                "usr": "c:@M@FLISDK@objc(cs)LogUploadViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FLISDK@objc(cs)LogUploadViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s6FLISDK23LogUploadViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "FLISDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FLISDK@objc(cs)LogUploadViewController",
+        "mangledName": "$s6FLISDK23LogUploadViewControllerC",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6632,6 +7294,243 @@
           },
           {
             "kind": "Var",
+            "name": "dataSource",
+            "printedName": "dataSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any FLISDK.FObservableDataSource)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK18FObservableManagerC10dataSourceAA0b4DataE0_pSgvp",
+            "mangledName": "$s6FLISDK18FObservableManagerC10dataSourceAA0b4DataE0_pSgvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FLISDK.FObservableDataSource)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FObservableDataSource",
+                        "printedName": "any FLISDK.FObservableDataSource",
+                        "usr": "s:6FLISDK21FObservableDataSourceP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK18FObservableManagerC10dataSourceAA0b4DataE0_pSgvg",
+                "mangledName": "$s6FLISDK18FObservableManagerC10dataSourceAA0b4DataE0_pSgvg",
+                "moduleName": "FLISDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FLISDK.FObservableDataSource)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FObservableDataSource",
+                        "printedName": "any FLISDK.FObservableDataSource",
+                        "usr": "s:6FLISDK21FObservableDataSourceP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK18FObservableManagerC10dataSourceAA0b4DataE0_pSgvs",
+                "mangledName": "$s6FLISDK18FObservableManagerC10dataSourceAA0b4DataE0_pSgvs",
+                "moduleName": "FLISDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK18FObservableManagerC10dataSourceAA0b4DataE0_pSgvM",
+                "mangledName": "$s6FLISDK18FObservableManagerC10dataSourceAA0b4DataE0_pSgvM",
+                "moduleName": "FLISDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "didReceiveRawMessage",
+            "printedName": "didReceiveRawMessage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK18FObservableManagerC20didReceiveRawMessageyySScvp",
+            "mangledName": "$s6FLISDK18FObservableManagerC20didReceiveRawMessageyySScvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK18FObservableManagerC20didReceiveRawMessageyySScvg",
+                "mangledName": "$s6FLISDK18FObservableManagerC20didReceiveRawMessageyySScvg",
+                "moduleName": "FLISDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK18FObservableManagerC20didReceiveRawMessageyySScvs",
+                "mangledName": "$s6FLISDK18FObservableManagerC20didReceiveRawMessageyySScvs",
+                "moduleName": "FLISDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK18FObservableManagerC20didReceiveRawMessageyySScvM",
+                "mangledName": "$s6FLISDK18FObservableManagerC20didReceiveRawMessageyySScvM",
+                "moduleName": "FLISDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "didReceiveMessage",
             "printedName": "didReceiveMessage",
             "children": [
@@ -6927,6 +7826,104 @@
         "moduleName": "FLISDK",
         "declAttributes": [
           "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FObservableDataSource",
+        "printedName": "FObservableDataSource",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fObservable",
+            "printedName": "fObservable(needCredentials:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, Swift.String, FLISDK.FDeviceError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.String, FLISDK.FDeviceError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "FLISDK.FDeviceError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FDeviceError",
+                            "printedName": "FLISDK.FDeviceError",
+                            "usr": "s:6FLISDK12FDeviceErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK21FObservableDataSourceP11fObservable15needCredentialsyySS_SSAA12FDeviceErrorOSgtc_tF",
+            "mangledName": "$s6FLISDK21FObservableDataSourceP11fObservable15needCredentialsyySS_SSAA12FDeviceErrorOSgtc_tF",
+            "moduleName": "FLISDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FLISDK.FObservableDataSource>",
+            "sugared_genericSig": "<Self where Self : FLISDK.FObservableDataSource>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6FLISDK21FObservableDataSourceP",
+        "mangledName": "$s6FLISDK21FObservableDataSourceP",
+        "moduleName": "FLISDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -12180,6 +13177,13 @@
         "moduleName": "FLISDK"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FLISDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CameraSDKInit",
         "printedName": "CameraSDKInit",
@@ -12941,6 +13945,174 @@
         "printedName": "WebRTC",
         "declKind": "Import",
         "moduleName": "FLISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Console",
+        "printedName": "Console",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "didReceiveLog",
+            "printedName": "didReceiveLog",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK7ConsoleC13didReceiveLogyySScvpZ",
+            "mangledName": "$s6FLISDK7ConsoleC13didReceiveLogyySScvpZ",
+            "moduleName": "FLISDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK7ConsoleC13didReceiveLogyySScvgZ",
+                "mangledName": "$s6FLISDK7ConsoleC13didReceiveLogyySScvgZ",
+                "moduleName": "FLISDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK7ConsoleC13didReceiveLogyySScvsZ",
+                "mangledName": "$s6FLISDK7ConsoleC13didReceiveLogyySScvsZ",
+                "moduleName": "FLISDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK7ConsoleC13didReceiveLogyySScvMZ",
+                "mangledName": "$s6FLISDK7ConsoleC13didReceiveLogyySScvMZ",
+                "moduleName": "FLISDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6FLISDK7ConsoleC",
+        "mangledName": "$s6FLISDK7ConsoleC",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -17492,6 +18664,808 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogUploader",
+        "printedName": "LogUploader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onProgress",
+            "printedName": "onProgress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK11LogUploaderC10onProgressySdcSgvp",
+            "mangledName": "$s6FLISDK11LogUploaderC10onProgressySdcSgvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK11LogUploaderC10onProgressySdcSgvg",
+                "mangledName": "$s6FLISDK11LogUploaderC10onProgressySdcSgvg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Double) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Double) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK11LogUploaderC10onProgressySdcSgvs",
+                "mangledName": "$s6FLISDK11LogUploaderC10onProgressySdcSgvs",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK11LogUploaderC10onProgressySdcSgvM",
+                "mangledName": "$s6FLISDK11LogUploaderC10onProgressySdcSgvM",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onProgressDetail",
+            "printedName": "onProgressDetail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int64, Swift.Int64) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int64, Swift.Int64) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int64, Swift.Int64)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int64",
+                            "printedName": "Swift.Int64",
+                            "usr": "s:s5Int64V"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int64",
+                            "printedName": "Swift.Int64",
+                            "usr": "s:s5Int64V"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK11LogUploaderC16onProgressDetailys5Int64V_AFtcSgvp",
+            "mangledName": "$s6FLISDK11LogUploaderC16onProgressDetailys5Int64V_AFtcSgvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Int64, Swift.Int64) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int64, Swift.Int64) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Int64, Swift.Int64)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int64",
+                                "printedName": "Swift.Int64",
+                                "usr": "s:s5Int64V"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int64",
+                                "printedName": "Swift.Int64",
+                                "usr": "s:s5Int64V"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK11LogUploaderC16onProgressDetailys5Int64V_AFtcSgvg",
+                "mangledName": "$s6FLISDK11LogUploaderC16onProgressDetailys5Int64V_AFtcSgvg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Int64, Swift.Int64) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int64, Swift.Int64) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.Int64, Swift.Int64)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int64",
+                                "printedName": "Swift.Int64",
+                                "usr": "s:s5Int64V"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int64",
+                                "printedName": "Swift.Int64",
+                                "usr": "s:s5Int64V"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK11LogUploaderC16onProgressDetailys5Int64V_AFtcSgvs",
+                "mangledName": "$s6FLISDK11LogUploaderC16onProgressDetailys5Int64V_AFtcSgvs",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK11LogUploaderC16onProgressDetailys5Int64V_AFtcSgvM",
+                "mangledName": "$s6FLISDK11LogUploaderC16onProgressDetailys5Int64V_AFtcSgvM",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onComplete",
+            "printedName": "onComplete",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK11LogUploaderC10onCompleteySbcSgvp",
+            "mangledName": "$s6FLISDK11LogUploaderC10onCompleteySbcSgvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK11LogUploaderC10onCompleteySbcSgvg",
+                "mangledName": "$s6FLISDK11LogUploaderC10onCompleteySbcSgvg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK11LogUploaderC10onCompleteySbcSgvs",
+                "mangledName": "$s6FLISDK11LogUploaderC10onCompleteySbcSgvs",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK11LogUploaderC10onCompleteySbcSgvM",
+                "mangledName": "$s6FLISDK11LogUploaderC10onCompleteySbcSgvM",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK11LogUploaderC6cancelyyF",
+            "mangledName": "$s6FLISDK11LogUploaderC6cancelyyF",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "upload",
+            "printedName": "upload(fileURL:to:recipientEmail:cc:subject:body:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK11LogUploaderC6upload7fileURL2to14recipientEmail2cc7subject4bodyy10Foundation0F0V_S2SSaySSGS2StF",
+            "mangledName": "$s6FLISDK11LogUploaderC6upload7fileURL2to14recipientEmail2cc7subject4bodyy10Foundation0F0V_S2SSaySSGS2StF",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogUploader",
+                "printedName": "FLISDK.LogUploader",
+                "usr": "c:@M@FLISDK@objc(cs)LogUploader"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FLISDK@objc(cs)LogUploader(im)init",
+            "mangledName": "$s6FLISDK11LogUploaderCACycfc",
+            "moduleName": "FLISDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionTask",
+                "printedName": "Foundation.URLSessionTask",
+                "usr": "c:objc(cs)NSURLSessionTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FLISDK@objc(cs)LogUploader(im)URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:",
+            "mangledName": "$s6FLISDK11LogUploaderC10urlSession_4task15didSendBodyData14totalBytesSent0kl10ExpectedToH0ySo12NSURLSessionC_So0P4TaskCs5Int64VA2NtF",
+            "moduleName": "FLISDK",
+            "objc_name": "URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:task:didCompleteWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionTask",
+                "printedName": "Foundation.URLSessionTask",
+                "usr": "c:objc(cs)NSURLSessionTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FLISDK@objc(cs)LogUploader(im)URLSession:task:didCompleteWithError:",
+            "mangledName": "$s6FLISDK11LogUploaderC10urlSession_4task20didCompleteWithErrorySo12NSURLSessionC_So0K4TaskCs0J0_pSgtF",
+            "moduleName": "FLISDK",
+            "objc_name": "URLSession:task:didCompleteWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FLISDK@objc(cs)LogUploader",
+        "mangledName": "$s6FLISDK11LogUploaderC",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFAudio",
         "printedName": "AVFAudio",
         "declKind": "Import",
@@ -20498,8 +22472,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "CLIENT_ID_NOT_FOUND",
-            "printedName": "CLIENT_ID_NOT_FOUND",
+            "name": "EE_DEV_CLIENT_ID_NOT_FOUND",
+            "printedName": "EE_DEV_CLIENT_ID_NOT_FOUND",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -20529,54 +22503,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:6FLISDK12FDeviceErrorO19CLIENT_ID_NOT_FOUNDyA2CmF",
-            "mangledName": "$s6FLISDK12FDeviceErrorO19CLIENT_ID_NOT_FOUNDyA2CmF",
-            "moduleName": "FLISDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "FORMAT_STORAGE_ERROR",
-            "printedName": "FORMAT_STORAGE_ERROR",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FDeviceError",
-                    "printedName": "FLISDK.FDeviceError",
-                    "usr": "s:6FLISDK12FDeviceErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "FLISDK.FDeviceError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FDeviceError",
-                        "printedName": "FLISDK.FDeviceError",
-                        "usr": "s:6FLISDK12FDeviceErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6FLISDK12FDeviceErrorO20FORMAT_STORAGE_ERRORyA2CmF",
-            "mangledName": "$s6FLISDK12FDeviceErrorO20FORMAT_STORAGE_ERRORyA2CmF",
+            "usr": "s:6FLISDK12FDeviceErrorO26EE_DEV_CLIENT_ID_NOT_FOUNDyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO26EE_DEV_CLIENT_ID_NOT_FOUNDyA2CmF",
             "moduleName": "FLISDK"
           },
           {
             "kind": "Var",
-            "name": "NOT_OFFER_REQUEST_TYPE",
-            "printedName": "NOT_OFFER_REQUEST_TYPE",
+            "name": "EE_DEV_FORMAT_STORAGE_ERROR",
+            "printedName": "EE_DEV_FORMAT_STORAGE_ERROR",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -20606,8 +22540,45 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:6FLISDK12FDeviceErrorO22NOT_OFFER_REQUEST_TYPEyA2CmF",
-            "mangledName": "$s6FLISDK12FDeviceErrorO22NOT_OFFER_REQUEST_TYPEyA2CmF",
+            "usr": "s:6FLISDK12FDeviceErrorO27EE_DEV_FORMAT_STORAGE_ERRORyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO27EE_DEV_FORMAT_STORAGE_ERRORyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_DEV_NOT_OFFER_REQUEST_TYPE",
+            "printedName": "EE_DEV_NOT_OFFER_REQUEST_TYPE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO29EE_DEV_NOT_OFFER_REQUEST_TYPEyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO29EE_DEV_NOT_OFFER_REQUEST_TYPEyA2CmF",
             "moduleName": "FLISDK"
           },
           {
@@ -20686,8 +22657,8 @@
           },
           {
             "kind": "Var",
-            "name": "USERNAME_PASSWORD_INVALID",
-            "printedName": "USERNAME_PASSWORD_INVALID",
+            "name": "EE_DEV_USERNAME_PASSWORD_INVALID",
+            "printedName": "EE_DEV_USERNAME_PASSWORD_INVALID",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -20717,8 +22688,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:6FLISDK12FDeviceErrorO25USERNAME_PASSWORD_INVALIDyA2CmF",
-            "mangledName": "$s6FLISDK12FDeviceErrorO25USERNAME_PASSWORD_INVALIDyA2CmF",
+            "usr": "s:6FLISDK12FDeviceErrorO32EE_DEV_USERNAME_PASSWORD_INVALIDyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO32EE_DEV_USERNAME_PASSWORD_INVALIDyA2CmF",
             "moduleName": "FLISDK"
           },
           {
@@ -21187,8 +23158,8 @@
           },
           {
             "kind": "Var",
-            "name": "EE_LOGIN_FAILED",
-            "printedName": "EE_LOGIN_FAILED",
+            "name": "EE_DEV_LOGIN_FAILED",
+            "printedName": "EE_DEV_LOGIN_FAILED",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -21218,8 +23189,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:6FLISDK12FDeviceErrorO15EE_LOGIN_FAILEDyA2CmF",
-            "mangledName": "$s6FLISDK12FDeviceErrorO15EE_LOGIN_FAILEDyA2CmF",
+            "usr": "s:6FLISDK12FDeviceErrorO19EE_DEV_LOGIN_FAILEDyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO19EE_DEV_LOGIN_FAILEDyA2CmF",
             "moduleName": "FLISDK"
           },
           {
@@ -21520,8 +23491,8 @@
           },
           {
             "kind": "Var",
-            "name": "EE_CONNECTION_UNSUPPORTED",
-            "printedName": "EE_CONNECTION_UNSUPPORTED",
+            "name": "EE_DEV_CONNECTION_UNSUPPORTED",
+            "printedName": "EE_DEV_CONNECTION_UNSUPPORTED",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -21551,8 +23522,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:6FLISDK12FDeviceErrorO25EE_CONNECTION_UNSUPPORTEDyA2CmF",
-            "mangledName": "$s6FLISDK12FDeviceErrorO25EE_CONNECTION_UNSUPPORTEDyA2CmF",
+            "usr": "s:6FLISDK12FDeviceErrorO29EE_DEV_CONNECTION_UNSUPPORTEDyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO29EE_DEV_CONNECTION_UNSUPPORTEDyA2CmF",
             "moduleName": "FLISDK"
           },
           {
@@ -21631,6 +23602,43 @@
           },
           {
             "kind": "Var",
+            "name": "EE_DEV_PEER_CONNECTION_NIL",
+            "printedName": "EE_DEV_PEER_CONNECTION_NIL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO26EE_DEV_PEER_CONNECTION_NILyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO26EE_DEV_PEER_CONNECTION_NILyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
             "name": "code",
             "printedName": "code",
             "children": [
@@ -21668,6 +23676,102 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK12FDeviceErrorO7messageSSvp",
+            "mangledName": "$s6FLISDK12FDeviceErrorO7messageSSvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK12FDeviceErrorO7messageSSvg",
+                "mangledName": "$s6FLISDK12FDeviceErrorO7messageSSvg",
+                "moduleName": "FLISDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK12FDeviceErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s6FLISDK12FDeviceErrorO16errorDescriptionSSSgvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK12FDeviceErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s6FLISDK12FDeviceErrorO16errorDescriptionSSSgvg",
+                "moduleName": "FLISDK",
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -21698,6 +23802,13 @@
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
           },
           {
             "kind": "Conformance",
@@ -22783,6 +24894,93 @@
                 "declKind": "Accessor",
                 "usr": "s:6FLISDK7FDeviceC10resolutionAA14ResolutionTypeOvM",
                 "mangledName": "$s6FLISDK7FDeviceC10resolutionAA14ResolutionTypeOvM",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoAdaptResolution",
+            "printedName": "autoAdaptResolution",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK7FDeviceC19autoAdaptResolutionSbvp",
+            "mangledName": "$s6FLISDK7FDeviceC19autoAdaptResolutionSbvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK7FDeviceC19autoAdaptResolutionSbvg",
+                "mangledName": "$s6FLISDK7FDeviceC19autoAdaptResolutionSbvg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK7FDeviceC19autoAdaptResolutionSbvs",
+                "mangledName": "$s6FLISDK7FDeviceC19autoAdaptResolutionSbvs",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK7FDeviceC19autoAdaptResolutionSbvM",
+                "mangledName": "$s6FLISDK7FDeviceC19autoAdaptResolutionSbvM",
                 "moduleName": "FLISDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -24304,171 +26502,11 @@
         "moduleName": "FLISDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "Console",
-        "printedName": "Console",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "didReceiveLog",
-            "printedName": "didReceiveLog",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6FLISDK7ConsoleC13didReceiveLogyySScvpZ",
-            "mangledName": "$s6FLISDK7ConsoleC13didReceiveLogyySScvpZ",
-            "moduleName": "FLISDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6FLISDK7ConsoleC13didReceiveLogyySScvgZ",
-                "mangledName": "$s6FLISDK7ConsoleC13didReceiveLogyySScvgZ",
-                "moduleName": "FLISDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6FLISDK7ConsoleC13didReceiveLogyySScvsZ",
-                "mangledName": "$s6FLISDK7ConsoleC13didReceiveLogyySScvsZ",
-                "moduleName": "FLISDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6FLISDK7ConsoleC13didReceiveLogyySScvMZ",
-                "mangledName": "$s6FLISDK7ConsoleC13didReceiveLogyySScvMZ",
-                "moduleName": "FLISDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:6FLISDK7ConsoleC",
-        "mangledName": "$s6FLISDK7ConsoleC",
-        "moduleName": "FLISDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "FLISDK"
       },
       {
         "kind": "OperatorDecl",
@@ -25411,6 +27449,293 @@
       "value": "\"yyyy-MM-dd'T'HH:mm:ssXXX\""
     },
     {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 533,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 607,
+      "length": 4,
+      "value": "1.00"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 620,
+      "length": 4,
+      "value": "0.60"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 632,
+      "length": 4,
+      "value": "0.00"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 692,
+      "length": 4,
+      "value": "0.18"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 705,
+      "length": 4,
+      "value": "0.72"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 717,
+      "length": 4,
+      "value": "0.34"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 730,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 777,
+      "length": 4,
+      "value": "0.90"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 790,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 802,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 815,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 933,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 990,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1126,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1202,
+      "length": 15,
+      "value": "\"doc.text.fill\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1338,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1476,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1616,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1754,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1884,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2001,
+      "length": 4,
+      "value": "\"0%\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2043,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2150,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2312,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2345,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2373,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2472,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2587,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2643,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2848,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2989,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3062,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3201,
+      "length": 18,
+      "value": "\"Huỷ tải lên\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3284,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3437,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3470,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3526,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "Array",
+      "offset": 3748,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploadViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3784,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Throttler.swift",
       "kind": "IntegerLiteral",
       "offset": 350,
@@ -25453,16 +27778,30 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FPlaybackPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 10,
+      "value": "\"playback\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FRequestQueue.swift",
+      "kind": "StringLiteral",
+      "offset": 128,
+      "length": 7,
+      "value": "\"queue\""
+    },
+    {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FRequestQueue.swift",
       "kind": "Dictionary",
-      "offset": 162,
+      "offset": 191,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FRequestQueue.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 236,
       "length": 19,
       "value": "\"rtc.request.queue\""
     },
@@ -25517,134 +27856,372 @@
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5006,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5705,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 2268,
+      "length": 10,
+      "value": "\"renderer\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "StringLiteral",
-      "offset": 5951,
-      "length": 27,
-      "value": "\"MetalVideoRenderer.render\""
+      "offset": 2280,
+      "length": 41,
+      "value": "\"[MetalVideoContext] ❌ No Metal device\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 2435,
+      "length": 10,
+      "value": "\"renderer\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 2447,
+      "length": 53,
+      "value": "\"[MetalVideoContext] ❌ Cannot create command queue\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 2696,
+      "length": 10,
+      "value": "\"renderer\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 2708,
+      "length": 73,
+      "value": "\"[MetalVideoContext] ❌ Cannot load Metal library: \""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 2780,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2878,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2925,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2942,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2966,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2983,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3007,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3054,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3127,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3165,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 3389,
+      "length": 10,
+      "value": "\"renderer\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 3401,
+      "length": 58,
+      "value": "\"[MetalVideoContext] ❌ Function '\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 3447,
+      "length": 13,
+      "value": "\"' not found\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 3633,
+      "length": 19,
+      "value": "\"videoVertexShader\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3798,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 3966,
+      "length": 10,
+      "value": "\"renderer\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 3978,
+      "length": 58,
+      "value": "\"[MetalVideoContext] ❌ Pipeline '\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 4024,
+      "length": 13,
+      "value": "\"': \""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 4035,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 4134,
+      "length": 19,
+      "value": "\"nv12ToRGBFragment\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 4200,
+      "length": 28,
+      "value": "\"nv12FullRangeToRGBFragment\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 4552,
+      "length": 10,
+      "value": "\"renderer\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 4564,
+      "length": 47,
+      "value": "\"[MetalVideoContext] ❌ Cannot create sampler\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 4664,
+      "length": 10,
+      "value": "\"renderer\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 4676,
+      "length": 68,
+      "value": "\"[MetalVideoContext] ✅ Shared Metal context ready — \""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 4743,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 6444,
+      "length": 10,
+      "value": "\"renderer\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6784,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7406,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 6152,
+      "offset": 7659,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8095,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 6273,
+      "offset": 8143,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 6373,
+      "offset": 8178,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15225,
+      "offset": 17763,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15245,
+      "offset": 17783,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15391,
+      "offset": 17929,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15406,
+      "offset": 17944,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15796,
+      "offset": 18334,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15799,
+      "offset": 18337,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15866,
+      "offset": 18404,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15869,
+      "offset": 18407,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15936,
+      "offset": 18474,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 15939,
+      "offset": 18477,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 16006,
+      "offset": 18544,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 16009,
+      "offset": 18547,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Metal\/MetalVideoRenderer.swift",
       "kind": "BooleanLiteral",
-      "offset": 16230,
+      "offset": 18768,
       "length": 5,
       "value": "false"
     },
@@ -26190,37 +28767,72 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservableManager.swift",
       "kind": "Array",
-      "offset": 1732,
+      "offset": 1967,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservable.swift",
       "kind": "StringLiteral",
-      "offset": 210,
+      "offset": 398,
       "length": 19,
       "value": "\"FObservable.Queue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservable.swift",
       "kind": "BooleanLiteral",
-      "offset": 272,
+      "offset": 460,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservable.swift",
       "kind": "Array",
-      "offset": 321,
+      "offset": 509,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservable.swift",
       "kind": "StringLiteral",
-      "offset": 393,
+      "offset": 581,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservable.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 648,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 689,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 733,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/FRendererView.swift",
+      "kind": "StringLiteral",
+      "offset": 2476,
+      "length": 10,
+      "value": "\"renderer\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FRequestDto.swift",
@@ -26680,308 +29292,308 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FDeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 8797,
+      "offset": 8837,
       "length": 23,
       "value": "\"FDeviceListener.Queue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FDeviceConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 9149,
+      "offset": 9189,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FDeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 9287,
+      "offset": 9327,
       "length": 10,
       "value": "\"{serial}\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "Array",
-      "offset": 2688,
+      "offset": 2686,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2736,
+      "offset": 2734,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 2819,
+      "offset": 2817,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 2861,
+      "offset": 2859,
       "length": 6,
       "value": "\"H264\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6046,
+      "offset": 5840,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6162,
+      "offset": 5956,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6246,
+      "offset": 6040,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 29207,
+      "offset": 30299,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 29367,
+      "offset": 30459,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 29465,
+      "offset": 30557,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 29582,
+      "offset": 30674,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 29692,
+      "offset": 30784,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 29850,
+      "offset": 30942,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 29966,
+      "offset": 31058,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 30108,
+      "offset": 31200,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 30268,
+      "offset": 31360,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 30387,
+      "offset": 31479,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 30508,
+      "offset": 31600,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 30678,
+      "offset": 31770,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 30810,
+      "offset": 31902,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 30924,
+      "offset": 32016,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 31075,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31184,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31288,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31399,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31529,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31659,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31800,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31923,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
-      "kind": "StringLiteral",
-      "offset": 32056,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
-      "kind": "StringLiteral",
       "offset": 32167,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 32266,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 32377,
+      "offset": 32276,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32380,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32621,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32751,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32892,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33015,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 32501,
+      "offset": 33148,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "StringLiteral",
+      "offset": 33259,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 32559,
+      "offset": 33358,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33469,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 40959,
+      "offset": 33593,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33651,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "StringLiteral",
+      "offset": 42083,
       "length": 19,
       "value": "\"SD (≤ 640×480)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 40998,
+      "offset": 42122,
       "length": 20,
       "value": "\"HD (≤ 1280×720)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 41038,
+      "offset": 42162,
       "length": 26,
       "value": "\"Full HD (≤ 1920×1080)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 41084,
+      "offset": 42208,
       "length": 22,
       "value": "\"3MP (≤ 2304×1296)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 41126,
+      "offset": 42250,
       "length": 22,
       "value": "\"UHD (≤ 3840×2160)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 41168,
+      "offset": 42292,
       "length": 21,
       "value": "\"Không xác định\""
     },
@@ -27317,154 +29929,154 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 300,
+      "offset": 313,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 327,
+      "offset": 340,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 355,
+      "offset": 368,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 386,
+      "offset": 399,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 417,
+      "offset": 430,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "IntegerLiteral",
-      "offset": 448,
+      "offset": 461,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 471,
+      "offset": 484,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 576,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 602,
+      "offset": 706,
       "length": 9,
       "value": "\"package\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "BooleanLiteral",
-      "offset": 625,
+      "offset": 729,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 500,
+      "offset": 602,
       "length": 11,
       "value": "\"🏊 POOL\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 535,
+      "offset": 637,
       "length": 13,
       "value": "\"📡 SIGNAL\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 572,
+      "offset": 674,
       "length": 10,
       "value": "\"🧊 ICE\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 606,
+      "offset": 708,
       "length": 11,
       "value": "\"🔗 PEER\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 641,
+      "offset": 743,
       "length": 11,
       "value": "\"📺 CHAN\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 676,
+      "offset": 778,
       "length": 12,
       "value": "\"🎬 VIDEO\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 814,
       "length": 11,
       "value": "\"❌ ERROR\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 747,
+      "offset": 849,
       "length": 11,
       "value": "\"🔌 CONN\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 782,
+      "offset": 884,
       "length": 10,
       "value": "\"📱 APP\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 816,
+      "offset": 918,
       "length": 10,
       "value": "\"🌐 NET\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 886,
+      "offset": 992,
       "length": 18,
       "value": "\"flisdk.log.queue\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
-      "kind": "IntegerLiteral",
-      "offset": 942,
-      "length": 4,
-      "value": "3000"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FLog.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1055,
+      "offset": 1124,
       "length": 14,
       "value": "\"HH:mm:ss.SSS\""
     },
@@ -27497,44 +30109,44 @@
       "value": "30"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/RTCVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/FRTCVideoSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 1898,
+      "offset": 2081,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/RTCVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/FRTCVideoSource.swift",
       "kind": "StringLiteral",
-      "offset": 2044,
+      "offset": 2227,
       "length": 7,
       "value": "\"audio\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/RTCVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/FRTCVideoSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 3592,
+      "offset": 4006,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/RTCVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/FRTCVideoSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 4069,
+      "offset": 4554,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/RTCVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/FRTCVideoSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 4101,
+      "offset": 4586,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/RTCVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Streaming\/FRTCVideoSource.swift",
       "kind": "FloatLiteral",
-      "offset": 4158,
+      "offset": 4643,
       "length": 3,
       "value": "1.0"
     },
@@ -27646,182 +30258,182 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 772,
+      "offset": 776,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 802,
+      "offset": 806,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 832,
+      "offset": 836,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 859,
+      "offset": 863,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 894,
+      "offset": 898,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 922,
+      "offset": 926,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 950,
+      "offset": 954,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 982,
+      "offset": 986,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1016,
+      "offset": 1020,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1043,
+      "offset": 1047,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1078,
+      "offset": 1082,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1113,
+      "offset": 1117,
       "length": 2,
       "value": "75"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1151,
+      "offset": 1155,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1180,
+      "offset": 1184,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1208,
+      "offset": 1212,
       "length": 2,
       "value": "95"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 2787,
+      "offset": 2874,
       "length": 19,
       "value": "\"connections.queue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Dictionary",
-      "offset": 2899,
+      "offset": 2986,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 4194,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
-      "kind": "Array",
-      "offset": 4275,
+      "offset": 4489,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 4892,
+      "offset": 5108,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 4988,
+      "offset": 5207,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
+      "kind": "Array",
+      "offset": 5258,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 8625,
+      "offset": 9210,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 19274,
+      "offset": 20084,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 21262,
+      "offset": 22814,
       "length": 15,
       "value": "\"dcCommandType\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 21303,
+      "offset": 22855,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 22908,
+      "offset": 24553,
       "length": 15,
       "value": "\"dcCommandType\""
     },
@@ -27947,149 +30559,184 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/PictureInPicture\/FPictureInPictureManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10384,
+      "offset": 10681,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/PictureInPicture\/FPictureInPictureManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10430,
+      "offset": 10727,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/PictureInPicture\/FPictureInPictureManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10465,
+      "offset": 10762,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/PictureInPicture\/FPictureInPictureManager.swift",
       "kind": "FloatLiteral",
-      "offset": 10469,
+      "offset": 10766,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/PictureInPicture\/FPictureInPictureManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10532,
+      "offset": 10829,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "StringLiteral",
-      "offset": 520,
+      "offset": 496,
       "length": 29,
       "value": "\"AVAudioEngineRTCAudioDevice\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 817,
+      "offset": 793,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 995,
+      "offset": 971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1027,
+      "offset": 1003,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1056,
+      "offset": 1032,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1326,
+      "offset": 1302,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1429,
+      "offset": 1405,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1850,
+      "offset": 1810,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1955,
+      "offset": 1907,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 2157,
+      "offset": 2109,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 16537,
+      "offset": 16687,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 16747,
+      "offset": 16897,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 17115,
+      "offset": 17265,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 17147,
+      "offset": 17297,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 17354,
+      "offset": 17504,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AVAudioEngineRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 17386,
+      "offset": 17536,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploader.swift",
+      "kind": "StringLiteral",
+      "offset": 125,
+      "length": 13,
+      "value": "\"LogUploader\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploader.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 27,
+      "value": "\"flisdk.loguploader.retain\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploader.swift",
+      "kind": "Array",
+      "offset": 452,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploader.swift",
+      "kind": "Array",
+      "offset": 756,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/LogUploader.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/FAudioSession.swift",
@@ -28101,147 +30748,147 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "StringLiteral",
-      "offset": 250,
+      "offset": 118,
+      "length": 7,
+      "value": "\"audio\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
       "length": 48,
       "value": "\"AUAudioUnitRTCAudioDevice_\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "StringLiteral",
-      "offset": 297,
+      "offset": 326,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 612,
+      "offset": 710,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 644,
+      "offset": 742,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 673,
+      "offset": 771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 717,
+      "offset": 815,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1270,
+      "offset": 1246,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1373,
+      "offset": 1349,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1777,
+      "offset": 1753,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1874,
+      "offset": 1850,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 3410,
+      "offset": 3413,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 12452,
+      "offset": 12630,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 12662,
+      "offset": 12840,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13025,
+      "offset": 13203,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13057,
+      "offset": 13235,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13264,
+      "offset": 13442,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13296,
+      "offset": 13474,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/FAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1246,
+      "offset": 1298,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Downloader\/SDSemaphoreDownloader.swift",
       "kind": "Dictionary",
-      "offset": 189,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Downloader\/SDSemaphoreDownloader.swift",
-      "kind": "Dictionary",
-      "offset": 239,
+      "offset": 173,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Downloader\/SDSemaphoreDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 335,
+      "offset": 231,
       "length": 31,
       "value": "\"com.f.sdcard.thumb.downloader\""
     },
@@ -28780,35 +31427,56 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FFrameEngine.swift",
       "kind": "StringLiteral",
-      "offset": 3029,
+      "offset": 3102,
       "length": 22,
       "value": "\"lastPixelBufferQueue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FFrameEngine.swift",
       "kind": "Dictionary",
-      "offset": 3145,
+      "offset": 3210,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FFrameEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 3193,
+      "offset": 3258,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FFrameEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 3272,
+      "offset": 3337,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FFrameEngine.swift",
+      "kind": "Array",
+      "offset": 3432,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FFrameEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3464,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FFrameEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 6755,
+      "offset": 3680,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FFrameEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9768,
       "length": 5,
       "value": "false"
     },
@@ -29283,15 +31951,22 @@
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/VideoWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 8,
+      "value": "\"writer\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/VideoWriter.swift",
       "kind": "BooleanLiteral",
-      "offset": 180,
+      "offset": 218,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/VideoWriter.swift",
       "kind": "StringLiteral",
-      "offset": 527,
+      "offset": 565,
       "length": 24,
       "value": "\"com.flisdkwriter.queue\""
     },
@@ -29417,56 +32092,84 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Cryptor\/FSSCryptor.swift",
       "kind": "IntegerLiteral",
-      "offset": 8569,
+      "offset": 8581,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Cryptor\/FSSCryptor.swift",
       "kind": "IntegerLiteral",
-      "offset": 12666,
+      "offset": 12678,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Cryptor\/FSSCryptor.swift",
       "kind": "IntegerLiteral",
-      "offset": 12687,
+      "offset": 12699,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 562,
+      "offset": 581,
       "length": 6,
       "value": "-19999"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5449,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 11887,
+      "offset": 8492,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 22634,
+      "offset": 8542,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8583,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8635,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
+      "kind": "Array",
+      "offset": 9276,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16192,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26681,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 24340,
+      "offset": 28387,
       "length": 4,
       "value": "true"
     },
@@ -29569,114 +32272,114 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/RTCPlaybackVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FRTCPlaybackSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 356,
+      "offset": 357,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/RTCPlaybackVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FRTCPlaybackSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 401,
+      "offset": 402,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/RTCPlaybackVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FRTCPlaybackSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 431,
+      "offset": 432,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/RTCPlaybackVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FRTCPlaybackSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 436,
+      "offset": 437,
       "length": 2,
       "value": "46"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/RTCPlaybackVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FRTCPlaybackSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 615,
+      "offset": 616,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/RTCPlaybackVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FRTCPlaybackSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 837,
+      "offset": 838,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/RTCPlaybackVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FRTCPlaybackSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 958,
+      "offset": 959,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/RTCPlaybackVideoView.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FRTCPlaybackSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 7772,
+      "offset": 7964,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Helper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 184,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Helper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1311,
+      "offset": 315,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Helper.swift",
       "kind": "StringLiteral",
-      "offset": 2918,
+      "offset": 1928,
       "length": 21,
       "value": "\"yyyy.MM.dd HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Helper.swift",
       "kind": "StringLiteral",
-      "offset": 3626,
+      "offset": 2636,
       "length": 23,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Helper.swift",
       "kind": "StringLiteral",
-      "offset": 5288,
+      "offset": 4298,
       "length": 10,
       "value": "\"FLIMedia\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Helper.swift",
       "kind": "StringLiteral",
-      "offset": 6814,
+      "offset": 5824,
       "length": 12,
       "value": "\"dd\/MM\/yyyy\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Decoder\/VideoDecoder.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Decoder\/BaseVideoDecoder.swift",
       "kind": "StringLiteral",
-      "offset": 412,
+      "offset": 317,
+      "length": 9,
+      "value": "\"decoder\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Decoder\/BaseVideoDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
       "length": 33,
       "value": "\"com.flisdk.videodecoder.session\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Decoder\/VideoDecoder.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Decoder\/BaseVideoDecoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 856,
+      "offset": 915,
       "length": 6,
       "value": "90000"
     },

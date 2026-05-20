@@ -636,6 +636,11 @@ extension Dispatch.DispatchTimeInterval : Swift.CustomDebugStringConvertible {
     get
   }
 }
+public struct ZipWriter {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func makeZip(from filePaths: [Foundation.URL], fileName: Swift.String? = nil, password: Swift.String? = nil) -> Foundation.URL?
+  #endif
+}
 final public class FImageManager {
   public init()
   #if compiler(>=5.3) && $NonescapableTypes

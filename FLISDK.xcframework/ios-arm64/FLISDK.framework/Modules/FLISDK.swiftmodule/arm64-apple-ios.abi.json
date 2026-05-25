@@ -27868,28 +27868,28 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FCloudPlayback.swift",
       "kind": "BooleanLiteral",
-      "offset": 4074,
+      "offset": 4063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FCloudPlayback.swift",
       "kind": "IntegerLiteral",
-      "offset": 4414,
+      "offset": 4403,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FCloudPlayback.swift",
       "kind": "IntegerLiteral",
-      "offset": 4455,
+      "offset": 4444,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FCloudPlayback.swift",
       "kind": "BooleanLiteral",
-      "offset": 4487,
+      "offset": 4476,
       "length": 4,
       "value": "true"
     },

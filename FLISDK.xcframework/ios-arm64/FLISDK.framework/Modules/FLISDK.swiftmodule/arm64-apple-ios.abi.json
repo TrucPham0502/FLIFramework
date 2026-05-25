@@ -20065,7 +20065,10 @@
             "declKind": "EnumElement",
             "usr": "s:6FLISDK16FilePlaylistTypeO7regularyA2CmF",
             "mangledName": "$s6FLISDK16FilePlaylistTypeO7regularyA2CmF",
-            "moduleName": "FLISDK"
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -20102,7 +20105,10 @@
             "declKind": "EnumElement",
             "usr": "s:6FLISDK16FilePlaylistTypeO6motionyA2CmF",
             "mangledName": "$s6FLISDK16FilePlaylistTypeO6motionyA2CmF",
-            "moduleName": "FLISDK"
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -20139,7 +20145,130 @@
             "declKind": "EnumElement",
             "usr": "s:6FLISDK16FilePlaylistTypeO5humanyA2CmF",
             "mangledName": "$s6FLISDK16FilePlaylistTypeO5humanyA2CmF",
-            "moduleName": "FLISDK"
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pet",
+            "printedName": "pet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FilePlaylistType.Type) -> FLISDK.FilePlaylistType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FilePlaylistType",
+                    "printedName": "FLISDK.FilePlaylistType",
+                    "usr": "s:6FLISDK16FilePlaylistTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FilePlaylistType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FilePlaylistType",
+                        "printedName": "FLISDK.FilePlaylistType",
+                        "usr": "s:6FLISDK16FilePlaylistTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK16FilePlaylistTypeO3petyA2CmF",
+            "mangledName": "$s6FLISDK16FilePlaylistTypeO3petyA2CmF",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vehicle",
+            "printedName": "vehicle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FilePlaylistType.Type) -> FLISDK.FilePlaylistType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FilePlaylistType",
+                    "printedName": "FLISDK.FilePlaylistType",
+                    "usr": "s:6FLISDK16FilePlaylistTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FilePlaylistType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FilePlaylistType",
+                        "printedName": "FLISDK.FilePlaylistType",
+                        "usr": "s:6FLISDK16FilePlaylistTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK16FilePlaylistTypeO7vehicleyA2CmF",
+            "mangledName": "$s6FLISDK16FilePlaylistTypeO7vehicleyA2CmF",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bbc",
+            "printedName": "bbc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FilePlaylistType.Type) -> FLISDK.FilePlaylistType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FilePlaylistType",
+                    "printedName": "FLISDK.FilePlaylistType",
+                    "usr": "s:6FLISDK16FilePlaylistTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FilePlaylistType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FilePlaylistType",
+                        "printedName": "FLISDK.FilePlaylistType",
+                        "usr": "s:6FLISDK16FilePlaylistTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK16FilePlaylistTypeO3bbcyA2CmF",
+            "mangledName": "$s6FLISDK16FilePlaylistTypeO3bbcyA2CmF",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Constructor",
@@ -31158,399 +31287,420 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 2233,
+      "offset": 2245,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 2250,
+      "offset": 2270,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 2266,
+      "offset": 2295,
       "length": 5,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2320,
+      "length": 3,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2345,
+      "length": 7,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2370,
+      "length": 3,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2746,
+      "offset": 2984,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2777,
+      "offset": 3015,
       "length": 10,
       "value": "\"DateTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2816,
+      "offset": 3054,
       "length": 14,
       "value": "\"DateTimeMask\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2994,
+      "offset": 3232,
       "length": 6,
       "value": "\"Data\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3207,
+      "offset": 3445,
       "length": 10,
       "value": "\"DateTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3239,
+      "offset": 3477,
       "length": 7,
       "value": "\"Types\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3436,
+      "offset": 3674,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3468,
+      "offset": 3706,
       "length": 7,
       "value": "\"Count\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4256,
+      "offset": 4494,
       "length": 13,
       "value": "\"OrderNumber\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4290,
+      "offset": 4528,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4321,
+      "offset": 4559,
       "length": 10,
       "value": "\"FileName\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4362,
+      "offset": 4600,
       "length": 16,
       "value": "\"DurationInSecs\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4404,
+      "offset": 4642,
       "length": 11,
       "value": "\"BeginTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4439,
+      "offset": 4677,
       "length": 9,
       "value": "\"EndTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4640,
+      "offset": 4878,
       "length": 8,
       "value": "\"Option\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4675,
+      "offset": 4913,
       "length": 12,
       "value": "\"Resolution\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "BooleanLiteral",
-      "offset": 4774,
+      "offset": 5012,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4840,
+      "offset": 5078,
       "length": 6,
       "value": "\"Mode\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4869,
+      "offset": 5107,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5053,
+      "offset": 5291,
       "length": 7,
       "value": "\"Total\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5086,
+      "offset": 5324,
       "length": 11,
       "value": "\"Playlists\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5320,
+      "offset": 5558,
       "length": 7,
       "value": "\"Total\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5353,
+      "offset": 5591,
       "length": 11,
       "value": "\"Playlists\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5390,
+      "offset": 5628,
       "length": 11,
       "value": "\"BeginTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5425,
+      "offset": 5663,
       "length": 9,
       "value": "\"EndTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 5503,
+      "offset": 5741,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 5510,
+      "offset": 5748,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 5516,
+      "offset": 5754,
       "length": 6,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 5524,
+      "offset": 5762,
       "length": 4,
       "value": "4"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 5530,
+      "offset": 5768,
       "length": 5,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5800,
+      "offset": 6038,
       "length": 10,
       "value": "\"FileName\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5836,
+      "offset": 6074,
       "length": 11,
       "value": "\"BeginTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5871,
+      "offset": 6109,
       "length": 9,
       "value": "\"EndTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5903,
+      "offset": 6141,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5935,
+      "offset": 6173,
       "length": 9,
       "value": "\"SeekPos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5966,
+      "offset": 6204,
       "length": 7,
       "value": "\"Speed\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6483,
+      "offset": 6721,
       "length": 10,
       "value": "\"FileName\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6514,
+      "offset": 6752,
       "length": 6,
       "value": "\"Time\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6545,
+      "offset": 6783,
       "length": 10,
       "value": "\"FileType\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6578,
+      "offset": 6816,
       "length": 8,
       "value": "\"Signal\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6608,
+      "offset": 6846,
       "length": 7,
       "value": "\"Total\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6950,
+      "offset": 7188,
       "length": 8,
       "value": "\"Signal\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6983,
+      "offset": 7221,
       "length": 10,
       "value": "\"FileName\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7014,
+      "offset": 7252,
       "length": 6,
       "value": "\"Size\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7045,
+      "offset": 7283,
       "length": 10,
       "value": "\"Checksum\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7080,
+      "offset": 7318,
       "length": 10,
       "value": "\"FileType\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7231,
+      "offset": 7469,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7456,
+      "offset": 7694,
       "length": 5,
       "value": "\"Qos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7484,
+      "offset": 7722,
       "length": 8,
       "value": "\"Result\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7513,
+      "offset": 7751,
       "length": 6,
       "value": "\"Data\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7739,
+      "offset": 7977,
       "length": 12,
       "value": "\"IceServers\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7775,
+      "offset": 8013,
       "length": 5,
       "value": "\"Sdp\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7805,
+      "offset": 8043,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7840,
+      "offset": 8078,
       "length": 10,
       "value": "\"ClientId\""
     },

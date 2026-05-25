@@ -658,6 +658,9 @@ public enum FilePlaylistType : Swift.Int, Swift.Codable {
   case regular
   case motion
   case human
+  case pet
+  case vehicle
+  case bbc
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
   #endif

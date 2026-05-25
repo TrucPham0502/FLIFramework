@@ -790,11 +790,11 @@
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		O/g+3XGhcupQWuYeVZmDwuSXlj8=
+		kToe5n9BhaZbXYA+zRo2/HYf1vo=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hzJITaBzZ/VnTPaAgi/fGFc4axk=
+		8SmBmmBnearzfsZ/e+cRAPAfviQ=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -810,7 +810,7 @@
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		nvRSBm9nUz68yx/LyTCmIrU8BmU=
+		rwZNDhnao0BK0ZgjiHhNYH0zJrk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2212,14 +2212,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h+g96E9rbL0zYXcrBIJEHK2+mYH1WGsq3aDfZa2WqFA=
+			k73fJfGfLbietFLqwUZoibXi3++LqmaFoEy0qZgf3eo=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QwP1962Kuh/Xs3Rm730G/OZocsdq3FpIwHKyWH9rqoA=
+			rDpq5ElDBvK8/9sgLdfpwpxpNPzeV4svt9FU76lrKIE=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -2247,7 +2247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uWhHMQY/H5+SF3gjnKLeEvDDV055t2LzI7YvbqVb9ac=
+			Q6il2FQXOzXAzQUtjX0nDsBiRnBkXSDeKUmCoZb5AwM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

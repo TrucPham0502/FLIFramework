@@ -559,13 +559,7 @@ public enum ConnectionStep : Swift.Int {
   case iceGatheringComplete
   case iceChecking
   case didChangeLocalCandidate
-  case icePathSameNetwork
-  case icePathPrflx
-  case icePathUdp
-  case icePathTcp
-  case icePathRelay
   case dtlsConnected
-  case peerConnectionFailed
   case channelCreated
   case channelConnecting
   case channelOpened

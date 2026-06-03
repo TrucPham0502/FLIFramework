@@ -32724,41 +32724,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FSignal.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2632,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FSignal.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2676,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FSignal.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2711,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FSignal.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2836,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FSignal.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2944,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FRTCPlaybackSource.swift",
       "kind": "BooleanLiteral",
       "offset": 357,

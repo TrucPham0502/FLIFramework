@@ -13194,6 +13194,20 @@
         "moduleName": "FLISDK"
       },
       {
+        "kind": "Import",
+        "name": "NetworkExtension",
+        "printedName": "NetworkExtension",
+        "declKind": "Import",
+        "moduleName": "FLISDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "FLISDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CameraSDKInit",
         "printedName": "CameraSDKInit",
@@ -30346,70 +30360,70 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 313,
+      "offset": 379,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 340,
+      "offset": 406,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 368,
+      "offset": 434,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 399,
+      "offset": 465,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 430,
+      "offset": 496,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "IntegerLiteral",
-      "offset": 461,
+      "offset": 527,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 484,
+      "offset": 550,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "BooleanLiteral",
-      "offset": 576,
+      "offset": 642,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 706,
+      "offset": 772,
       "length": 9,
       "value": "\"package\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "BooleanLiteral",
-      "offset": 729,
+      "offset": 795,
       "length": 4,
       "value": "true"
     },
@@ -30871,28 +30885,28 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 24539,
+      "offset": 29922,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 27269,
+      "offset": 32652,
       "length": 15,
       "value": "\"dcCommandType\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 27310,
+      "offset": 32693,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 29008,
+      "offset": 34391,
       "length": 15,
       "value": "\"dcCommandType\""
     },

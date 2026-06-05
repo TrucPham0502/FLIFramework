@@ -30878,35 +30878,35 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 9669,
+      "offset": 10390,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 29922,
+      "offset": 30643,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 32652,
+      "offset": 33373,
       "length": 15,
       "value": "\"dcCommandType\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 32693,
+      "offset": 33414,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 34391,
+      "offset": 35112,
       "length": 15,
       "value": "\"dcCommandType\""
     },
@@ -31305,42 +31305,42 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 12630,
+      "offset": 12646,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 12840,
+      "offset": 12856,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13203,
+      "offset": 13219,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13235,
+      "offset": 13251,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13442,
+      "offset": 13458,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13474,
+      "offset": 13490,
       "length": 1,
       "value": "2"
     },

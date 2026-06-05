@@ -13194,20 +13194,6 @@
         "moduleName": "FLISDK"
       },
       {
-        "kind": "Import",
-        "name": "NetworkExtension",
-        "printedName": "NetworkExtension",
-        "declKind": "Import",
-        "moduleName": "FLISDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SystemConfiguration.CaptiveNetwork",
-        "printedName": "SystemConfiguration.CaptiveNetwork",
-        "declKind": "Import",
-        "moduleName": "FLISDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "CameraSDKInit",
         "printedName": "CameraSDKInit",
@@ -29051,28 +29037,28 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3219,
+      "offset": 3677,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3593,
+      "offset": 4051,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4069,
+      "offset": 4527,
       "length": 9,
       "value": "\"8.8.8.8\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4102,
+      "offset": 4560,
       "length": 1,
       "value": "3"
     },
@@ -29716,21 +29702,21 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FDeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 8837,
+      "offset": 9446,
       "length": 23,
       "value": "\"FDeviceListener.Queue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FDeviceConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 9189,
+      "offset": 9798,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/FDeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 9327,
+      "offset": 9936,
       "length": 10,
       "value": "\"{serial}\""
     },
@@ -30360,70 +30346,70 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 379,
+      "offset": 313,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 406,
+      "offset": 340,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 434,
+      "offset": 368,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 465,
+      "offset": 399,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 430,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "IntegerLiteral",
-      "offset": 527,
+      "offset": 461,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 484,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "BooleanLiteral",
-      "offset": 642,
+      "offset": 576,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 772,
+      "offset": 706,
       "length": 9,
       "value": "\"package\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "BooleanLiteral",
-      "offset": 795,
+      "offset": 729,
       "length": 4,
       "value": "true"
     },

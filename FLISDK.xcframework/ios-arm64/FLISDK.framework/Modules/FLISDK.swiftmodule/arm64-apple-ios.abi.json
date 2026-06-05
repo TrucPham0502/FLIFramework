@@ -31248,85 +31248,92 @@
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 806,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 815,
+      "offset": 848,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1246,
+      "offset": 1279,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1349,
+      "offset": 1382,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 1753,
+      "offset": 1786,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1850,
+      "offset": 1883,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 3413,
+      "offset": 3446,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 12646,
+      "offset": 12691,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 12856,
+      "offset": 12901,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13219,
+      "offset": 13264,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13251,
+      "offset": 13296,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13458,
+      "offset": 13503,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Audio\/AUAudioUnitRTCAudioDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 13490,
+      "offset": 13535,
       "length": 1,
       "value": "2"
     },
@@ -32649,14 +32656,14 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 26675,
+      "offset": 26728,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 28381,
+      "offset": 28434,
       "length": 4,
       "value": "true"
     },

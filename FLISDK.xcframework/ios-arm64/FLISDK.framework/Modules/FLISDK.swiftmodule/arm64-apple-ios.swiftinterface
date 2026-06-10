@@ -864,6 +864,17 @@ extension FLISDK.FDevice {
   public func setPrivateMode(isOn: Swift.Bool, completion: @escaping (FLISDK.FDeviceError?) -> Swift.Void)
   #endif
 }
+@_hasMissingDesignatedInitializers public class FCameraViewPriority {
+  public static let shared: FLISDK.FCameraViewPriority
+  public func trackStart(serial: Swift.String)
+  public func trackEnd(serial: Swift.String)
+  public func flushActiveSessions()
+  public func sortByPriority(_ serials: [Swift.String]) -> [Swift.String]
+  public func topCameras(from serials: [Swift.String], limit: Swift.Int) -> [Swift.String]
+  public func clear(serial: Swift.String)
+  public func clearAll()
+  @objc deinit
+}
 public protocol FSignalDataSource : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
   func fliSignal(_ serial: Swift.String, auth completion: @escaping (_ username: Swift.String, _ password: Swift.String, _ error: FLISDK.FDeviceError?) -> ())
@@ -871,6 +882,9 @@ public protocol FSignalDataSource : AnyObject {
 }
 infix operator ??? : DefaultPrecedence
 infix operator ??= : DefaultPrecedence
+public enum FNotification {
+  public static func deviceStep(_ serial: Swift.String) -> Foundation.Notification.Name
+}
 extension FLISDK.ResolutionType : Swift.Equatable {}
 extension FLISDK.ResolutionType : Swift.Hashable {}
 extension FLISDK.ResolutionType : Swift.RawRepresentable {}

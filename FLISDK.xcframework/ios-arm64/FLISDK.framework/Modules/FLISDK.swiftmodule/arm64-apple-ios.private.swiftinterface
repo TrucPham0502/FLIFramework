@@ -168,6 +168,13 @@ public enum PlaybackSpeedState : Swift.Int {
     get
   }
 }
+@_hasMissingDesignatedInitializers final public class FLogSocket {
+  public static let shared: FLISDK.FLogSocket
+  final public func startDiscovery()
+  final public func start(host: Swift.String, port: Swift.UInt16 = 9999)
+  final public func stop()
+  @objc deinit
+}
 public typealias PlayStreamCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
 public typealias PushToTalkCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
 public typealias PTZCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
@@ -455,11 +462,14 @@ extension FLISDK.FDeviceManager : FLISDK.FSignalDataSource {
   public var abTestHost: Swift.String
   public var signalPort: Swift.Int
   public var gis: Swift.String
+  public func enableLogSocket()
+  public func enableLogSocket(host: Swift.String, port: Swift.UInt16 = 9999)
   public func initSDK(server: Swift.String, signalHost: Swift.String, signalPort: Swift.Int, token: Swift.String, gis: Swift.String, package: Swift.String = "package", log: Swift.Bool = true)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Console {
-  public static var didReceiveLog: (Swift.String) -> ()
+  public static var didReceiveLog: ((_ content: Swift.String) -> Swift.Void)?
+  public static var socketTransport: ((Swift.String) -> Swift.Void)?
   @objc deinit
 }
 public protocol FDeviceConfigManagerDelegate : AnyObject {

@@ -168,12 +168,11 @@ public enum PlaybackSpeedState : Swift.Int {
     get
   }
 }
-@_hasMissingDesignatedInitializers final public class FLogSocket {
-  public static let shared: FLISDK.FLogSocket
-  final public func startDiscovery()
-  final public func start(host: Swift.String, port: Swift.UInt16 = 9999)
-  final public func stop()
+@_hasMissingDesignatedInitializers final public class FRemoteLog {
+  public static let shared: FLISDK.FRemoteLog
   @objc deinit
+  final public func start(phone: Swift.String, secret: Swift.String, url: Foundation.URL, token: Swift.String = "")
+  final public func stop()
 }
 public typealias PlayStreamCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
 public typealias PushToTalkCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
@@ -462,8 +461,8 @@ extension FLISDK.FDeviceManager : FLISDK.FSignalDataSource {
   public var abTestHost: Swift.String
   public var signalPort: Swift.Int
   public var gis: Swift.String
-  public func enableLogSocket()
-  public func enableLogSocket(host: Swift.String, port: Swift.UInt16 = 9999)
+  public func enableRemoteLog(phone: Swift.String, secret: Swift.String, url: Foundation.URL, token: Swift.String = "")
+  public func disableRemoteLog()
   public func initSDK(server: Swift.String, signalHost: Swift.String, signalPort: Swift.Int, token: Swift.String, gis: Swift.String, package: Swift.String = "package", log: Swift.Bool = true)
   @objc deinit
 }
@@ -894,6 +893,16 @@ infix operator ??? : DefaultPrecedence
 infix operator ??= : DefaultPrecedence
 public enum FNotification {
   public static func deviceStep(_ serial: Swift.String) -> Foundation.Notification.Name
+}
+@_hasMissingDesignatedInitializers final public class FConfigStore {
+  public static let shared: FLISDK.FConfigStore
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func get(key: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func getDictionary(key: Swift.String) -> [Swift.String : Any]?
+  #endif
+  @objc deinit
 }
 extension FLISDK.ResolutionType : Swift.Equatable {}
 extension FLISDK.ResolutionType : Swift.Hashable {}

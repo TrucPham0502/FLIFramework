@@ -5108,8 +5108,8 @@
       },
       {
         "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FLISDK"
       },
@@ -5122,8 +5122,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "FLogSocket",
-        "printedName": "FLogSocket",
+        "name": "FRemoteLog",
+        "printedName": "FRemoteLog",
         "children": [
           {
             "kind": "Var",
@@ -5132,14 +5132,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "FLogSocket",
-                "printedName": "FLISDK.FLogSocket",
-                "usr": "s:6FLISDK10FLogSocketC"
+                "name": "FRemoteLog",
+                "printedName": "FLISDK.FRemoteLog",
+                "usr": "s:6FLISDK10FRemoteLogC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:6FLISDK10FLogSocketC6sharedACvpZ",
-            "mangledName": "$s6FLISDK10FLogSocketC6sharedACvpZ",
+            "usr": "s:6FLISDK10FRemoteLogC6sharedACvpZ",
+            "mangledName": "$s6FLISDK10FRemoteLogC6sharedACvpZ",
             "moduleName": "FLISDK",
             "static": true,
             "declAttributes": [
@@ -5158,14 +5158,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "FLogSocket",
-                    "printedName": "FLISDK.FLogSocket",
-                    "usr": "s:6FLISDK10FLogSocketC"
+                    "name": "FRemoteLog",
+                    "printedName": "FLISDK.FRemoteLog",
+                    "usr": "s:6FLISDK10FRemoteLogC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6FLISDK10FLogSocketC6sharedACvgZ",
-                "mangledName": "$s6FLISDK10FLogSocketC6sharedACvgZ",
+                "usr": "s:6FLISDK10FRemoteLogC6sharedACvgZ",
+                "mangledName": "$s6FLISDK10FRemoteLogC6sharedACvgZ",
                 "moduleName": "FLISDK",
                 "static": true,
                 "implicit": true,
@@ -5178,30 +5178,8 @@
           },
           {
             "kind": "Function",
-            "name": "startDiscovery",
-            "printedName": "startDiscovery()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6FLISDK10FLogSocketC14startDiscoveryyyF",
-            "mangledName": "$s6FLISDK10FLogSocketC14startDiscoveryyyF",
-            "moduleName": "FLISDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "start",
-            "printedName": "start(host:port:)",
+            "printedName": "start(phone:secret:url:token:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5216,15 +5194,27 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
                 "hasDefaultArg": true,
-                "usr": "s:s6UInt16V"
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:6FLISDK10FLogSocketC5start4host4portySS_s6UInt16VtF",
-            "mangledName": "$s6FLISDK10FLogSocketC5start4host4portySS_s6UInt16VtF",
+            "usr": "s:6FLISDK10FRemoteLogC5start5phone6secret3url5tokenySS_SS10Foundation3URLVSStF",
+            "mangledName": "$s6FLISDK10FRemoteLogC5start5phone6secret3url5tokenySS_SS10Foundation3URLVSStF",
             "moduleName": "FLISDK",
             "declAttributes": [
               "Final",
@@ -5245,8 +5235,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6FLISDK10FLogSocketC4stopyyF",
-            "mangledName": "$s6FLISDK10FLogSocketC4stopyyF",
+            "usr": "s:6FLISDK10FRemoteLogC4stopyyF",
+            "mangledName": "$s6FLISDK10FRemoteLogC4stopyyF",
             "moduleName": "FLISDK",
             "declAttributes": [
               "Final",
@@ -5256,8 +5246,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:6FLISDK10FLogSocketC",
-        "mangledName": "$s6FLISDK10FLogSocketC",
+        "usr": "s:6FLISDK10FRemoteLogC",
+        "mangledName": "$s6FLISDK10FRemoteLogC",
         "moduleName": "FLISDK",
         "declAttributes": [
           "Final",
@@ -14046,29 +14036,8 @@
           },
           {
             "kind": "Function",
-            "name": "enableLogSocket",
-            "printedName": "enableLogSocket()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6FLISDK13CameraSDKInitC15enableLogSocketyyF",
-            "mangledName": "$s6FLISDK13CameraSDKInitC15enableLogSocketyyF",
-            "moduleName": "FLISDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enableLogSocket",
-            "printedName": "enableLogSocket(host:port:)",
+            "name": "enableRemoteLog",
+            "printedName": "enableRemoteLog(phone:secret:url:token:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14083,19 +14052,51 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
                 "hasDefaultArg": true,
-                "usr": "s:s6UInt16V"
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:6FLISDK13CameraSDKInitC15enableLogSocket4host4portySS_s6UInt16VtF",
-            "mangledName": "$s6FLISDK13CameraSDKInitC15enableLogSocket4host4portySS_s6UInt16VtF",
+            "usr": "s:6FLISDK13CameraSDKInitC15enableRemoteLog5phone6secret3url5tokenySS_SS10Foundation3URLVSStF",
+            "mangledName": "$s6FLISDK13CameraSDKInitC15enableRemoteLog5phone6secret3url5tokenySS_SS10Foundation3URLVSStF",
             "moduleName": "FLISDK",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disableRemoteLog",
+            "printedName": "disableRemoteLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK13CameraSDKInitC16disableRemoteLogyyF",
+            "mangledName": "$s6FLISDK13CameraSDKInitC16disableRemoteLogyyF",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -27733,6 +27734,182 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "FLISDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FConfigStore",
+        "printedName": "FConfigStore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FConfigStore",
+                "printedName": "FLISDK.FConfigStore",
+                "usr": "s:6FLISDK12FConfigStoreC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK12FConfigStoreC6sharedACvpZ",
+            "mangledName": "$s6FLISDK12FConfigStoreC6sharedACvpZ",
+            "moduleName": "FLISDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FConfigStore",
+                    "printedName": "FLISDK.FConfigStore",
+                    "usr": "s:6FLISDK12FConfigStoreC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK12FConfigStoreC6sharedACvgZ",
+                "mangledName": "$s6FLISDK12FConfigStoreC6sharedACvgZ",
+                "moduleName": "FLISDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK12FConfigStoreC3get3keySSSgSS_tF",
+            "mangledName": "$s6FLISDK12FConfigStoreC3get3keySSSgSS_tF",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDictionary",
+            "printedName": "getDictionary(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK12FConfigStoreC13getDictionary3keySDySSypGSgSS_tF",
+            "mangledName": "$s6FLISDK12FConfigStoreC13getDictionary3keySDySSypGSgSS_tF",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6FLISDK12FConfigStoreC",
+        "mangledName": "$s6FLISDK12FConfigStoreC",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "FLISDK",
         "declAttributes": [
           "RawDocComment"
@@ -29860,53 +30037,88 @@
       "value": "3"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLogSocket.swift",
-      "kind": "StringLiteral",
-      "offset": 638,
-      "length": 18,
-      "value": "\"flisdk.logsocket\""
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1527,
+      "length": 1,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLogSocket.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1583,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
       "kind": "StringLiteral",
-      "offset": 698,
+      "offset": 1610,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLogSocket.swift",
-      "kind": "IntegerLiteral",
-      "offset": 741,
-      "length": 4,
-      "value": "9999"
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
+      "length": 2,
+      "value": "\"\""
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLogSocket.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
+      "kind": "StringLiteral",
+      "offset": 1665,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
+      "kind": "Dictionary",
+      "offset": 1826,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 774,
+      "offset": 1942,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLogSocket.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 809,
+      "offset": 1978,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLogSocket.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1011,
+      "offset": 2192,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLogSocket.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
+      "kind": "StringLiteral",
+      "offset": 2239,
+      "length": 18,
+      "value": "\"flisdk.remotelog\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 1434,
-      "length": 4,
-      "value": "9999"
+      "offset": 2397,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
+      "kind": "StringLiteral",
+      "offset": 3427,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FBleConfigManager.swift",
@@ -30352,14 +30564,14 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "StringLiteral",
-      "offset": 904,
+      "offset": 908,
       "length": 26,
       "value": "\"ws:\/\/42.116.138.38:8089\/\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 954,
+      "offset": 958,
       "length": 2,
       "value": "10"
     },
@@ -31219,106 +31431,106 @@
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
-      "kind": "IntegerLiteral",
-      "offset": 983,
-      "length": 4,
-      "value": "9999"
+      "kind": "StringLiteral",
+      "offset": 845,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "StringLiteral",
-      "offset": 1251,
+      "offset": 1262,
       "length": 9,
       "value": "\"package\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/CameraSDKInit.swift",
       "kind": "BooleanLiteral",
-      "offset": 1274,
+      "offset": 1285,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 932,
+      "offset": 1019,
       "length": 11,
       "value": "\"🏊 POOL\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 967,
+      "offset": 1054,
       "length": 13,
       "value": "\"📡 SIGNAL\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1091,
       "length": 10,
       "value": "\"🧊 ICE\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1038,
+      "offset": 1125,
       "length": 11,
       "value": "\"🔗 PEER\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1073,
+      "offset": 1160,
       "length": 11,
       "value": "\"📺 CHAN\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1108,
+      "offset": 1195,
       "length": 12,
       "value": "\"🎬 VIDEO\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1144,
+      "offset": 1231,
       "length": 11,
       "value": "\"❌ ERROR\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1266,
       "length": 11,
       "value": "\"🔌 CONN\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1214,
+      "offset": 1301,
       "length": 10,
       "value": "\"📱 APP\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1248,
+      "offset": 1335,
       "length": 10,
       "value": "\"🌐 NET\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1322,
+      "offset": 1409,
       "length": 18,
       "value": "\"flisdk.log.queue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FLog.swift",
       "kind": "StringLiteral",
-      "offset": 1454,
+      "offset": 1541,
       "length": 14,
       "value": "\"HH:mm:ss.SSS\""
     },
@@ -31710,21 +31922,21 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 37023,
+      "offset": 37037,
       "length": 15,
       "value": "\"dcCommandType\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 37064,
+      "offset": 37078,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 38762,
+      "offset": 38776,
       "length": 15,
       "value": "\"dcCommandType\""
     },
@@ -33750,6 +33962,13 @@
       "offset": 14515,
       "length": 33,
       "value": "\"FDeviceConnector.networkChanged\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FConfigStore.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 16,
+      "value": "\"flisdk.config.\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Decoder\/BaseVideoDecoder.swift",

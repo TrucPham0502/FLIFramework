@@ -171,7 +171,7 @@ public enum PlaybackSpeedState : Swift.Int {
 @_hasMissingDesignatedInitializers final public class FRemoteLog {
   public static let shared: FLISDK.FRemoteLog
   @objc deinit
-  final public func start(phone: Swift.String, secret: Swift.String, url: Foundation.URL, token: Swift.String = "")
+  final public func start(phone: Swift.String, secret: Swift.String, url: Foundation.URL, token: Swift.String = "", logFolder: Swift.String = "")
   final public func stop()
 }
 public typealias PlayStreamCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
@@ -277,20 +277,26 @@ public class FObservableManager<T> where T : Swift.Decodable, T : Swift.Encodabl
     get
     set
   }
-  public var didReceiveRawMessage: (Swift.String) -> Swift.Void
-  public var didReceiveMessage: (T) -> Swift.Void {
+  public var didReceiveRawMessage: (Swift.String, Swift.String) -> Swift.Void {
+    get
+    set
+  }
+  public var didReceiveMessage: (Swift.String, T) -> Swift.Void {
     get
     set
   }
   #if compiler(>=5.3) && $NonescapableTypes
-  public func connect(_ clientID: Swift.String, username: Swift.String, password: Swift.String, host: Swift.String? = nil, port: Swift.Int? = nil, topics: [Swift.String] = [], completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func connect(_ clientID: Swift.String, username: Swift.String, password: Swift.String, host: Swift.String? = nil, port: Swift.Int? = nil, topics: [Swift.String] = [], isDescyption: Swift.Bool = true, completion: @escaping (Swift.Bool) -> Swift.Void)
   #endif
+  public func subscribe(_ topic: Swift.String)
+  public func unsubscribe(_ topic: Swift.String)
+  public func publish<R>(_ topic: Swift.String, payload: R) where R : Swift.Decodable, R : Swift.Encodable
   public func disconnect()
   @objc deinit
 }
 public protocol FObservableDataSource : AnyObject {
   #if compiler(>=5.3) && $NonescapableTypes
-  func fObservable(needCredentials completion: @escaping (_ username: Swift.String, _ password: Swift.String, _ error: FLISDK.FDeviceError?) -> Swift.Void)
+  func fObservable(needCredentials completion: @escaping (_ username: Swift.String, _ password: Swift.String, _ isDescyption: Swift.Bool, _ error: FLISDK.FDeviceError?) -> Swift.Void)
   #endif
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FRendererView : UIKit.UIView {
@@ -461,7 +467,7 @@ extension FLISDK.FDeviceManager : FLISDK.FSignalDataSource {
   public var abTestHost: Swift.String
   public var signalPort: Swift.Int
   public var gis: Swift.String
-  public func enableRemoteLog(phone: Swift.String, secret: Swift.String, url: Foundation.URL, token: Swift.String = "")
+  public func enableRemoteLog(phone: Swift.String, secret: Swift.String, url: Foundation.URL, token: Swift.String = "", logFolder: Swift.String = "")
   public func disableRemoteLog()
   public func initSDK(server: Swift.String, signalHost: Swift.String, signalPort: Swift.Int, token: Swift.String, gis: Swift.String, package: Swift.String = "package", log: Swift.Bool = true)
   @objc deinit
@@ -879,7 +885,9 @@ extension FLISDK.FDevice {
   public func trackEnd(serial: Swift.String)
   public func flushActiveSessions()
   public func sortByPriority(_ serials: [Swift.String]) -> [Swift.String]
-  public func topCameras(from serials: [Swift.String], limit: Swift.Int) -> [Swift.String]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func topCameras(from serials: [Swift.String], limit: Swift.Int? = nil) -> [Swift.String]
+  #endif
   public func clear(serial: Swift.String)
   public func clearAll()
   @objc deinit

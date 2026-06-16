@@ -30325,15 +30325,29 @@
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3728,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3775,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
       "kind": "StringLiteral",
-      "offset": 4452,
+      "offset": 4823,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/Log\/FRemoteLog.swift",
       "kind": "StringLiteral",
-      "offset": 4476,
+      "offset": 4847,
       "length": 2,
       "value": "\"\""
     },
@@ -30529,7 +30543,7 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservable.swift",
       "kind": "BooleanLiteral",
-      "offset": 2917,
+      "offset": 3308,
       "length": 4,
       "value": "true"
     },
@@ -34127,7 +34141,7 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Playback\/FRTCPlaybackSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 7950,
+      "offset": 8735,
       "length": 1,
       "value": "0"
     },
@@ -34183,9 +34197,58 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FRemoteConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1893,
+      "offset": 1927,
       "length": 15,
       "value": "\"device_config\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FRemoteConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3850,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FRemoteConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3860,
+      "length": 45,
+      "value": "\"[FRemoteConfig] loaded — key=\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FRemoteConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3904,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FRemoteConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3976,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FRemoteConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3986,
+      "length": 68,
+      "value": "\"[FRemoteConfig] decode failed — key=\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FRemoteConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 4037,
+      "length": 1,
+      "value": "\", error=\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FRemoteConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 4053,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/Decoder\/BaseVideoDecoder.swift",

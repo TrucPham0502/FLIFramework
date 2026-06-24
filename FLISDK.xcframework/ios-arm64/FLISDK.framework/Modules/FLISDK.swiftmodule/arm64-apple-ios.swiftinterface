@@ -801,6 +801,7 @@ public enum FDeviceError : Swift.Error, Foundation.LocalizedError {
   case DEV_PRIVATE_MODE
   case NOT_IMPLEMENTED
   case EE_DEV_PEER_CONNECTION_NIL
+  case EE_DEV_HOST_SUBNET_MISMATCH
   public var code: Swift.Int {
     get
   }

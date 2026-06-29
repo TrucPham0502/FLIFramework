@@ -880,8 +880,8 @@ extension FLISDK.FDevice {
   public func setPrivateMode(isOn: Swift.Bool, completion: @escaping (FLISDK.FDeviceError?) -> Swift.Void)
   #endif
 }
-@_hasMissingDesignatedInitializers public class FCameraViewPriority {
-  public static let shared: FLISDK.FCameraViewPriority
+@_hasMissingDesignatedInitializers public class FCameraPriority {
+  public static let shared: FLISDK.FCameraPriority
   public func trackStart(serial: Swift.String)
   public func trackEnd(serial: Swift.String)
   public func flushActiveSessions()

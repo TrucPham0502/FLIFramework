@@ -884,6 +884,7 @@ extension FLISDK.FDevice {
   public static let shared: FLISDK.FCameraPriority
   public func trackStart(serial: Swift.String)
   public func trackEnd(serial: Swift.String)
+  public func discardDanglingSessions()
   public func flushActiveSessions()
   public func sortByPriority(_ serials: [Swift.String]) -> [Swift.String]
   #if compiler(>=5.3) && $NonescapableTypes

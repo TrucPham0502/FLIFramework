@@ -30310,28 +30310,28 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4245,
+      "offset": 4328,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4619,
+      "offset": 4702,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5095,
+      "offset": 5178,
       "length": 9,
       "value": "\"8.8.8.8\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5128,
+      "offset": 5211,
       "length": 1,
       "value": "3"
     },

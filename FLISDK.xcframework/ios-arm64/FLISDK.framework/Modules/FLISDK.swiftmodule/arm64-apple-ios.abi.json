@@ -7488,6 +7488,48 @@
           },
           {
             "kind": "Var",
+            "name": "isConnected",
+            "printedName": "isConnected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK18FObservableManagerC11isConnectedSbvp",
+            "mangledName": "$s6FLISDK18FObservableManagerC11isConnectedSbvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK18FObservableManagerC11isConnectedSbvg",
+                "mangledName": "$s6FLISDK18FObservableManagerC11isConnectedSbvg",
+                "moduleName": "FLISDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "dataSource",
             "printedName": "dataSource",
             "children": [
@@ -30555,35 +30597,35 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservableManager.swift",
       "kind": "StringLiteral",
-      "offset": 1178,
+      "offset": 1257,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservableManager.swift",
       "kind": "StringLiteral",
-      "offset": 1182,
+      "offset": 1261,
       "length": 81,
       "value": "\"[FObservableManager] didReceiveMessage ⚠️ — decode failed, topic=\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservableManager.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1341,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservableManager.swift",
       "kind": "Array",
-      "offset": 2358,
+      "offset": 2437,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Observable\/FObservableManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2383,
+      "offset": 2462,
       "length": 4,
       "value": "true"
     },

@@ -273,6 +273,9 @@ extension FLISDK.FBleConfigManager : CoreBluetooth.CBCentralManagerDelegate, Cor
 }
 public class FObservableManager<T> where T : Swift.Decodable, T : Swift.Encodable {
   public init()
+  public var isConnected: Swift.Bool {
+    get
+  }
   weak public var dataSource: (any FLISDK.FObservableDataSource)? {
     get
     set

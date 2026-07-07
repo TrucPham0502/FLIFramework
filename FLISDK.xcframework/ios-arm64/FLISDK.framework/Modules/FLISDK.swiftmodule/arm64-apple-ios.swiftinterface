@@ -53,11 +53,16 @@ public struct ABTestConfigModel {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FImageView : UIKit.UIImageView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect = .zero)
+  @_Concurrency.MainActor @preconcurrency public var placeholder: UIKit.UIImage?
+  @_Concurrency.MainActor @preconcurrency public var quality: CoreFoundation.CGFloat {
+    get
+    set
+  }
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func setImage(url: Foundation.URL, time: Swift.Int, serial: Swift.String, placeHolder: UIKit.UIImage? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public func setImage(sd file: FLISDK.FilePlaybackInfo, time: Swift.Int, serial: Swift.String, placeHolder: UIKit.UIImage? = nil)
+  @_Concurrency.MainActor @preconcurrency public func setImage(sd device: FLISDK.FDevice, file: FLISDK.FilePlaybackInfo, time: Swift.Int, placeHolder: UIKit.UIImage? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func setImage(time: Swift.Int, serial: Swift.String, placeHolder: UIKit.UIImage? = nil)
@@ -665,11 +670,12 @@ public struct ZipWriter {
 }
 final public class FImageManager {
   public init()
+  final public var quality: CoreFoundation.CGFloat
   #if compiler(>=5.3) && $NonescapableTypes
   final public func tsPrefetch(serial: Swift.String, time: Swift.Int, completion: @escaping (_ serial: Swift.String, _ time: Swift.Int, _ url: Foundation.URL?) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  final public func sdPrefetch(sd file: FLISDK.FilePlaybackInfo, serial: Swift.String, time: Swift.Int, completion: @escaping (_ serial: Swift.String, _ time: Swift.Int, _ url: Foundation.URL?) -> Swift.Void)
+  final public func sdPrefetch(sd device: FLISDK.FDevice, file: FLISDK.FilePlaybackInfo, serial: Swift.String, time: Swift.Int, completion: @escaping (_ serial: Swift.String, _ time: Swift.Int, _ url: Foundation.URL?) -> Swift.Void)
   #endif
   final public func cancel(serial: Swift.String, time: Swift.Int)
   @objc deinit

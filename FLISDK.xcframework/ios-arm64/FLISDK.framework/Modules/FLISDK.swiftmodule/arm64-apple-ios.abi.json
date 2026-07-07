@@ -1126,6 +1126,206 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "placeholder",
+            "printedName": "placeholder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK10FImageViewC11placeholderSo7UIImageCSgvp",
+            "mangledName": "$s6FLISDK10FImageViewC11placeholderSo7UIImageCSgvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK10FImageViewC11placeholderSo7UIImageCSgvg",
+                "mangledName": "$s6FLISDK10FImageViewC11placeholderSo7UIImageCSgvg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK10FImageViewC11placeholderSo7UIImageCSgvs",
+                "mangledName": "$s6FLISDK10FImageViewC11placeholderSo7UIImageCSgvs",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK10FImageViewC11placeholderSo7UIImageCSgvM",
+                "mangledName": "$s6FLISDK10FImageViewC11placeholderSo7UIImageCSgvM",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "quality",
+            "printedName": "quality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK10FImageViewC7quality14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s6FLISDK10FImageViewC7quality12CoreGraphics7CGFloatVvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK10FImageViewC7quality14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s6FLISDK10FImageViewC7quality12CoreGraphics7CGFloatVvg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK10FImageViewC7quality14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s6FLISDK10FImageViewC7quality12CoreGraphics7CGFloatVvs",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK10FImageViewC7quality14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s6FLISDK10FImageViewC7quality12CoreGraphics7CGFloatVvM",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "setImage",
             "printedName": "setImage(url:time:serial:placeHolder:)",
@@ -1183,12 +1383,18 @@
           {
             "kind": "Function",
             "name": "setImage",
-            "printedName": "setImage(sd:time:serial:placeHolder:)",
+            "printedName": "setImage(sd:file:time:placeHolder:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FDevice",
+                "printedName": "FLISDK.FDevice",
+                "usr": "s:6FLISDK7FDeviceC"
               },
               {
                 "kind": "TypeNominal",
@@ -1201,12 +1407,6 @@
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -1225,8 +1425,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6FLISDK10FImageViewC8setImage2sd4time6serial11placeHolderyAA16FilePlaybackInfoV_SiSSSo7UIImageCSgtF",
-            "mangledName": "$s6FLISDK10FImageViewC8setImage2sd4time6serial11placeHolderyAA16FilePlaybackInfoV_SiSSSo7UIImageCSgtF",
+            "usr": "s:6FLISDK10FImageViewC8setImage2sd4file4time11placeHolderyAA7FDeviceC_AA16FilePlaybackInfoVSiSo7UIImageCSgtF",
+            "mangledName": "$s6FLISDK10FImageViewC8setImage2sd4file4time11placeHolderyAA7FDeviceC_AA16FilePlaybackInfoVSiSo7UIImageCSgtF",
             "moduleName": "FLISDK",
             "declAttributes": [
               "Preconcurrency",
@@ -20557,6 +20757,16 @@
         "moduleName": "FLISDK"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "FImageManager",
         "printedName": "FImageManager",
@@ -20581,6 +20791,103 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "quality",
+            "printedName": "quality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK13FImageManagerC7quality14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s6FLISDK13FImageManagerC7quality12CoreGraphics7CGFloatVvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK13FImageManagerC7quality14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s6FLISDK13FImageManagerC7quality12CoreGraphics7CGFloatVvg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK13FImageManagerC7quality14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s6FLISDK13FImageManagerC7quality12CoreGraphics7CGFloatVvs",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK13FImageManagerC7quality14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s6FLISDK13FImageManagerC7quality12CoreGraphics7CGFloatVvM",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -20663,12 +20970,18 @@
           {
             "kind": "Function",
             "name": "sdPrefetch",
-            "printedName": "sdPrefetch(sd:serial:time:completion:)",
+            "printedName": "sdPrefetch(sd:file:serial:time:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FDevice",
+                "printedName": "FLISDK.FDevice",
+                "usr": "s:6FLISDK7FDeviceC"
               },
               {
                 "kind": "TypeNominal",
@@ -20735,8 +21048,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6FLISDK13FImageManagerC10sdPrefetch0D06serial4time10completionyAA16FilePlaybackInfoV_SSSiySS_Si10Foundation3URLVSgtctF",
-            "mangledName": "$s6FLISDK13FImageManagerC10sdPrefetch0D06serial4time10completionyAA16FilePlaybackInfoV_SSSiySS_Si10Foundation3URLVSgtctF",
+            "usr": "s:6FLISDK13FImageManagerC10sdPrefetch0D04file6serial4time10completionyAA7FDeviceC_AA16FilePlaybackInfoVSSSiySS_Si10Foundation3URLVSgtctF",
+            "mangledName": "$s6FLISDK13FImageManagerC10sdPrefetch0D04file6serial4time10completionyAA7FDeviceC_AA16FilePlaybackInfoVSSSiySS_Si10Foundation3URLVSgtctF",
             "moduleName": "FLISDK",
             "declAttributes": [
               "Final",
@@ -20784,8 +21097,7 @@
         "moduleName": "FLISDK",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -29169,16 +29481,23 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/ImageLoader\/FImageView.swift",
       "kind": "StringLiteral",
-      "offset": 444,
+      "offset": 450,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/ImageLoader\/FImageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 476,
+      "offset": 482,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/ImageLoader\/FImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 518,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/APIService.swift",
@@ -32857,15 +33176,8 @@
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Downloader\/SDSemaphoreDownloader.swift",
-      "kind": "Dictionary",
-      "offset": 173,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Downloader\/SDSemaphoreDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 231,
+      "offset": 183,
       "length": 31,
       "value": "\"com.f.sdcard.thumb.downloader\""
     },
@@ -32976,36 +33288,50 @@
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/ImageLoader\/FImageManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 181,
-      "length": 1,
-      "value": "3"
+      "kind": "FloatLiteral",
+      "offset": 262,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/ImageLoader\/FImageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 183,
+      "offset": 311,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/ImageLoader\/FImageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 313,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/ImageLoader\/FImageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 186,
+      "offset": 316,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/ImageLoader\/FImageManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 189,
+      "offset": 319,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/ImageLoader\/FImageManager.swift",
       "kind": "Dictionary",
-      "offset": 244,
+      "offset": 374,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/ImageLoader\/FImageManager.swift",
+      "kind": "Dictionary",
+      "offset": 696,
       "length": 3,
       "value": "[]"
     },
@@ -34223,56 +34549,56 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 8699,
+      "offset": 8874,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 8749,
+      "offset": 8924,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 8790,
+      "offset": 8965,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 8842,
+      "offset": 9017,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "Array",
-      "offset": 9483,
+      "offset": 9658,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 16292,
+      "offset": 16467,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 27281,
+      "offset": 27456,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 28987,
+      "offset": 29162,
       "length": 4,
       "value": "true"
     },

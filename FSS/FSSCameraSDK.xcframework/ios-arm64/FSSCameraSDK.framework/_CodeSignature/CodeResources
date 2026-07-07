@@ -790,15 +790,15 @@
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		fbC7PS6K4Kr9q9O9fsHbfCO4UiA=
+		mpu/lJe2V0CdbhrZFEZdrdAtDAY=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		653it7iotf5BLy05SuHZXnTzPMs=
+		vQcNn1RVNHlT/dRuT2Xx5vQJJzI=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		b0zTaM2HmXcEq1QyaBwfgLsoOhk=
+		RVlmBtETZTTEZadlxURRWSPcCfg=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -806,11 +806,11 @@
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		b0zTaM2HmXcEq1QyaBwfgLsoOhk=
+		RVlmBtETZTTEZadlxURRWSPcCfg=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Nsw3HC/99ogbLcMfxjRP0J6a/gc=
+		skUoSzl3tLa8qTcb6ntbJSJKc6Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2212,21 +2212,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F9L/U8JRYuWVkRUzX+HJ6FY7O4+eBcalpWdrrTCt/Cs=
+			Sp6JO25ijL1Axhl0sAWSB66Qlhf9yzcAnaDpJxHxOnE=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B0EtpwtBohKLtQa3z1LTYBPsVrpFDO1+pshuZax7+P0=
+			98GbyzA56GOdOQeyy+VHsaR+uOrHDjtjR0CpfrUihMQ=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MdhM2J5IDecE1yVb8mGAcs5Ot7DGRhgEMn8vWEXOUW8=
+			dVyjxUG4y53yq5oAPZ87zt6GFIj4mkxDBrrxCOE/+HE=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -2240,14 +2240,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MdhM2J5IDecE1yVb8mGAcs5Ot7DGRhgEMn8vWEXOUW8=
+			dVyjxUG4y53yq5oAPZ87zt6GFIj4mkxDBrrxCOE/+HE=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PtdJyCp2+FPA9166q3qclKZxi7nPXwragzalPBSQi04=
+			zDzHOaYUCYwDUeZdFKHsqkIN0jYSweRmR6w2Q+8AQBw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

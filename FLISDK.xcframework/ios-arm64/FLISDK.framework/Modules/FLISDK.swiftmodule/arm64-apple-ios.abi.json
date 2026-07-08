@@ -25635,6 +25635,265 @@
           },
           {
             "kind": "Var",
+            "name": "EE_DEV_CAM_FILE_OPEN",
+            "printedName": "EE_DEV_CAM_FILE_OPEN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO20EE_DEV_CAM_FILE_OPENyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO20EE_DEV_CAM_FILE_OPENyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_DEV_CAM_DATA_MALLOC",
+            "printedName": "EE_DEV_CAM_DATA_MALLOC",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO22EE_DEV_CAM_DATA_MALLOCyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO22EE_DEV_CAM_DATA_MALLOCyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_DEV_CAM_DATA_INVALID",
+            "printedName": "EE_DEV_CAM_DATA_INVALID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO23EE_DEV_CAM_DATA_INVALIDyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO23EE_DEV_CAM_DATA_INVALIDyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_DEV_CAM_DATA_DIFF",
+            "printedName": "EE_DEV_CAM_DATA_DIFF",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO20EE_DEV_CAM_DATA_DIFFyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO20EE_DEV_CAM_DATA_DIFFyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_DEV_CAM_TIMEOUT",
+            "printedName": "EE_DEV_CAM_TIMEOUT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO18EE_DEV_CAM_TIMEOUTyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO18EE_DEV_CAM_TIMEOUTyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_DEV_CAM_BUSY",
+            "printedName": "EE_DEV_CAM_BUSY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO15EE_DEV_CAM_BUSYyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO15EE_DEV_CAM_BUSYyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_DEV_CAM_ANOTHER",
+            "printedName": "EE_DEV_CAM_ANOTHER",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO18EE_DEV_CAM_ANOTHERyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO18EE_DEV_CAM_ANOTHERyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
             "name": "code",
             "printedName": "code",
             "children": [
@@ -27652,7 +27911,7 @@
           {
             "kind": "Function",
             "name": "controlZStartPTAction",
-            "printedName": "controlZStartPTAction(direct:completion:)",
+            "printedName": "controlZStartPTAction(direct:oneStep:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -27664,6 +27923,21 @@
                 "name": "PanTiltDirectType",
                 "printedName": "FLISDK.PanTiltDirectType",
                 "usr": "s:6FLISDK17PanTiltDirectTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
@@ -27706,8 +27980,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6FLISDK7FDeviceC21controlZStartPTAction6direct10completionyAA17PanTiltDirectTypeO_ySb_AA0B5ErrorOSgtctF",
-            "mangledName": "$s6FLISDK7FDeviceC21controlZStartPTAction6direct10completionyAA17PanTiltDirectTypeO_ySb_AA0B5ErrorOSgtctF",
+            "usr": "s:6FLISDK7FDeviceC21controlZStartPTAction6direct7oneStep10completionyAA17PanTiltDirectTypeO_SbSgySb_AA0B5ErrorOSgtctF",
+            "mangledName": "$s6FLISDK7FDeviceC21controlZStartPTAction6direct7oneStep10completionyAA17PanTiltDirectTypeO_SbSgySb_AA0B5ErrorOSgtctF",
             "moduleName": "FLISDK",
             "declAttributes": [
               "AccessControl",
@@ -27814,7 +28088,7 @@
           {
             "kind": "Function",
             "name": "configAlarm",
-            "printedName": "configAlarm(isEnable:interval:completion:changeTimeCallback:)",
+            "printedName": "configAlarm(isEnable:sound:lighting:interval:completion:changeTimeCallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -27825,6 +28099,20 @@
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
                 "usr": "s:Sb"
               },
               {
@@ -27893,8 +28181,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6FLISDK7FDeviceC11configAlarm8isEnable8interval10completion18changeTimeCallbackySb_SiySb_AA0B5ErrorOSgtcySictF",
-            "mangledName": "$s6FLISDK7FDeviceC11configAlarm8isEnable8interval10completion18changeTimeCallbackySb_SiySb_AA0B5ErrorOSgtcySictF",
+            "usr": "s:6FLISDK7FDeviceC11configAlarm8isEnable5sound8lighting8interval10completion18changeTimeCallbackySb_S2bSiySb_AA0B5ErrorOSgtcySictF",
+            "mangledName": "$s6FLISDK7FDeviceC11configAlarm8isEnable5sound8lighting8interval10completion18changeTimeCallbackySb_S2bSiySb_AA0B5ErrorOSgtcySictF",
             "moduleName": "FLISDK",
             "declAttributes": [
               "AccessControl",
@@ -31016,238 +31304,245 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1985,
+      "offset": 2008,
       "length": 11,
       "value": "\"Direction\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2267,
+      "offset": 2043,
+      "length": 9,
+      "value": "\"OneStep\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2323,
       "length": 10,
       "value": "\"FileName\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2303,
+      "offset": 2359,
       "length": 11,
       "value": "\"BeginTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2338,
+      "offset": 2394,
       "length": 9,
       "value": "\"EndTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2370,
+      "offset": 2426,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2402,
+      "offset": 2458,
       "length": 9,
       "value": "\"SeekPos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2433,
+      "offset": 2489,
       "length": 7,
       "value": "\"Speed\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2511,
+      "offset": 2567,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2527,
+      "offset": 2583,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2541,
+      "offset": 2597,
       "length": 2,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2553,
+      "offset": 2609,
       "length": 2,
       "value": "4"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2565,
+      "offset": 2621,
       "length": 3,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 2647,
+      "offset": 2703,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 2675,
+      "offset": 2731,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 2705,
+      "offset": 2761,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2729,
+      "offset": 2785,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2800,
+      "offset": 2856,
       "length": 8,
       "value": "\"Enable\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2830,
+      "offset": 2886,
       "length": 7,
       "value": "\"Sound\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2862,
+      "offset": 2918,
       "length": 10,
       "value": "\"Lighting\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2897,
+      "offset": 2953,
       "length": 10,
       "value": "\"Interval\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3039,
+      "offset": 3095,
       "length": 8,
       "value": "\"Format\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3215,
+      "offset": 3271,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3246,
+      "offset": 3302,
       "length": 10,
       "value": "\"DateTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3455,
+      "offset": 3511,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3487,
+      "offset": 3543,
       "length": 11,
       "value": "\"StartTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3522,
+      "offset": 3578,
       "length": 9,
       "value": "\"EndTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3788,
+      "offset": 3844,
       "length": 10,
       "value": "\"FileName\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3823,
+      "offset": 3879,
       "length": 10,
       "value": "\"FileType\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3856,
+      "offset": 3912,
       "length": 8,
       "value": "\"Signal\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3885,
+      "offset": 3941,
       "length": 6,
       "value": "\"Time\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4077,
+      "offset": 4133,
       "length": 8,
       "value": "\"Signal\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4289,
+      "offset": 4345,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4320,
+      "offset": 4376,
       "length": 10,
       "value": "\"ClientId\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4350,
+      "offset": 4406,
       "length": 5,
       "value": "\"Sdp\""
     },
@@ -35125,56 +35420,70 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 8874,
+      "offset": 10437,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 8924,
+      "offset": 10487,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 8965,
+      "offset": 10528,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 9017,
+      "offset": 10580,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "Array",
-      "offset": 9658,
+      "offset": 11221,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 16467,
+      "offset": 18030,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29057,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29080,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 27456,
+      "offset": 29102,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 29162,
+      "offset": 30842,
       "length": 4,
       "value": "true"
     },

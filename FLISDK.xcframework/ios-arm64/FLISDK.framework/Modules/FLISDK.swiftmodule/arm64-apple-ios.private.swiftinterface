@@ -833,6 +833,13 @@ public enum FDeviceError : Swift.Error, Foundation.LocalizedError {
   case NOT_IMPLEMENTED
   case EE_DEV_PEER_CONNECTION_NIL
   case EE_DEV_HOST_SUBNET_MISMATCH
+  case EE_DEV_CAM_FILE_OPEN
+  case EE_DEV_CAM_DATA_MALLOC
+  case EE_DEV_CAM_DATA_INVALID
+  case EE_DEV_CAM_DATA_DIFF
+  case EE_DEV_CAM_TIMEOUT
+  case EE_DEV_CAM_BUSY
+  case EE_DEV_CAM_ANOTHER
   public var code: Swift.Int {
     get
   }
@@ -890,10 +897,12 @@ extension FLISDK.FDevice {
   public func startStream(to view: FLISDK.FRendererView, resolution: FLISDK.ResolutionType, completion: @escaping FLISDK.PlayStreamCompletion)
   public func idleStream(completion: @escaping FLISDK.PlayStreamCompletion)
   public func changeStreamType(stream: FLISDK.ResolutionType, completion: @escaping FLISDK.PlayStreamCompletion)
-  public func controlZStartPTAction(direct: FLISDK.PanTiltDirectType, completion: @escaping FLISDK.PTZCompletion)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func controlZStartPTAction(direct: FLISDK.PanTiltDirectType, oneStep: Swift.Bool? = nil, completion: @escaping FLISDK.PTZCompletion)
+  #endif
   public func openSpeaker(isOpen: Swift.Bool)
   public func openTalk(isOpen: Swift.Bool, completion: @escaping FLISDK.PushToTalkCompletion)
-  public func configAlarm(isEnable: Swift.Bool, interval: Swift.Int = 60, completion: @escaping FLISDK.EmergencyAlarmCompletion, changeTimeCallback: @escaping FLISDK.EmergencyAlarmChangeTimeCallback)
+  public func configAlarm(isEnable: Swift.Bool, sound: Swift.Bool = true, lighting: Swift.Bool = true, interval: Swift.Int = 60, completion: @escaping FLISDK.EmergencyAlarmCompletion, changeTimeCallback: @escaping FLISDK.EmergencyAlarmChangeTimeCallback)
   public func formatStorage(isFormat: Swift.Bool = true, startCompletion: @escaping FLISDK.StartFormatStorageCompletion, endCompletion: @escaping FLISDK.EndFormatStorageCompletion)
   public func toggleMicrophone(isOn: Swift.Bool)
   public func keepAliveTalk()

@@ -173,6 +173,28 @@ public enum PlaybackSpeedState : Swift.Int {
     get
   }
 }
+public enum NetworkLatencyLevel {
+  case excellent
+  case good
+  case fair
+  case poor
+  case bad
+  case unknown
+  public static func == (a: FLISDK.NetworkLatencyLevel, b: FLISDK.NetworkLatencyLevel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class FNetworkManager {
+  @objc deinit
+  public static let shared: FLISDK.FNetworkManager
+}
+extension FLISDK.FNetworkManager {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func measureRTT(host: Swift.String = "8.8.8.8", delay: Foundation.TimeInterval = 3, queue: Dispatch.DispatchQueue = .global(), completion: @escaping (Swift.Int?, FLISDK.NetworkLatencyLevel) -> Swift.Void)
+  #endif
+}
 @_hasMissingDesignatedInitializers final public class FRemoteLog {
   public static let shared: FLISDK.FRemoteLog
   @objc deinit
@@ -343,7 +365,7 @@ extension FLISDK.FWifiConfigManager {
 }
 public class FDownloader {
   public init()
-  public func sd(from device: FLISDK.FDevice, type: FLISDK.DownloadType, date: Foundation.Date = Date(), output: Foundation.URL, startCompletion: @escaping FLISDK.StartDownloadSDCompletion, downloadProgress: @escaping FLISDK.ProgressDownloadSD, downloadFinished: @escaping FLISDK.EndDowloadSDCompletion)
+  public func sd(from device: FLISDK.FDevice, type: FLISDK.DownloadType, output: Foundation.URL, startCompletion: @escaping FLISDK.StartDownloadSDCompletion, downloadProgress: @escaping FLISDK.ProgressDownloadSD, downloadFinished: @escaping FLISDK.EndDowloadSDCompletion)
   #if compiler(>=5.3) && $NonescapableTypes
   public func cloud(image url: Swift.String, outputURL: Foundation.URL, startHandler: @escaping (Swift.Bool) -> Swift.Void, progressHandler: @escaping (_ progress: Swift.Float, _ total: Swift.Float) -> Swift.Void, completionHandler: @escaping (Foundation.URL?) -> Swift.Void)
   #endif
@@ -911,6 +933,7 @@ public protocol FSignalDataSource : AnyObject {
 infix operator ??? : DefaultPrecedence
 infix operator ??= : DefaultPrecedence
 public enum FNotification {
+  public static let connectorRTT: Foundation.Notification.Name
   public static func deviceStep(_ serial: Swift.String) -> Foundation.Notification.Name
 }
 @_hasMissingDesignatedInitializers final public class FConfigStore {
@@ -932,6 +955,8 @@ extension FLISDK.PanTiltDirectType : Swift.RawRepresentable {}
 extension FLISDK.PlaybackSpeedState : Swift.Equatable {}
 extension FLISDK.PlaybackSpeedState : Swift.Hashable {}
 extension FLISDK.PlaybackSpeedState : Swift.RawRepresentable {}
+extension FLISDK.NetworkLatencyLevel : Swift.Equatable {}
+extension FLISDK.NetworkLatencyLevel : Swift.Hashable {}
 extension FLISDK.BLEDeviceConfigError : Swift.Equatable {}
 extension FLISDK.BLEDeviceConfigError : Swift.Hashable {}
 extension FLISDK.FWifiConfigManagerError : Swift.Equatable {}

@@ -45,5 +45,6 @@ NS_ASSUME_NONNULL_BEGIN
 
     -(void)frameLoss:(LiveStreamView*)cameraLiveStreamView;
 -(void)bitrate:(LiveStreamView*)cameraLiveStreamView bitrate:(NSString*)bitrate;
+-(void)qualityInfo:(LiveStreamView*)cameraLiveStreamView quality:(NSString*)quality fps:(int)fps;
 @end
 NS_ASSUME_NONNULL_END

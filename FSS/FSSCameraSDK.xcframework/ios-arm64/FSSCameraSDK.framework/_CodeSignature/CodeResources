@@ -370,7 +370,7 @@
 		</data>
 		<key>Headers/LiveStreamViewDelegate.h</key>
 		<data>
-		z9jxItgGolhTJ5iG7dWM6Gojm/U=
+		A98WX7r68GHJ9DYqZXWul5Uzczc=
 		</data>
 		<key>Headers/LoginShowControl.h</key>
 		<data>
@@ -790,15 +790,15 @@
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		mpu/lJe2V0CdbhrZFEZdrdAtDAY=
+		zeLwIIiN7/ZpJ6TqVjPl67lXi1M=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		vQcNn1RVNHlT/dRuT2Xx5vQJJzI=
+		HwD40aYYs8v6EfY9cBKl692Q5Fw=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		RVlmBtETZTTEZadlxURRWSPcCfg=
+		b0zTaM2HmXcEq1QyaBwfgLsoOhk=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -806,11 +806,11 @@
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		RVlmBtETZTTEZadlxURRWSPcCfg=
+		b0zTaM2HmXcEq1QyaBwfgLsoOhk=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		skUoSzl3tLa8qTcb6ntbJSJKc6Q=
+		/31FwaARFd8WL/qNE6ZshqepgLY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1484,7 +1484,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vH77DtHegP7apiuztwFKAddVEda0BO7hihkE2BqRbl0=
+			Y7pJMYaf1IiH7u09Q/A30+fpmM14CKibQOCaqXQODrI=
 			</data>
 		</dict>
 		<key>Headers/LoginShowControl.h</key>
@@ -2212,21 +2212,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sp6JO25ijL1Axhl0sAWSB66Qlhf9yzcAnaDpJxHxOnE=
+			RvSl2mlAe8m9uX/zWjczn4TmTrrAurFfMA/CZG9nmLA=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			98GbyzA56GOdOQeyy+VHsaR+uOrHDjtjR0CpfrUihMQ=
+			gGosgDjdn6APa4VYL96M6RTqSFVaoLONj0NPPtSOtu0=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dVyjxUG4y53yq5oAPZ87zt6GFIj4mkxDBrrxCOE/+HE=
+			MdhM2J5IDecE1yVb8mGAcs5Ot7DGRhgEMn8vWEXOUW8=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -2240,14 +2240,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dVyjxUG4y53yq5oAPZ87zt6GFIj4mkxDBrrxCOE/+HE=
+			MdhM2J5IDecE1yVb8mGAcs5Ot7DGRhgEMn8vWEXOUW8=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zDzHOaYUCYwDUeZdFKHsqkIN0jYSweRmR6w2Q+8AQBw=
+			QT7mk9K84/LYEnT+YcM6OIAE0YiL7Tb5dCqixK6HYBU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

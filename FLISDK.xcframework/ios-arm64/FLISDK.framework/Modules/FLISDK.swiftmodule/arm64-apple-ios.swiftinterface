@@ -588,9 +588,21 @@ public enum DeviceConnectionState {
     get
   }
 }
+public enum ConnectionMode {
+  case legacy
+  case mtx
+  case mtxWithFallback
+  public static func == (a: FLISDK.ConnectionMode, b: FLISDK.ConnectionMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum ConnectionStep : Swift.Int {
   case new
   case signalConnecting
+  case whepFetchingInfo
+  case whepSendingOffer
   case signalConnected
   case requestOffer
   case signalOfferResponsed
@@ -840,6 +852,13 @@ public enum FDeviceError : Swift.Error, Foundation.LocalizedError {
   case EE_DEV_CAM_TIMEOUT
   case EE_DEV_CAM_BUSY
   case EE_DEV_CAM_ANOTHER
+  case EE_MTX_STREAMING_INFO_FAILED
+  case EE_MTX_OFFER_CREATION_FAILED
+  case EE_MTX_ICE_GATHERING_TIMEOUT
+  case EE_MTX_WHEP_UNAUTHORIZED
+  case EE_MTX_WHEP_UNAVAILABLE
+  case EE_MTX_WHEP_FAILED
+  case EE_MTX_SET_REMOTE_ANSWER_FAILED
   public var code: Swift.Int {
     get
   }
@@ -889,7 +908,7 @@ public class FDevice {
   }
   weak public var delegate: (any FLISDK.FDeviceDelegate)?
   weak public var reconnectDataSource: (any FLISDK.FSignalDataSource)?
-  public init(serial: Swift.String)
+  public init(serial: Swift.String, mode: FLISDK.ConnectionMode = .legacy)
 }
 extension FLISDK.FDevice {
   public func disconnect()
@@ -975,6 +994,8 @@ extension FLISDK.StreamQuality : Swift.Hashable {}
 extension FLISDK.StreamQuality : Swift.RawRepresentable {}
 extension FLISDK.DeviceConnectionState : Swift.Equatable {}
 extension FLISDK.DeviceConnectionState : Swift.Hashable {}
+extension FLISDK.ConnectionMode : Swift.Equatable {}
+extension FLISDK.ConnectionMode : Swift.Hashable {}
 extension FLISDK.ConnectionStep : Swift.Equatable {}
 extension FLISDK.ConnectionStep : Swift.Hashable {}
 extension FLISDK.ConnectionStep : Swift.RawRepresentable {}

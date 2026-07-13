@@ -12367,6 +12367,23 @@
       },
       {
         "kind": "Import",
+        "name": "WebRTC",
+        "printedName": "WebRTC",
+        "declKind": "Import",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FLISDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -17485,6 +17502,257 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ConnectionMode",
+        "printedName": "ConnectionMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "legacy",
+            "printedName": "legacy",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.ConnectionMode.Type) -> FLISDK.ConnectionMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionMode",
+                    "printedName": "FLISDK.ConnectionMode",
+                    "usr": "s:6FLISDK14ConnectionModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.ConnectionMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionMode",
+                        "printedName": "FLISDK.ConnectionMode",
+                        "usr": "s:6FLISDK14ConnectionModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK14ConnectionModeO6legacyyA2CmF",
+            "mangledName": "$s6FLISDK14ConnectionModeO6legacyyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "mtx",
+            "printedName": "mtx",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.ConnectionMode.Type) -> FLISDK.ConnectionMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionMode",
+                    "printedName": "FLISDK.ConnectionMode",
+                    "usr": "s:6FLISDK14ConnectionModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.ConnectionMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionMode",
+                        "printedName": "FLISDK.ConnectionMode",
+                        "usr": "s:6FLISDK14ConnectionModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK14ConnectionModeO3mtxyA2CmF",
+            "mangledName": "$s6FLISDK14ConnectionModeO3mtxyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "mtxWithFallback",
+            "printedName": "mtxWithFallback",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.ConnectionMode.Type) -> FLISDK.ConnectionMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionMode",
+                    "printedName": "FLISDK.ConnectionMode",
+                    "usr": "s:6FLISDK14ConnectionModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.ConnectionMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionMode",
+                        "printedName": "FLISDK.ConnectionMode",
+                        "usr": "s:6FLISDK14ConnectionModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK14ConnectionModeO15mtxWithFallbackyA2CmF",
+            "mangledName": "$s6FLISDK14ConnectionModeO15mtxWithFallbackyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectionMode",
+                "printedName": "FLISDK.ConnectionMode",
+                "usr": "s:6FLISDK14ConnectionModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectionMode",
+                "printedName": "FLISDK.ConnectionMode",
+                "usr": "s:6FLISDK14ConnectionModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK14ConnectionModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6FLISDK14ConnectionModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "FLISDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK14ConnectionModeO9hashValueSivp",
+            "mangledName": "$s6FLISDK14ConnectionModeO9hashValueSivp",
+            "moduleName": "FLISDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK14ConnectionModeO9hashValueSivg",
+                "mangledName": "$s6FLISDK14ConnectionModeO9hashValueSivg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK14ConnectionModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6FLISDK14ConnectionModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "FLISDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6FLISDK14ConnectionModeO",
+        "mangledName": "$s6FLISDK14ConnectionModeO",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ConnectionStep",
         "printedName": "ConnectionStep",
         "children": [
@@ -17560,6 +17828,80 @@
             "declKind": "EnumElement",
             "usr": "s:6FLISDK14ConnectionStepO16signalConnectingyA2CmF",
             "mangledName": "$s6FLISDK14ConnectionStepO16signalConnectingyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "whepFetchingInfo",
+            "printedName": "whepFetchingInfo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.ConnectionStep.Type) -> FLISDK.ConnectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionStep",
+                    "printedName": "FLISDK.ConnectionStep",
+                    "usr": "s:6FLISDK14ConnectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.ConnectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionStep",
+                        "printedName": "FLISDK.ConnectionStep",
+                        "usr": "s:6FLISDK14ConnectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK14ConnectionStepO16whepFetchingInfoyA2CmF",
+            "mangledName": "$s6FLISDK14ConnectionStepO16whepFetchingInfoyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "whepSendingOffer",
+            "printedName": "whepSendingOffer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.ConnectionStep.Type) -> FLISDK.ConnectionStep",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionStep",
+                    "printedName": "FLISDK.ConnectionStep",
+                    "usr": "s:6FLISDK14ConnectionStepO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.ConnectionStep.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionStep",
+                        "printedName": "FLISDK.ConnectionStep",
+                        "usr": "s:6FLISDK14ConnectionStepO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK14ConnectionStepO16whepSendingOfferyA2CmF",
+            "mangledName": "$s6FLISDK14ConnectionStepO16whepSendingOfferyA2CmF",
             "moduleName": "FLISDK"
           },
           {
@@ -18323,6 +18665,26 @@
             "usr": "s:SY",
             "mangledName": "$sSY"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -25894,6 +26256,265 @@
           },
           {
             "kind": "Var",
+            "name": "EE_MTX_STREAMING_INFO_FAILED",
+            "printedName": "EE_MTX_STREAMING_INFO_FAILED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO28EE_MTX_STREAMING_INFO_FAILEDyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO28EE_MTX_STREAMING_INFO_FAILEDyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_MTX_OFFER_CREATION_FAILED",
+            "printedName": "EE_MTX_OFFER_CREATION_FAILED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO28EE_MTX_OFFER_CREATION_FAILEDyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO28EE_MTX_OFFER_CREATION_FAILEDyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_MTX_ICE_GATHERING_TIMEOUT",
+            "printedName": "EE_MTX_ICE_GATHERING_TIMEOUT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO28EE_MTX_ICE_GATHERING_TIMEOUTyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO28EE_MTX_ICE_GATHERING_TIMEOUTyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_MTX_WHEP_UNAUTHORIZED",
+            "printedName": "EE_MTX_WHEP_UNAUTHORIZED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO24EE_MTX_WHEP_UNAUTHORIZEDyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO24EE_MTX_WHEP_UNAUTHORIZEDyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_MTX_WHEP_UNAVAILABLE",
+            "printedName": "EE_MTX_WHEP_UNAVAILABLE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO23EE_MTX_WHEP_UNAVAILABLEyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO23EE_MTX_WHEP_UNAVAILABLEyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_MTX_WHEP_FAILED",
+            "printedName": "EE_MTX_WHEP_FAILED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO18EE_MTX_WHEP_FAILEDyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO18EE_MTX_WHEP_FAILEDyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EE_MTX_SET_REMOTE_ANSWER_FAILED",
+            "printedName": "EE_MTX_SET_REMOTE_ANSWER_FAILED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.FDeviceError.Type) -> FLISDK.FDeviceError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FDeviceError",
+                    "printedName": "FLISDK.FDeviceError",
+                    "usr": "s:6FLISDK12FDeviceErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.FDeviceError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FDeviceError",
+                        "printedName": "FLISDK.FDeviceError",
+                        "usr": "s:6FLISDK12FDeviceErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK12FDeviceErrorO31EE_MTX_SET_REMOTE_ANSWER_FAILEDyA2CmF",
+            "mangledName": "$s6FLISDK12FDeviceErrorO31EE_MTX_SET_REMOTE_ANSWER_FAILEDyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
             "name": "code",
             "printedName": "code",
             "children": [
@@ -27582,7 +28203,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(serial:)",
+            "printedName": "init(serial:mode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -27595,11 +28216,18 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectionMode",
+                "printedName": "FLISDK.ConnectionMode",
+                "hasDefaultArg": true,
+                "usr": "s:6FLISDK14ConnectionModeO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6FLISDK7FDeviceC6serialACSS_tcfc",
-            "mangledName": "$s6FLISDK7FDeviceC6serialACSS_tcfc",
+            "usr": "s:6FLISDK7FDeviceC6serial4modeACSS_AA14ConnectionModeOtcfc",
+            "mangledName": "$s6FLISDK7FDeviceC6serial4modeACSS_AA14ConnectionModeOtcfc",
             "moduleName": "FLISDK",
             "declAttributes": [
               "AccessControl"
@@ -32205,6 +32833,55 @@
       "value": "3600"
     },
     {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7629,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7747,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7884,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7932,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 8061,
+      "length": 40,
+      "value": "\"https:\/\/media-controller.fcam.vn\/media\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 8141,
+      "length": 796,
+      "value": "\"eyJhbGciOiJSUzI1NiIsImtpZCI6Im1lZGlhbXR4LXRlc3QiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJ1c2VyLWMwNWkyNDExMDAwMDA0OCIsImlhdCI6MTc4MzY1MTAzOCwiZXhwIjoxNzkyMjkxMDM4LCJwYXRocyI6WyIqIl0sInJvbGUiOiJhZG1pbiIsIm1lZGlhX3Blcm1pc3Npb24iOlt7ImFjdGlvbiI6InB1Ymxpc2giLCJwYXRoIjoiYzA1aTI0MTEwMDAwMDQ4In0seyJhY3Rpb24iOiJyZWFkIiwicGF0aCI6ImMwNWkyNDExMDAwMDA0OCJ9XSwiZGV2aWNlX2luZm8iOnsiZGV2aWNlX2lkIjoiYzA1aTI0MTEwMDAwMDQ4IiwiYnVja2V0X25hbWUiOiJiZXRhLWZ1bGwtZnNzLWJ1Y2tldC0zIn19.gF1ZuqjVyTl06LHpIxYwq20Pm1wwXWPfM5nLIrNd5WMKCAOaA5eY3U5pKUnyGIE3zOKUEJlcjDqn8q-Wg7qJNGvHhQHj5Fys59smid32Xj12JQ6NitDsFpM8_JCvcviBrBaoiiM3aePZ6wmQvyAVesXptcHjKT6A_cKMVs3I1EsIIwIriajFWZTvE4lyyYdzRhgvW-iC8RWUoPTKU1Nxb2ftUr13tk-eQqlc1y4AjQ7fVFvqwM2wWNxI2i7-gv_LdPTXx05W49aPJ8mqgqSfZQC6EGmunmosXWrZGdFvspCr6BW5gQU9Od9BQVMHZ2eQOa9uWlJmTYKzR_MaEu7qwQ\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
+      "kind": "Array",
+      "offset": 9113,
+      "length": 38,
+      "value": "[\"c06i25050000056\", \"c05i24110000048\"]"
+    },
+    {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FReconnectScheduler.swift",
       "kind": "FloatLiteral",
       "offset": 537,
@@ -32368,7 +33045,7 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/PeerConnectionPool.swift",
       "kind": "BooleanLiteral",
-      "offset": 6178,
+      "offset": 6279,
       "length": 5,
       "value": "false"
     },
@@ -32438,226 +33115,240 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "Array",
-      "offset": 2956,
+      "offset": 3027,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 3004,
+      "offset": 3075,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 3087,
+      "offset": 3158,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 3129,
+      "offset": 3200,
       "length": 6,
       "value": "\"H264\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6169,
+      "offset": 6180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6395,
+      "offset": 6406,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8797,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 33044,
+      "offset": 34355,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 33204,
+      "offset": 34515,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 33302,
+      "offset": 34613,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 33419,
+      "offset": 34730,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 33529,
+      "offset": 34840,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 33668,
+      "offset": 34979,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 33783,
+      "offset": 35094,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 33904,
+      "offset": 35215,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 34074,
+      "offset": 35385,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 34206,
+      "offset": 35517,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 34320,
+      "offset": 35631,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 34429,
+      "offset": 35740,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 34555,
+      "offset": 35866,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 34685,
+      "offset": 35996,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 34818,
+      "offset": 36129,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 34929,
+      "offset": 36240,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35028,
+      "offset": 36339,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35139,
+      "offset": 36450,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 35263,
+      "offset": 36574,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35321,
+      "offset": 36632,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 41902,
+      "offset": 43213,
       "length": 19,
       "value": "\"SD (≤ 640×480)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 41941,
+      "offset": 43252,
       "length": 20,
       "value": "\"HD (≤ 1280×720)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 41981,
+      "offset": 43292,
       "length": 26,
       "value": "\"Full HD (≤ 1920×1080)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 42027,
+      "offset": 43338,
       "length": 22,
       "value": "\"3MP (≤ 2304×1296)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 42069,
+      "offset": 43380,
       "length": 22,
       "value": "\"UHD (≤ 3840×2160)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 42111,
+      "offset": 43422,
       "length": 21,
       "value": "\"Không xác định\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient+MTX.swift",
+      "kind": "Array",
+      "offset": 409,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Downloader\/DownloadManager\/DownloadManager.swift",
@@ -33341,254 +34032,289 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 776,
+      "offset": 862,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 806,
+      "offset": 892,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 836,
+      "offset": 924,
       "length": 2,
-      "value": "15"
+      "value": "11"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 863,
+      "offset": 956,
       "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 898,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 926,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 954,
-      "length": 2,
-      "value": "35"
+      "value": "12"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
       "offset": 986,
       "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1048,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1076,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1104,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1136,
+      "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1027,
+      "offset": 1177,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1061,
+      "offset": 1211,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1088,
+      "offset": 1238,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1123,
+      "offset": 1273,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1158,
+      "offset": 1308,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1184,
+      "offset": 1334,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1222,
+      "offset": 1372,
       "length": 2,
       "value": "75"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1250,
+      "offset": 1400,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1279,
+      "offset": 1429,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1311,
+      "offset": 1461,
       "length": 2,
       "value": "91"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1339,
+      "offset": 1489,
       "length": 2,
       "value": "95"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1499,
+      "offset": 1649,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1579,
+      "offset": 1729,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1656,
+      "offset": 1806,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1734,
+      "offset": 1884,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1790,
+      "offset": 1940,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 4006,
+      "offset": 4156,
       "length": 19,
       "value": "\"connections.queue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Dictionary",
-      "offset": 4118,
+      "offset": 4268,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 5721,
+      "offset": 6125,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 6127,
+      "offset": 6531,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 6223,
+      "offset": 6627,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 6271,
+      "offset": 6675,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 6911,
+      "offset": 7315,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 6964,
+      "offset": 7368,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 11669,
+      "offset": 12061,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 38564,
+      "offset": 38910,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 43493,
+      "offset": 45328,
       "length": 15,
       "value": "\"dcCommandType\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 45286,
+      "offset": 47126,
       "length": 15,
       "value": "\"dcCommandType\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/MTXNegotiation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 845,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/MTXNegotiation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 879,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/MTXDeviceConnector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 464,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalReport.swift",
@@ -35420,70 +36146,70 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 10437,
+      "offset": 11755,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 10487,
+      "offset": 11805,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 10528,
+      "offset": 11846,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 10580,
+      "offset": 11898,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "Array",
-      "offset": 11221,
+      "offset": 12539,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 18030,
+      "offset": 19599,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 29057,
+      "offset": 30626,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 29080,
+      "offset": 30649,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 29102,
+      "offset": 30671,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 30842,
+      "offset": 32411,
       "length": 4,
       "value": "true"
     },

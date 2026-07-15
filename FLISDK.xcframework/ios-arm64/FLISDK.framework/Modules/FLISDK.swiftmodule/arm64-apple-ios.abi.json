@@ -33142,204 +33142,211 @@
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4361,
+      "length": 9,
+      "value": "\"control\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 6180,
+      "offset": 6181,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6406,
+      "offset": 6407,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8797,
+      "offset": 8524,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 34355,
+      "offset": 33048,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 34515,
+      "offset": 33208,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 34613,
+      "offset": 33306,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 34730,
+      "offset": 33423,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 34840,
+      "offset": 33533,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 34979,
+      "offset": 33672,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35094,
+      "offset": 33787,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35215,
+      "offset": 33908,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35385,
+      "offset": 34078,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35517,
+      "offset": 34210,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35631,
+      "offset": 34324,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35740,
+      "offset": 34433,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35866,
+      "offset": 34559,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 35996,
+      "offset": 34689,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 36129,
+      "offset": 34822,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 36240,
+      "offset": 34933,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 36339,
+      "offset": 35032,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 36450,
+      "offset": 35143,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 36574,
+      "offset": 35267,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 36632,
+      "offset": 35325,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 43213,
+      "offset": 41906,
       "length": 19,
       "value": "\"SD (≤ 640×480)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 43252,
+      "offset": 41945,
       "length": 20,
       "value": "\"HD (≤ 1280×720)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 43292,
+      "offset": 41985,
       "length": 26,
       "value": "\"Full HD (≤ 1920×1080)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 43338,
+      "offset": 42031,
       "length": 22,
       "value": "\"3MP (≤ 2304×1296)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 43380,
+      "offset": 42073,
       "length": 22,
       "value": "\"UHD (≤ 3840×2160)\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/FRTCClient.swift",
       "kind": "StringLiteral",
-      "offset": 43422,
+      "offset": 42115,
       "length": 21,
       "value": "\"Không xác định\""
     },
@@ -34228,70 +34235,84 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 6125,
+      "offset": 6308,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 6531,
+      "offset": 6714,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 6627,
+      "offset": 6810,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 6675,
+      "offset": 6858,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 7315,
+      "offset": 7493,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "Array",
-      "offset": 7368,
+      "offset": 7546,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
+      "kind": "StringLiteral",
+      "offset": 12683,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
+      "kind": "StringLiteral",
+      "offset": 12717,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 12061,
+      "offset": 13285,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 38910,
+      "offset": 40188,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 45328,
+      "offset": 48229,
       "length": 15,
       "value": "\"dcCommandType\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 47126,
+      "offset": 50080,
       "length": 15,
       "value": "\"dcCommandType\""
     },
@@ -34310,9 +34331,9 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/MTXDeviceConnector.swift",
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/NegotiationBehavior.swift",
       "kind": "BooleanLiteral",
-      "offset": 464,
+      "offset": 2655,
       "length": 5,
       "value": "false"
     },
@@ -36174,42 +36195,42 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "Array",
-      "offset": 12539,
+      "offset": 12552,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 19725,
+      "offset": 19605,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 30752,
+      "offset": 30632,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 30775,
+      "offset": 30655,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 30797,
+      "offset": 30677,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 32537,
+      "offset": 32417,
       "length": 4,
       "value": "true"
     },

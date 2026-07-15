@@ -18924,8 +18924,15 @@
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/XMDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 22,
+      "value": "\"XMDevice.state.QUEUE\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/XMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 3020,
+      "offset": 3487,
       "length": 1,
       "value": "5"
     },
@@ -18939,42 +18946,49 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDevice.swift",
       "kind": "StringLiteral",
-      "offset": 1073,
+      "offset": 1183,
+      "length": 23,
+      "value": "\"FSSDevice.state.QUEUE\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1609,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 1161,
+      "offset": 1842,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDevice.swift",
       "kind": "StringLiteral",
-      "offset": 1240,
+      "offset": 2077,
       "length": 13,
       "value": "\"streamQueue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDevice.swift",
       "kind": "StringLiteral",
-      "offset": 10569,
+      "offset": 11690,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDevice.swift",
       "kind": "StringLiteral",
-      "offset": 10591,
+      "offset": 11712,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 13686,
+      "offset": 14807,
       "length": 5,
       "value": "false"
     },
@@ -19044,128 +19058,149 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 2701,
+      "offset": 2837,
+      "length": 28,
+      "value": "\"FSSFileManager.state.QUEUE\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2999,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 3492,
+      "offset": 3790,
       "length": 23,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 11195,
+      "offset": 11965,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 11242,
+      "offset": 12012,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11289,
+      "offset": 12059,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "Dictionary",
-      "offset": 11363,
+      "offset": 12133,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "Dictionary",
-      "offset": 11447,
+      "offset": 12217,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12587,
+      "length": 33,
+      "value": "\"XMDeviceFileManager.cache.QUEUE\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12395,
+      "offset": 14481,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 17857,
+      "offset": 19937,
       "length": 19,
       "value": "\"FssMedia\/SdPhotos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 21422,
+      "offset": 23499,
       "length": 19,
       "value": "\"FssMedia\/SdPhotos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30286,
+      "offset": 32364,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30315,
+      "offset": 32393,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30344,
+      "offset": 32422,
       "length": 5,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30373,
+      "offset": 32451,
       "length": 3,
       "value": "4"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30402,
+      "offset": 32480,
       "length": 7,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30431,
+      "offset": 32509,
       "length": 3,
       "value": "6"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "Dictionary",
-      "offset": 31054,
+      "offset": 33132,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "Dictionary",
-      "offset": 31126,
+      "offset": 33204,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
+      "kind": "StringLiteral",
+      "offset": 33468,
+      "length": 34,
+      "value": "\"FSSDeviceFileManager.cache.QUEUE\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/Request\/ISCAlamofireConfig.swift",
@@ -19555,98 +19590,105 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "StringLiteral",
-      "offset": 7059,
+      "offset": 7001,
       "length": 16,
       "value": "\"addDeviceQueue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "Dictionary",
-      "offset": 7149,
+      "offset": 7091,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "StringLiteral",
-      "offset": 7476,
+      "offset": 7669,
       "length": 18,
       "value": "\"CameraInfo.QUEUE\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "Dictionary",
-      "offset": 7547,
+      "offset": 7752,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "Dictionary",
-      "offset": 7882,
+      "offset": 8322,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "Array",
-      "offset": 8227,
+      "offset": 8798,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "Array",
-      "offset": 8580,
+      "offset": 9205,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "Array",
-      "offset": 8942,
+      "offset": 9278,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "StringLiteral",
-      "offset": 9380,
+      "offset": 10208,
       "length": 24,
       "value": "\"FSSDeviceManager.QUEUE\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 15984,
+      "offset": 10420,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16449,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 20430,
+      "offset": 20757,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 20446,
+      "offset": 20773,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 25968,
+      "offset": 26284,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 28412,
+      "offset": 28825,
       "length": 4,
       "value": "true"
     },
@@ -19849,105 +19891,112 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 1407,
+      "offset": 1641,
+      "length": 28,
+      "value": "\"FSSMediaPlayer.state.QUEUE\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 1710,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 3183,
+      "offset": 4120,
       "length": 19,
       "value": "\"FssMedia\/SdPhotos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3642,
+      "offset": 4579,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 3686,
+      "offset": 4623,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 6077,
+      "offset": 7014,
       "length": 21,
       "value": "\"FssMedia\/SnapPhotos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 6759,
+      "offset": 7696,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 7063,
+      "offset": 8000,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 10252,
+      "offset": 11189,
       "length": 23,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 19050,
+      "offset": 19984,
       "length": 4,
       "value": "2406"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 19084,
+      "offset": 20018,
       "length": 4,
       "value": "2407"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 19115,
+      "offset": 20049,
       "length": 4,
       "value": "2408"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 19641,
+      "offset": 20575,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 19682,
+      "offset": 20616,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 20525,
+      "offset": 21459,
       "length": 19,
       "value": "\"FssMedia\/SdPhotos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSMediaPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 24833,
+      "offset": 25767,
       "length": 21,
       "value": "\"FssMedia\/SnapPhotos\""
     },

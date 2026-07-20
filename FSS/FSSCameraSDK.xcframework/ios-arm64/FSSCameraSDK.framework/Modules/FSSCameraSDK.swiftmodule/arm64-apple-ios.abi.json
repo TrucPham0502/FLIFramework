@@ -17425,11 +17425,196 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FSSCameraSDK"
+        "kind": "TypeDecl",
+        "name": "Console",
+        "printedName": "Console",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "didReceiveLog",
+            "printedName": "didReceiveLog",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12FSSCameraSDK7ConsoleC13didReceiveLogySScSgvpZ",
+            "mangledName": "$s12FSSCameraSDK7ConsoleC13didReceiveLogySScSgvpZ",
+            "moduleName": "FSSCameraSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FSSCameraSDK7ConsoleC13didReceiveLogySScSgvgZ",
+                "mangledName": "$s12FSSCameraSDK7ConsoleC13didReceiveLogySScSgvgZ",
+                "moduleName": "FSSCameraSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FSSCameraSDK7ConsoleC13didReceiveLogySScSgvsZ",
+                "mangledName": "$s12FSSCameraSDK7ConsoleC13didReceiveLogySScSgvsZ",
+                "moduleName": "FSSCameraSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12FSSCameraSDK7ConsoleC13didReceiveLogySScSgvMZ",
+                "mangledName": "$s12FSSCameraSDK7ConsoleC13didReceiveLogySScSgvMZ",
+                "moduleName": "FSSCameraSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12FSSCameraSDK7ConsoleC",
+        "mangledName": "$s12FSSCameraSDK7ConsoleC",
+        "moduleName": "FSSCameraSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -17931,77 +18116,77 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "StringLiteral",
-      "offset": 11259,
+      "offset": 11277,
       "length": 21,
       "value": "\"FssMedia\/SnapPhotos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "StringLiteral",
-      "offset": 13733,
+      "offset": 13751,
       "length": 23,
       "value": "\"FssMedia\/VideosRecord\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "StringLiteral",
-      "offset": 19552,
+      "offset": 19570,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "StringLiteral",
-      "offset": 19586,
+      "offset": 19604,
       "length": 5,
       "value": "\"fss\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "BooleanLiteral",
-      "offset": 19641,
+      "offset": 19659,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "IntegerLiteral",
-      "offset": 20018,
+      "offset": 20036,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "IntegerLiteral",
-      "offset": 20034,
+      "offset": 20052,
       "length": 2,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "IntegerLiteral",
-      "offset": 20038,
+      "offset": 20056,
       "length": 4,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "IntegerLiteral",
-      "offset": 20044,
+      "offset": 20062,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "IntegerLiteral",
-      "offset": 20050,
+      "offset": 20068,
       "length": 5,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LiveCamera.swift",
       "kind": "BooleanLiteral",
-      "offset": 20107,
+      "offset": 20125,
       "length": 4,
       "value": "true"
     },
@@ -18099,35 +18284,35 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FLISDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 1433,
+      "offset": 1425,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FLISDK.swift",
       "kind": "StringLiteral",
-      "offset": 2034,
+      "offset": 2026,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FLISDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 11200,
+      "offset": 11690,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FLISDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 11624,
+      "offset": 12146,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FLISDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 12764,
+      "offset": 13520,
       "length": 3,
       "value": "126"
     },
@@ -18932,7 +19117,7 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/XMDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 3487,
+      "offset": 3849,
       "length": 1,
       "value": "5"
     },
@@ -18974,21 +19159,21 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDevice.swift",
       "kind": "StringLiteral",
-      "offset": 11690,
+      "offset": 13428,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDevice.swift",
       "kind": "StringLiteral",
-      "offset": 11712,
+      "offset": 13450,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 14807,
+      "offset": 17108,
       "length": 5,
       "value": "false"
     },
@@ -19079,126 +19264,126 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 11965,
+      "offset": 11910,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 12012,
+      "offset": 11957,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12059,
+      "offset": 12004,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "Dictionary",
-      "offset": 12133,
+      "offset": 12078,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "Dictionary",
-      "offset": 12217,
+      "offset": 12162,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 12587,
+      "offset": 12532,
       "length": 33,
       "value": "\"XMDeviceFileManager.cache.QUEUE\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14481,
+      "offset": 14426,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 19937,
+      "offset": 19882,
       "length": 19,
       "value": "\"FssMedia\/SdPhotos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 23499,
+      "offset": 23444,
       "length": 19,
       "value": "\"FssMedia\/SdPhotos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 32364,
+      "offset": 32309,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 32393,
+      "offset": 32338,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 32422,
+      "offset": 32367,
       "length": 5,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 32451,
+      "offset": 32396,
       "length": 3,
       "value": "4"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 32480,
+      "offset": 32425,
       "length": 7,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 32509,
+      "offset": 32454,
       "length": 3,
       "value": "6"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "Dictionary",
-      "offset": 33132,
+      "offset": 33077,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "Dictionary",
-      "offset": 33204,
+      "offset": 33149,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 33468,
+      "offset": 33413,
       "length": 34,
       "value": "\"FSSDeviceFileManager.cache.QUEUE\""
     },
@@ -19660,35 +19845,35 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 16449,
+      "offset": 18374,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "IntegerLiteral",
-      "offset": 20757,
+      "offset": 23779,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 20773,
+      "offset": 23795,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 26284,
+      "offset": 30392,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/FSSDeviceManagerV2.swift",
       "kind": "BooleanLiteral",
-      "offset": 28825,
+      "offset": 33878,
       "length": 4,
       "value": "true"
     },
@@ -21032,51 +21217,107 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
       "kind": "StringLiteral",
-      "offset": 217,
+      "offset": 205,
       "length": 7,
       "value": "\"start\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
       "kind": "StringLiteral",
-      "offset": 240,
+      "offset": 228,
       "length": 5,
       "value": "\"end\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
       "kind": "StringLiteral",
-      "offset": 308,
+      "offset": 739,
       "length": 13,
-      "value": "\"_CMRLog.txt\""
+      "value": "\"📷 DEVICE\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 777,
+      "length": 11,
+      "value": "\"🔌 CONN\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 813,
+      "length": 11,
+      "value": "\"📺 CHAN\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 13,
+      "value": "\"📶 STATUS\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 15,
+      "value": "\"⚙️ CONFIG\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 13,
+      "value": "\"🎬 STREAM\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 965,
+      "length": 10,
+      "value": "\"🌐 API\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1000,
+      "length": 11,
+      "value": "\"❌ ERROR\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1036,
+      "length": 15,
+      "value": "\"🔔 DELEGATE\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1076,
+      "length": 10,
+      "value": "\"📱 APP\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
       "kind": "BooleanLiteral",
-      "offset": 349,
+      "offset": 1121,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
       "kind": "StringLiteral",
-      "offset": 757,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1180,
+      "length": 29,
+      "value": "\"FSSCameraSDK.LogUtils.queue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1149,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT_SDK_IOS\/SDK\/LogUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 1577,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1319,
+      "length": 14,
+      "value": "\"HH:mm:ss.SSS\""
     }
   ]
 }

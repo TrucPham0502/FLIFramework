@@ -201,23 +201,23 @@ extension FLISDK.FNetworkManager {
   final public func start(phone: Swift.String, secret: Swift.String, url: Foundation.URL, token: Swift.String = "", logFolder: Swift.String = "")
   final public func stop()
 }
-public typealias PlayStreamCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
-public typealias PushToTalkCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
-public typealias PTZCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
-public typealias PlayListCompletion = (_ success: Swift.Bool, _ videoList: [FLISDK.FilePlaybackInfo], _ error: (any Swift.Error)?) -> ()
-public typealias PlayerCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
-public typealias EmergencyAlarmCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
+public typealias PlayStreamCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
+public typealias PushToTalkCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
+public typealias PTZCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
+public typealias PlayListCompletion = (Swift.Result<[FLISDK.FilePlaybackInfo], FLISDK.FDeviceError>) -> Swift.Void
+public typealias PlayerCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
+public typealias EmergencyAlarmCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
 public typealias EmergencyAlarmChangeTimeCallback = (Swift.Int) -> Swift.Void
-public typealias StartFormatStorageCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
-public typealias EndFormatStorageCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
-public typealias StartDownloadSDCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
-public typealias ProgressDownloadSD = (_ value: Swift.Int, _ error: FLISDK.FDeviceError?) -> ()
-public typealias EndDowloadSDCompletion = (_ path: Foundation.URL?, _ error: FLISDK.FDeviceError?) -> ()
-public typealias StopDowloadSDCompletion = (_ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> ()
-public typealias EndDowloadSDImageCompletion = (_ path: Foundation.URL?, _ error: FLISDK.FDeviceError?) -> ()
-public typealias MonthRecordCalendar = (_ success: Swift.Bool, _ data: [Swift.String], _ error: FLISDK.FDeviceError?) -> ()
-public typealias CountRecordCalendarCompletion = (_ success: Swift.Bool, _ data: [FLISDK.CountRecordCalendarDataResponse], _ error: FLISDK.FDeviceError?) -> ()
-public typealias CreateChannelCompletion = (_ device: FLISDK.FDevice, _ success: Swift.Bool, _ error: FLISDK.FDeviceError?) -> Swift.Void
+public typealias StartFormatStorageCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
+public typealias EndFormatStorageCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
+public typealias StartDownloadSDCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
+public typealias ProgressDownloadSD = (Swift.Result<Swift.Int, FLISDK.FDeviceError>) -> Swift.Void
+public typealias EndDownloadSDCompletion = (Swift.Result<Foundation.URL, FLISDK.FDeviceError>) -> Swift.Void
+public typealias StopDownloadSDCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
+public typealias EndDownloadSDImageCompletion = (Swift.Result<Foundation.URL, FLISDK.FDeviceError>) -> Swift.Void
+public typealias MonthRecordCalendar = (Swift.Result<[Swift.String], FLISDK.FDeviceError>) -> Swift.Void
+public typealias CountRecordCalendarCompletion = (Swift.Result<[FLISDK.CountRecordCalendarDataResponse], FLISDK.FDeviceError>) -> Swift.Void
+public typealias CreateChannelCompletion = (_ device: FLISDK.FDevice, _ result: Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
 public protocol FBleManagerDelegate : AnyObject {
   func fBleManager(_ manager: FLISDK.FBleConfigManager, didDiscoverDevices devices: [any FLISDK.FBLEDevice])
   func fBleManager(_ manager: FLISDK.FBleConfigManager, didConnect device: any FLISDK.FBLEDevice)
@@ -365,7 +365,7 @@ extension FLISDK.FWifiConfigManager {
 }
 public class FDownloader {
   public init()
-  public func sd(from device: FLISDK.FDevice, type: FLISDK.DownloadType, output: Foundation.URL, startCompletion: @escaping FLISDK.StartDownloadSDCompletion, downloadProgress: @escaping FLISDK.ProgressDownloadSD, downloadFinished: @escaping FLISDK.EndDowloadSDCompletion)
+  public func sd(from device: FLISDK.FDevice, type: FLISDK.DownloadType, output: Foundation.URL, startCompletion: @escaping FLISDK.StartDownloadSDCompletion, downloadProgress: @escaping FLISDK.ProgressDownloadSD, downloadFinished: @escaping FLISDK.EndDownloadSDCompletion)
   #if compiler(>=5.3) && $NonescapableTypes
   public func cloud(image url: Swift.String, outputURL: Foundation.URL, startHandler: @escaping (Swift.Bool) -> Swift.Void, progressHandler: @escaping (_ progress: Swift.Float, _ total: Swift.Float) -> Swift.Void, completionHandler: @escaping (Foundation.URL?) -> Swift.Void)
   #endif
@@ -381,36 +381,34 @@ public class FDownloader {
   @objc deinit
 }
 public protocol FRendererViewDelegate : AnyObject {
-  func fRendererView(_ view: FLISDK.FRendererView, readyToPlay size: CoreFoundation.CGSize)
-  func fRendererView(_ view: FLISDK.FRendererView, currentSecond time: Swift.Double)
+  func rendererView(_ view: FLISDK.FRendererView, readyToPlay size: CoreFoundation.CGSize)
+  func rendererView(_ view: FLISDK.FRendererView, didUpdateCurrentSecond time: Swift.Double)
 }
 public protocol FPlaybackDelegate : AnyObject {
-  func fPlayback(_ player: FLISDK.FPlaybackPlayer, error: FLISDK.FDeviceError)
-  func fPlayback(_ player: FLISDK.FPlaybackPlayer, state: FLISDK.DeviceConnectionState)
-  func fPlayback(_ player: FLISDK.FPlaybackPlayer, didUpdateCurrentSecond time: Swift.Double)
-  func fPlayback(_ player: FLISDK.FPlaybackPlayer, readyToPlay begin: Swift.Double, end: Swift.Double, duration: Swift.Double, size: CoreFoundation.CGSize)
-  func fPlayback(_ player: FLISDK.FPlaybackPlayer, didChangeState state: FLISDK.FPlayerState)
-  func fPlayback(playbackDidFinish player: FLISDK.FPlaybackPlayer)
-  func fPlayback(playbackBufferEmpty: FLISDK.FPlaybackPlayer)
-  func fPlayback(playbackBufferFull: FLISDK.FPlaybackPlayer)
-  func fPlayback(playbackLikelyToKeepUp: FLISDK.FPlaybackPlayer)
-  func fPlayback(_ player: FLISDK.FPlaybackPlayer, error: any Swift.Error)
-  func fPlayback(_ player: FLISDK.FPlaybackPlayer, seekStarted second: Swift.Double)
-  func fPlayback(_ player: FLISDK.FPlaybackPlayer, seekEnded second: Swift.Double)
+  func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, didFail error: FLISDK.FDeviceError)
+  func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, didChangeConnectionState state: FLISDK.DeviceConnectionState)
+  func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, didUpdateCurrentSecond second: Swift.Double)
+  func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, readyToPlay begin: Swift.Double, end: Swift.Double, duration: Swift.Double, size: CoreFoundation.CGSize)
+  func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, didChangePlayerState state: FLISDK.FPlayerState)
+  func playbackPlayerDidFinish(_ player: FLISDK.FPlaybackPlayer)
+  func playbackPlayerBufferEmpty(_ player: FLISDK.FPlaybackPlayer)
+  func playbackPlayerBufferFull(_ player: FLISDK.FPlaybackPlayer)
+  func playbackPlayerLikelyToKeepUp(_ player: FLISDK.FPlaybackPlayer)
+  func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, seekDidStart second: Swift.Double)
+  func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, seekDidEnd second: Swift.Double)
 }
 extension FLISDK.FPlaybackDelegate {
-  public func fPlayback(_ player: FLISDK.FPlaybackPlayer, error: FLISDK.FDeviceError)
-  public func fPlayback(_ player: FLISDK.FPlaybackPlayer, state: FLISDK.DeviceConnectionState)
-  public func fPlayback(_ player: FLISDK.FPlaybackPlayer, didUpdateCurrentSecond time: Swift.Double)
-  public func fPlayback(_ player: FLISDK.FPlaybackPlayer, readyToPlay begin: Swift.Double, end: Swift.Double, duration: Swift.Double, size: CoreFoundation.CGSize)
-  public func fPlayback(_ player: FLISDK.FPlaybackPlayer, didChangeState state: FLISDK.FPlayerState)
-  public func fPlayback(playbackDidFinish player: FLISDK.FPlaybackPlayer)
-  public func fPlayback(playbackBufferEmpty: FLISDK.FPlaybackPlayer)
-  public func fPlayback(playbackLikelyToKeepUp: FLISDK.FPlaybackPlayer)
-  public func fPlayback(_ player: FLISDK.FPlaybackPlayer, error: any Swift.Error)
-  public func fPlayback(_ player: FLISDK.FPlaybackPlayer, seekStarted second: Swift.Double)
-  public func fPlayback(_ player: FLISDK.FPlaybackPlayer, seekEnded second: Swift.Double)
-  public func fPlayback(playbackBufferFull: FLISDK.FPlaybackPlayer)
+  public func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, didFail error: FLISDK.FDeviceError)
+  public func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, didChangeConnectionState state: FLISDK.DeviceConnectionState)
+  public func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, didUpdateCurrentSecond second: Swift.Double)
+  public func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, readyToPlay begin: Swift.Double, end: Swift.Double, duration: Swift.Double, size: CoreFoundation.CGSize)
+  public func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, didChangePlayerState state: FLISDK.FPlayerState)
+  public func playbackPlayerDidFinish(_ player: FLISDK.FPlaybackPlayer)
+  public func playbackPlayerBufferEmpty(_ player: FLISDK.FPlaybackPlayer)
+  public func playbackPlayerBufferFull(_ player: FLISDK.FPlaybackPlayer)
+  public func playbackPlayerLikelyToKeepUp(_ player: FLISDK.FPlaybackPlayer)
+  public func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, seekDidStart second: Swift.Double)
+  public func playbackPlayer(_ player: FLISDK.FPlaybackPlayer, seekDidEnd second: Swift.Double)
 }
 public enum StreamQuality : Swift.String {
   case strong
@@ -812,72 +810,19 @@ extension FLISDK.FSSCryptor {
     @objc deinit
   }
 }
-public enum FDeviceError : Swift.Error, Foundation.LocalizedError {
-  case EE_DEV_CLIENT_ID_NOT_FOUND
-  case EE_DEV_FORMAT_STORAGE_ERROR
-  case EE_DEV_NOT_OFFER_REQUEST_TYPE
-  case NOT_SUPPORTED
-  case CANCEL
-  case EE_DEV_USERNAME_PASSWORD_INVALID
-  case TIMEOUT
-  case EE_DEV_CHANNEL_CLOSED
-  case EE_DEV_SDP_NOT_FOUND
-  case EE_DEV_NOT_RECEIVED_SDP
-  case EE_DEV_UNABLE_TO_PAIR
-  case EE_DEV_DISCONNECTED
-  case EE_DEV_FORMAT
-  case EE_UNKNOWN(code: Swift.Int = -19999)
-  case EE_DEV_UNAUTHORIZED
-  case EE_DEV_DECRYPT_PASSWORD_FAILED
-  case EE_PERMISSION_DENIED
-  case EE_DEV_CANT_CONNECT
-  case EE_DEV_LOGIN_FAILED
-  case EE_DSS_NOT_READY
-  case EE_DSS_NOT_FOUND
-  case EE_FILE_NOT_FOUND
-  case EE_FILE_PLAY_FAILED
-  case EE_DEV_RTC
-  case EE_DEV_OFFLINE
-  case EE_DEV_CCU
-  case EE_DEV_SD_DOWNLOAD_FAILED
-  case EE_DEV_CONNECTION_UNSUPPORTED
-  case DEV_PRIVATE_MODE
-  case NOT_IMPLEMENTED
-  case EE_DEV_PEER_CONNECTION_NIL
-  case EE_DEV_HOST_SUBNET_MISMATCH
-  case EE_DEV_CAM_FILE_OPEN
-  case EE_DEV_CAM_DATA_MALLOC
-  case EE_DEV_CAM_DATA_INVALID
-  case EE_DEV_CAM_DATA_DIFF
-  case EE_DEV_CAM_TIMEOUT
-  case EE_DEV_CAM_BUSY
-  case EE_DEV_CAM_ANOTHER
-  case EE_MTX_STREAMING_INFO_FAILED
-  case EE_MTX_OFFER_CREATION_FAILED
-  case EE_MTX_ICE_GATHERING_TIMEOUT
-  case EE_MTX_WHEP_UNAUTHORIZED
-  case EE_MTX_WHEP_UNAVAILABLE
-  case EE_MTX_WHEP_FAILED
-  case EE_MTX_SET_REMOTE_ANSWER_FAILED
-  public var code: Swift.Int {
-    get
-  }
-  public var message: Swift.String {
-    get
-  }
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var errorDescription: Swift.String? {
-    get
-  }
-  #endif
-}
 public protocol FDeviceDelegate : ObjectiveC.NSObject {
-  func fDevice(_ device: FLISDK.FDevice, stateChanged state: FLISDK.DeviceConnectionState)
-  func fDevice(_ device: FLISDK.FDevice, streamQuality quality: FLISDK.StreamQuality, fps: Swift.Int, bitrate: Swift.String)
-  func fDevice(_ device: FLISDK.FDevice, error: FLISDK.FDeviceError)
-  func fDevice(_ device: FLISDK.FDevice, privateModeChanged status: Swift.Bool)
-  func fDevice(_ device: FLISDK.FDevice, status: Swift.Bool)
-  func fDevice(_ device: FLISDK.FDevice, connectionPercent percent: Swift.Int, step: FLISDK.ConnectionStep)
+  func device(_ device: FLISDK.FDevice, didChangeConnectionState state: FLISDK.DeviceConnectionState)
+  func device(_ device: FLISDK.FDevice, didFail error: FLISDK.FDeviceError)
+  func device(_ device: FLISDK.FDevice, didUpdateStreamQuality quality: FLISDK.StreamQuality, fps: Swift.Int, bitrate: Swift.String)
+  func device(_ device: FLISDK.FDevice, privateModeDidChange status: Swift.Bool)
+  func device(_ device: FLISDK.FDevice, onlineStatusDidChange status: Swift.Bool)
+  func device(_ device: FLISDK.FDevice, didUpdateConnectionProgress percent: Swift.Int, step: FLISDK.ConnectionStep)
+}
+extension FLISDK.FDeviceDelegate {
+  public func device(_ device: FLISDK.FDevice, didUpdateStreamQuality quality: FLISDK.StreamQuality, fps: Swift.Int, bitrate: Swift.String)
+  public func device(_ device: FLISDK.FDevice, privateModeDidChange status: Swift.Bool)
+  public func device(_ device: FLISDK.FDevice, onlineStatusDidChange status: Swift.Bool)
+  public func device(_ device: FLISDK.FDevice, didUpdateConnectionProgress percent: Swift.Int, step: FLISDK.ConnectionStep)
 }
 public enum FDeviceResult {
   case error(error: FLISDK.FDeviceError)
@@ -937,6 +882,66 @@ extension FLISDK.FDevice {
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public func setPrivateMode(isOn: Swift.Bool, completion: @escaping (FLISDK.FDeviceError?) -> Swift.Void)
+  #endif
+}
+public enum FDeviceError : Swift.Error, Foundation.LocalizedError {
+  case EE_DEV_CLIENT_ID_NOT_FOUND
+  case EE_DEV_FORMAT_STORAGE_ERROR
+  case EE_DEV_NOT_OFFER_REQUEST_TYPE
+  case NOT_SUPPORTED
+  case CANCEL
+  case EE_DEV_USERNAME_PASSWORD_INVALID
+  case TIMEOUT
+  case EE_DEV_CHANNEL_CLOSED
+  case EE_DEV_SDP_NOT_FOUND
+  case EE_DEV_NOT_RECEIVED_SDP
+  case EE_DEV_UNABLE_TO_PAIR
+  case EE_DEV_DISCONNECTED
+  case EE_DEV_FORMAT
+  case EE_UNKNOWN(code: Swift.Int = -19999)
+  case EE_DEV_UNAUTHORIZED
+  case EE_DEV_DECRYPT_PASSWORD_FAILED
+  case EE_PERMISSION_DENIED
+  case EE_DEV_CANT_CONNECT
+  case EE_DEV_LOGIN_FAILED
+  case EE_DSS_NOT_READY
+  case EE_DSS_NOT_FOUND
+  case EE_FILE_NOT_FOUND
+  case EE_FILE_PLAY_FAILED
+  case EE_DEV_RTC
+  case EE_DEV_OFFLINE
+  case EE_DEV_CCU
+  case EE_DEV_SD_DOWNLOAD_FAILED
+  case EE_DEV_CONNECTION_UNSUPPORTED
+  case DEV_PRIVATE_MODE
+  case NOT_IMPLEMENTED
+  case EE_DEV_PEER_CONNECTION_NIL
+  case EE_DEV_HOST_SUBNET_MISMATCH
+  case EE_DEV_CAM_FILE_OPEN
+  case EE_DEV_CAM_DATA_MALLOC
+  case EE_DEV_CAM_DATA_INVALID
+  case EE_DEV_CAM_DATA_DIFF
+  case EE_DEV_CAM_TIMEOUT
+  case EE_DEV_CAM_BUSY
+  case EE_DEV_CAM_ANOTHER
+  case EE_MTX_STREAMING_INFO_FAILED
+  case EE_MTX_OFFER_CREATION_FAILED
+  case EE_MTX_ICE_GATHERING_TIMEOUT
+  case EE_MTX_WHEP_UNAUTHORIZED
+  case EE_MTX_WHEP_UNAVAILABLE
+  case EE_MTX_WHEP_FAILED
+  case EE_MTX_SET_REMOTE_ANSWER_FAILED
+  case EE_DEV_UNRESOLVED_ATTEMPT
+  public var code: Swift.Int {
+    get
+  }
+  public var message: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
   #endif
 }
 @_hasMissingDesignatedInitializers public class FCameraPriority {

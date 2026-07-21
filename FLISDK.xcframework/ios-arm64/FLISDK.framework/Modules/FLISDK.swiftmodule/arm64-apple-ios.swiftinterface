@@ -9,6 +9,7 @@ import SystemConfiguration.CaptiveNetwork
 import CommonCrypto
 import CoreAudioTypes
 import CoreBluetooth
+import CoreGraphics
 import CoreLocation
 import CoreMedia
 import CoreTelephony
@@ -17,7 +18,9 @@ import CryptoKit
 import Darwin
 @_exported import FLISDK
 import Foundation
+import ImageIO
 import Metal
+import MetalKit
 import Network
 import NetworkExtension
 import QuartzCore
@@ -25,6 +28,7 @@ import Swift
 import SystemConfiguration
 import FLISDK.TPFFmpeg
 import UIKit
+import UniformTypeIdentifiers
 import UserNotifications
 import VideoToolbox
 import Vision
@@ -128,6 +132,64 @@ extension FLISDK.FPlaybackPlayer {
 extension UIKit.UIImage {
   #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
+  #endif
+}
+public struct FLUTInfo : Swift.Codable, Swift.Equatable, Swift.Sendable {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let createdAt: Foundation.Date
+  public static func == (a: FLISDK.FLUTInfo, b: FLISDK.FLUTInfo) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum FLUTError : Foundation.LocalizedError {
+  case invalidCubeFile(Swift.String)
+  case encodingFailed
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+}
+@_hasMissingDesignatedInitializers final public class FLUTManager {
+  public static let shared: FLISDK.FLUTManager
+  public static let didChangeLUT: Foundation.Notification.Name
+  final public var luts: [FLISDK.FLUTInfo] {
+    get
+  }
+  final public var activeLUT: FLISDK.FLUTInfo? {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func importCube(at url: Foundation.URL, name: Swift.String, completion: @escaping (Swift.Result<FLISDK.FLUTInfo, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setActiveLUT(_ lut: FLISDK.FLUTInfo?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func importBundledCube(resource: Swift.String, name: Swift.String, completion: @escaping (Swift.Result<FLISDK.FLUTInfo, any Swift.Error>) -> Swift.Void)
+  #endif
+  final public func delete(_ lut: FLISDK.FLUTInfo) throws
+  final public func pngURL(for lut: FLISDK.FLUTInfo) -> Foundation.URL
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers final public class FLUTFilePicker : ObjectiveC.NSObject {
+  public typealias Completion = (Swift.Result<FLISDK.FLUTInfo, any Swift.Error>) -> Swift.Void
+  public static func present(from viewController: UIKit.UIViewController, completion: @escaping FLISDK.FLUTFilePicker.Completion)
+  @objc deinit
+}
+extension FLISDK.FLUTFilePicker : UIKit.UIDocumentPickerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func documentPicker(_ controller: UIKit.UIDocumentPickerViewController, didPickDocumentsAt urls: [Foundation.URL])
+  @_Concurrency.MainActor @preconcurrency @objc final public func documentPickerWasCancelled(_ controller: UIKit.UIDocumentPickerViewController)
+}
+public enum FLUTPickerError : Foundation.LocalizedError {
+  case noFileSelected
+  case notACubeFile(Swift.String)
+  case cancelled
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
   #endif
 }
 public struct PlaylistContentV2Request : Swift.Codable {
@@ -495,12 +557,11 @@ extension FLISDK.FDeviceManager : FLISDK.FSignalDataSource {
   public var abTestHost: Swift.String
   public var signalPort: Swift.Int
   public var gis: Swift.String
-  public func enableRemoteLog(phone: Swift.String, secret: Swift.String, url: Foundation.URL, token: Swift.String = "", logFolder: Swift.String = "")
-  public func disableRemoteLog()
   public func initSDK(server: Swift.String, signalHost: Swift.String, signalPort: Swift.Int, token: Swift.String, gis: Swift.String, package: Swift.String = "package", log: Swift.Bool = true)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Console {
+  public static var isEnabled: Swift.Bool
   public static var didReceiveLog: ((_ content: Swift.String) -> Swift.Void)?
   public static var socketTransport: ((Swift.String) -> Swift.Void)?
   @objc deinit
@@ -684,6 +745,9 @@ extension FLISDK.FPictureInPictureManager : AVKit.AVPictureInPictureControllerDe
   @objc override dynamic public init()
   @objc deinit
 }
+extension FLISDK.LogUploader : Foundation.URLSessionDataDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, dataTask: Foundation.URLSessionDataTask, didReceive data: Foundation.Data)
+}
 extension FLISDK.LogUploader : Foundation.URLSessionTaskDelegate {
   @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didSendBodyData bytesSent: Swift.Int64, totalBytesSent: Swift.Int64, totalBytesExpectedToSend: Swift.Int64)
   #if compiler(>=5.3) && $NonescapableTypes
@@ -696,6 +760,9 @@ extension Dispatch.DispatchTimeInterval : Swift.CustomDebugStringConvertible {
   }
 }
 public struct ZipWriter {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func makeZipNewestFirst(from folder: Foundation.URL, maxRawBytes: Swift.Int, fileName: Swift.String? = nil, password: Swift.String? = nil) -> Foundation.URL?
+  #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func makeZip(from filePaths: [Foundation.URL], fileName: Swift.String? = nil, password: Swift.String? = nil) -> Foundation.URL?
   #endif
@@ -978,6 +1045,63 @@ public enum FNotification {
   final public func getDictionary(key: Swift.String) -> [Swift.String : Any]?
   #endif
   @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FConfigViewController : UIKit.UITableViewController {
+  @_Concurrency.MainActor @preconcurrency final public var logFolderURL: Foundation.URL?
+  @_Concurrency.MainActor @preconcurrency final public var logUploadWebhookURL: Foundation.URL?
+  @_Concurrency.MainActor @preconcurrency final public var logUploadRecipientEmail: Swift.String
+  @_Concurrency.MainActor @preconcurrency final public var logUploadSubject: Swift.String
+  @_Concurrency.MainActor @preconcurrency final public var logZipPassword: Swift.String?
+  @_Concurrency.MainActor @preconcurrency final public var notifyGroups: [FLISDK.FLogNotifyGroupConfig]
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @objc deinit
+}
+public struct FLogNotifyGroupConfig {
+  public let title: Swift.String
+  public let key: Swift.String
+  public init(title: Swift.String, key: Swift.String)
+}
+public enum FLogConfig {
+  public static func isGroupEnabled(key: Swift.String) -> Swift.Bool
+  public static func setGroupEnabled(key: Swift.String, _ value: Swift.Bool)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FLogConfigViewController : UIKit.UITableViewController {
+  @_Concurrency.MainActor @preconcurrency final public var logFolderURL: Foundation.URL?
+  @_Concurrency.MainActor @preconcurrency final public var logUploadWebhookURL: Foundation.URL?
+  @_Concurrency.MainActor @preconcurrency final public var logUploadRecipientEmail: Swift.String
+  @_Concurrency.MainActor @preconcurrency final public var logUploadSubject: Swift.String
+  @_Concurrency.MainActor @preconcurrency final public var logZipPassword: Swift.String?
+  @_Concurrency.MainActor @preconcurrency final public var notifyGroups: [FLISDK.FLogNotifyGroupConfig]
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, titleForHeaderInSection section: Swift.Int) -> Swift.String?
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FLUTConfigViewController : UIKit.UITableViewController {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, titleForFooterInSection section: Swift.Int) -> Swift.String?
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, canEditRowAt indexPath: Foundation.IndexPath) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, commit editingStyle: UIKit.UITableViewCell.EditingStyle, forRowAt indexPath: Foundation.IndexPath)
 }
 extension FLISDK.ResolutionType : Swift.Equatable {}
 extension FLISDK.ResolutionType : Swift.Hashable {}

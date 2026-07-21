@@ -348,6 +348,24 @@ SWIFT_CLASS("_TtC6FLISDK17FBleConfigManager")
 - (void)centralManager:(CBCentralManager * _Nonnull)central didDisconnectPeripheral:(CBPeripheral * _Nonnull)peripheral error:(NSError * _Nullable)error;
 @end
 
+@class NSCoder;
+@class UITableView;
+@class NSIndexPath;
+@class UITableViewCell;
+@class NSBundle;
+SWIFT_CLASS("_TtC6FLISDK21FConfigViewController")
+@interface FConfigViewController : UITableViewController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
 SWIFT_CLASS("_TtC6FLISDK20FDeviceConfigManager")
 @interface FDeviceConfigManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -358,7 +376,6 @@ SWIFT_CLASS("_TtC6FLISDK14FDeviceManager")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSCoder;
 @class UIImage;
 SWIFT_CLASS("_TtC6FLISDK10FImageView")
 @interface FImageView : UIImageView
@@ -366,6 +383,49 @@ SWIFT_CLASS("_TtC6FLISDK10FImageView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithImage:(UIImage * _Nullable)image SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithImage:(UIImage * _Nullable)image highlightedImage:(UIImage * _Nullable)highlightedImage SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC6FLISDK24FLUTConfigViewController")
+@interface FLUTConfigViewController : UITableViewController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC6FLISDK14FLUTFilePicker")
+@interface FLUTFilePicker : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UIDocumentPickerViewController;
+@interface FLUTFilePicker (SWIFT_EXTENSION(FLISDK)) <UIDocumentPickerDelegate>
+- (void)documentPicker:(UIDocumentPickerViewController * _Nonnull)controller didPickDocumentsAtURLs:(NSArray<NSURL *> * _Nonnull)urls;
+- (void)documentPickerWasCancelled:(UIDocumentPickerViewController * _Nonnull)controller;
+@end
+
+SWIFT_CLASS("_TtC6FLISDK24FLogConfigViewController")
+@interface FLogConfigViewController : UITableViewController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 SWIFT_CLASS("_TtC6FLISDK24FPictureInPictureManager")
@@ -396,7 +456,6 @@ SWIFT_CLASS("_TtC6FLISDK18FWifiConfigManager")
 @end
 
 @class UITraitCollection;
-@class NSBundle;
 SWIFT_CLASS("_TtC6FLISDK23LogUploadViewController")
 @interface LogUploadViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -409,6 +468,12 @@ SWIFT_CLASS("_TtC6FLISDK23LogUploadViewController")
 SWIFT_CLASS("_TtC6FLISDK11LogUploader")
 @interface LogUploader : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSURLSessionDataTask;
+@class NSData;
+@interface LogUploader (SWIFT_EXTENSION(FLISDK)) <NSURLSessionDataDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session dataTask:(NSURLSessionDataTask * _Nonnull)dataTask didReceiveData:(NSData * _Nonnull)data;
 @end
 
 @interface LogUploader (SWIFT_EXTENSION(FLISDK)) <NSURLSessionTaskDelegate>

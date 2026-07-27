@@ -15,6 +15,7 @@
 #import <WebRTC/RTCCryptoOptions.h>
 #import <WebRTC/RTCDataChannel.h>
 #import <WebRTC/RTCDataChannelConfiguration.h>
+#import <WebRTC/RTCDtlsFingerprint.h>
 #import <WebRTC/RTCDtmfSender.h>
 #import <WebRTC/RTCFieldTrials.h>
 #import <WebRTC/RTCIceCandidate.h>

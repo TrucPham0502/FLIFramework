@@ -257,12 +257,6 @@ extension FLISDK.FNetworkManager {
   public func measureRTT(host: Swift.String = "8.8.8.8", delay: Foundation.TimeInterval = 3, queue: Dispatch.DispatchQueue = .global(), completion: @escaping (Swift.Int?, FLISDK.NetworkLatencyLevel) -> Swift.Void)
   #endif
 }
-@_hasMissingDesignatedInitializers final public class FRemoteLog {
-  public static let shared: FLISDK.FRemoteLog
-  @objc deinit
-  final public func start(phone: Swift.String, secret: Swift.String, url: Foundation.URL, token: Swift.String = "", logFolder: Swift.String = "")
-  final public func stop()
-}
 public typealias PlayStreamCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
 public typealias PushToTalkCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
 public typealias PTZCompletion = (Swift.Result<Swift.Void, FLISDK.FDeviceError>) -> Swift.Void
@@ -1036,8 +1030,8 @@ public enum FNotification {
   public static let connectorRTT: Foundation.Notification.Name
   public static func deviceStep(_ serial: Swift.String) -> Foundation.Notification.Name
 }
-@_hasMissingDesignatedInitializers final public class FConfigStore {
-  public static let shared: FLISDK.FConfigStore
+@_hasMissingDesignatedInitializers final public class FStoreConfig {
+  public static let shared: FLISDK.FStoreConfig
   #if compiler(>=5.3) && $NonescapableTypes
   final public func get(key: Swift.String) -> Swift.String?
   #endif
@@ -1056,6 +1050,19 @@ public enum FNotification {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FStreamConfigViewController : UIKit.UITableViewController {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, titleForHeaderInSection section: Swift.Int) -> Swift.String?
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
@@ -1088,6 +1095,22 @@ public enum FLogConfig {
   @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
   @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FLogListViewController : UIKit.UITableViewController {
+  @_Concurrency.MainActor @preconcurrency public init(folderURL: Foundation.URL)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, titleForFooterInSection section: Swift.Int) -> Swift.String?
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc override final public func tableView(_ tableView: UIKit.UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: Foundation.IndexPath) -> UIKit.UISwipeActionsConfiguration?
+  #endif
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class FLUTConfigViewController : UIKit.UITableViewController {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()

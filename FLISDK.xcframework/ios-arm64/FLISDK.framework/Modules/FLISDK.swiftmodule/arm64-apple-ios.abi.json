@@ -38535,6 +38535,13 @@
       "value": "\"alarm_duration\""
     },
     {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FRequestDto.swift",
+      "kind": "StringLiteral",
+      "offset": 4180,
+      "length": 13,
+      "value": "\"list_serial\""
+    },
+    {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FWifiConfigManager.swift",
       "kind": "StringLiteral",
       "offset": 775,
@@ -38593,252 +38600,231 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 9257,
+      "offset": 8737,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 9453,
+      "offset": 8933,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 9505,
+      "offset": 8985,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 9817,
+      "offset": 9297,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 9874,
+      "offset": 9354,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 9921,
+      "offset": 9401,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10033,
+      "offset": 9513,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10090,
+      "offset": 9570,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10147,
+      "offset": 9627,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10205,
+      "offset": 9685,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10260,
+      "offset": 9740,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10321,
+      "offset": 9801,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10382,
+      "offset": 9862,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10442,
+      "offset": 9922,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10502,
+      "offset": 9982,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10568,
+      "offset": 10048,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10664,
+      "offset": 10144,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 10723,
+      "offset": 10203,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10796,
+      "offset": 10276,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 10855,
+      "offset": 10335,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "Array",
-      "offset": 10961,
+      "offset": 10441,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11042,
+      "offset": 10522,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11132,
+      "offset": 10612,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11191,
+      "offset": 10671,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11248,
+      "offset": 10728,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11292,
+      "offset": 10772,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11344,
+      "offset": 10824,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 11480,
-      "length": 33,
-      "value": "\"https:\/\/beta-rmsc.fcam.vn\/media\""
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 11557,
-      "length": 566,
-      "value": "\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2wiOlt7ImFjdGlvbiI6InJlYWQiLCJwYXRoIjoiYzA1aTI0MTEwMDAwMDQ4In1dLCJhdWQiOlsicm1zIl0sImV4cCI6MTgxNTgwMTAwOCwiaWF0IjoxNzg0MjY1MDA4LCJpc3MiOiJybXNjIiwic3ViIjoiZHVuZ250MjIzLWNhbTA0OCJ9.qxOWo0GqTBRmrfmgRWaLrNoxOvRfgWUFzR1bnZExHamwx6MtoAw1QHjSXfQKAFvk6Mia7QLNJGk8BIJ75Wj1CMmCT7h6rXd6j90Sejbtt9RFPwZ37bCnOo-IjJmoEww-DPUs9OWqqv1YuFJpVK1YxWyboqZ_otuHxKOnZ7BFwrsxA1YeL4QeIPRVdBEFlTVsLPA0ng5WZIgboCaApTcwb9GRdos8OXjtUof67nuRPQ1pJEBR9_JoMo3aj0tDTxRJeByY1VHUxsT9f22WGlTu5zpVvS-bRcSu6aexwK42cdNhmPbiDu7992cglzVongFDECkN31fs1dVgALJkMTlJWQ\""
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 12168,
-      "length": 17,
-      "value": "\"c05i24110000048\""
-    },
-    {
-      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 12267,
+      "offset": 10907,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 12271,
+      "offset": 10911,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 12276,
+      "offset": 10916,
       "length": 4,
       "value": "3600"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 12335,
+      "offset": 10975,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 12340,
+      "offset": 10980,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 12345,
+      "offset": 10985,
       "length": 4,
       "value": "3600"
     },
@@ -41582,324 +41568,352 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 2582,
+      "offset": 2435,
+      "length": 11,
+      "value": "\"whip_whep\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
+      "kind": "StringLiteral",
+      "offset": 2710,
       "length": 8,
       "value": "\"serial\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 2615,
+      "offset": 2743,
       "length": 10,
       "value": "\"username\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 2650,
+      "offset": 2778,
       "length": 10,
       "value": "\"password\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 2684,
+      "offset": 2812,
       "length": 10,
       "value": "\"sdk_type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 3292,
+      "offset": 2854,
+      "length": 18,
+      "value": "\"signaling_method\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
+      "kind": "StringLiteral",
+      "offset": 3470,
       "length": 11,
       "value": "\"cloud-hls\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 3324,
+      "offset": 3502,
       "length": 11,
       "value": "\"cloud-mp4\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 3546,
+      "offset": 3724,
       "length": 10,
       "value": "\"m3u8_url\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 3582,
+      "offset": 3760,
       "length": 12,
       "value": "\"start_time\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 3618,
+      "offset": 3796,
       "length": 10,
       "value": "\"end_time\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 3656,
+      "offset": 3834,
       "length": 14,
       "value": "\"is_encrypted\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 3847,
+      "offset": 4025,
       "length": 11,
       "value": "\"meta_list\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 4248,
+      "offset": 4426,
       "length": 12,
       "value": "\"start_time\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 4288,
+      "offset": 4466,
       "length": 10,
       "value": "\"end_time\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 4326,
+      "offset": 4504,
       "length": 10,
       "value": "\"file_url\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 4418,
+      "offset": 4596,
       "length": 14,
       "value": "\"is_encrypted\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 4756,
+      "offset": 4934,
       "length": 10,
       "value": "\"sdk_type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 4838,
+      "offset": 5016,
       "length": 9,
       "value": "\"ap_mode\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 4875,
+      "offset": 5053,
       "length": 11,
       "value": "\"smart_cfg\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5085,
+      "offset": 5263,
       "length": 24,
       "value": "\"has_feature_hard_reset\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5316,
+      "offset": 5494,
       "length": 10,
       "value": "\"pwd_wifi\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5408,
+      "offset": 5586,
       "length": 5,
       "value": "\"off\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5430,
+      "offset": 5608,
       "length": 6,
       "value": "\"auto\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5455,
+      "offset": 5633,
       "length": 8,
       "value": "\"always\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5490,
+      "offset": 5668,
       "length": 18,
       "value": "\"auto-black-white\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5530,
+      "offset": 5708,
       "length": 13,
       "value": "\"off-cam-led\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5565,
+      "offset": 5743,
       "length": 12,
       "value": "\"auto-color\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5606,
+      "offset": 5784,
       "length": 20,
       "value": "\"always-black-white\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5650,
+      "offset": 5828,
       "length": 14,
       "value": "\"always-color\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5859,
+      "offset": 6037,
       "length": 14,
       "value": "\"current_mode\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 5898,
+      "offset": 6076,
       "length": 11,
       "value": "\"mode_list\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 6139,
+      "offset": 6317,
       "length": 11,
       "value": "\"is_enable\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 6394,
+      "offset": 6572,
       "length": 18,
       "value": "\"microphone_level\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 6441,
+      "offset": 6619,
       "length": 15,
       "value": "\"speaker_level\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 6795,
+      "offset": 6973,
       "length": 16,
       "value": "\"alarm_duration\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 6841,
+      "offset": 7019,
       "length": 17,
       "value": "\"is_enable_sound\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 6891,
+      "offset": 7069,
       "length": 20,
       "value": "\"is_enable_lighting\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 6939,
+      "offset": 7117,
       "length": 14,
       "value": "\"ability_list\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 7398,
+      "offset": 7576,
       "length": 11,
       "value": "\"is_enable\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 7765,
+      "offset": 7943,
       "length": 7,
       "value": "\"Sound\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 7797,
+      "offset": 7975,
       "length": 10,
       "value": "\"Lighting\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 7830,
+      "offset": 8008,
       "length": 8,
       "value": "\"Enable\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 7868,
+      "offset": 8046,
       "length": 15,
       "value": "\"ElapsedSecond\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 8106,
+      "offset": 8284,
       "length": 7,
       "value": "\"Sound\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 8138,
+      "offset": 8316,
       "length": 10,
       "value": "\"Lighting\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 8171,
+      "offset": 8349,
       "length": 8,
       "value": "\"Enable\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
       "kind": "StringLiteral",
-      "offset": 8204,
+      "offset": 8382,
       "length": 10,
       "value": "\"Interval\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
+      "kind": "StringLiteral",
+      "offset": 8879,
+      "length": 12,
+      "value": "\"expires_at\""
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/API\/Models\/FResponseDto.swift",
+      "kind": "StringLiteral",
+      "offset": 8918,
+      "length": 13,
+      "value": "\"reason_code\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Downloader\/DownloadManager\/DownloadObject.swift",
@@ -42170,35 +42184,35 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 12966,
+      "offset": 12912,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 23701,
+      "offset": 23647,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 23724,
+      "offset": 23670,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 23746,
+      "offset": 23692,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 25495,
+      "offset": 25441,
       "length": 4,
       "value": "true"
     },
@@ -42506,70 +42520,70 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FStoreConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6309,
+      "offset": 6102,
       "length": 8,
       "value": "\"config\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FStoreConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6319,
+      "offset": 6112,
       "length": 66,
       "value": "\"[FStoreConfig] current didSet — encode error, key=\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FStoreConfig.swift",
       "kind": "StringLiteral",
-      "offset": 6384,
+      "offset": 6177,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FStoreConfig.swift",
       "kind": "StringLiteral",
-      "offset": 5748,
+      "offset": 5541,
       "length": 8,
       "value": "\"config\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FStoreConfig.swift",
       "kind": "StringLiteral",
-      "offset": 5758,
+      "offset": 5551,
       "length": 44,
       "value": "\"[FStoreConfig] loaded — key=\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FStoreConfig.swift",
       "kind": "StringLiteral",
-      "offset": 5801,
+      "offset": 5594,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FStoreConfig.swift",
       "kind": "StringLiteral",
-      "offset": 5873,
+      "offset": 5666,
       "length": 8,
       "value": "\"config\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FStoreConfig.swift",
       "kind": "StringLiteral",
-      "offset": 5883,
+      "offset": 5676,
       "length": 67,
       "value": "\"[FStoreConfig] decode failed — key=\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FStoreConfig.swift",
       "kind": "StringLiteral",
-      "offset": 5933,
+      "offset": 5726,
       "length": 1,
       "value": "\", error=\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Core\/FStoreConfig.swift",
       "kind": "StringLiteral",
-      "offset": 5949,
+      "offset": 5742,
       "length": 2,
       "value": "\"\""
     },

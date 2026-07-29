@@ -790,15 +790,15 @@
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		gyI0j8fqTxzYfWMZrDZtgkFM0as=
+		vHi7B0ZGrabQwUAWvMQAWJRj9EE=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		iHWRvabb62DQeJT/+2a2Nmbhc9c=
+		JivFgT8a7gMbwP/N6YUPvbtP7gE=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		aE267mXdGDqJdNQajoUuesH88t0=
+		TJJpSe5O86IxCyPonVUnz/g9f5U=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -806,11 +806,11 @@
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		aE267mXdGDqJdNQajoUuesH88t0=
+		TJJpSe5O86IxCyPonVUnz/g9f5U=
 		</data>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kiHV2RZ3HwptXuwQormI60gn+kI=
+		zuzlyEGiM43fxNIFk4qap2fdheU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2212,21 +2212,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bMB+HbTpO9PuD24H03jAcx6dDkXVWAEneGPn0iAZN3I=
+			WzK7e1MjyQE2kd58j21y/OGVyxKJ/q2dOgOPX0csj50=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			74YnRTA5zynNDw1QDs+PIbttyxyKGKX67fpyQVW3jMk=
+			mWV55fxSBaKdfSnsLOvND/muEY8xCa5v/KWmOooUhII=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0zyndNBI9r4JY7UbGet3iKcbfxwq7VkUrwSU5JWGx9Q=
+			eSc5nflg4T0xg05G1Lh31BUuGorqVV1Hxigp+gjKpEY=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -2240,14 +2240,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0zyndNBI9r4JY7UbGet3iKcbfxwq7VkUrwSU5JWGx9Q=
+			eSc5nflg4T0xg05G1Lh31BUuGorqVV1Hxigp+gjKpEY=
 			</data>
 		</dict>
 		<key>Modules/FSSCameraSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b2TjWUDb1Zg1IDZ1N/9ibDm4jnEuWC8uO8LZw+Vdaxw=
+			mJP3iieAZ1N5CGptDb4eciLOrq5YIcbR/qOGtdpj/gE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

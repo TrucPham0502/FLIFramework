@@ -993,6 +993,8 @@ public enum FDeviceError : Swift.Error, Foundation.LocalizedError {
   case EE_MTX_WHEP_FAILED
   case EE_MTX_SET_REMOTE_ANSWER_FAILED
   case EE_DEV_UNRESOLVED_ATTEMPT
+  case EE_DEV_STALE_PEER_CONNECTION
+  case EE_DEV_CONNECTOR_DISPOSED
   public var code: Swift.Int {
     get
   }

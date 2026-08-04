@@ -284,6 +284,20 @@ public protocol FBleManagerDelegate : AnyObject {
   func fBleManager(_ manager: FLISDK.FBleConfigManager, config device: any FLISDK.FBLEDevice, error: (any Swift.Error)?)
   #endif
 }
+public enum CameraType : Swift.String {
+  case i04l
+  case p04l
+  case s05l
+  case s04l
+  case p05l
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum BLEDeviceConfigError : Swift.Error {
   case UNKNOWN
   case SEND_DATA_FAILED
@@ -994,7 +1008,6 @@ public enum FDeviceError : Swift.Error, Foundation.LocalizedError {
   case EE_MTX_SET_REMOTE_ANSWER_FAILED
   case EE_DEV_UNRESOLVED_ATTEMPT
   case EE_DEV_STALE_PEER_CONNECTION
-  case EE_DEV_CONNECTOR_DISPOSED
   public var code: Swift.Int {
     get
   }
@@ -1139,6 +1152,9 @@ extension FLISDK.PlaybackSpeedState : Swift.Hashable {}
 extension FLISDK.PlaybackSpeedState : Swift.RawRepresentable {}
 extension FLISDK.NetworkLatencyLevel : Swift.Equatable {}
 extension FLISDK.NetworkLatencyLevel : Swift.Hashable {}
+extension FLISDK.CameraType : Swift.Equatable {}
+extension FLISDK.CameraType : Swift.Hashable {}
+extension FLISDK.CameraType : Swift.RawRepresentable {}
 extension FLISDK.BLEDeviceConfigError : Swift.Equatable {}
 extension FLISDK.BLEDeviceConfigError : Swift.Hashable {}
 extension FLISDK.FWifiConfigManagerError : Swift.Equatable {}

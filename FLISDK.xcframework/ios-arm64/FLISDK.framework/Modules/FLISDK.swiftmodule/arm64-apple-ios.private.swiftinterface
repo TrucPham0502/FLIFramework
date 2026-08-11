@@ -539,6 +539,7 @@ extension FLISDK.DownloadManager : Foundation.URLSessionDelegate, Foundation.URL
 }
 extension FLISDK.FDeviceManager {
   public func prepare(serials: [Swift.String], completion: @escaping (Swift.Bool) -> Swift.Void)
+  @available(*, deprecated, message: "PeerConnection warm-up is disabled to avoid speculative TURN/STUN allocations.")
   public func warmUp()
   public func ffmpegConvert(command: Swift.String, completion: @escaping (Swift.Int32) -> ())
   public func connect(devices: [FLISDK.FDevice], completion: @escaping FLISDK.CreateChannelCompletion)
@@ -1008,6 +1009,8 @@ public enum FDeviceError : Swift.Error, Foundation.LocalizedError {
   case EE_MTX_SET_REMOTE_ANSWER_FAILED
   case EE_DEV_UNRESOLVED_ATTEMPT
   case EE_DEV_STALE_PEER_CONNECTION
+  case EE_DEV_CONNECTOR_DISPOSED
+  case EE_MTX_OFFER_CREATION_TIMEOUT
   public var code: Swift.Int {
     get
   }

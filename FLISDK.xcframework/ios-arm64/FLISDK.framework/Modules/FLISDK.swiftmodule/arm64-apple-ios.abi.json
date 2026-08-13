@@ -36913,294 +36913,294 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 4804,
+      "offset": 4818,
       "length": 10,
       "value": "\"DeviceID\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 4844,
+      "offset": 4858,
       "length": 15,
       "value": "\"SoftBuildTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 4891,
+      "offset": 4905,
       "length": 17,
       "value": "\"SoftWareVersion\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 4931,
+      "offset": 4945,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 4965,
+      "offset": 4979,
       "length": 11,
       "value": "\"Timestamp\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5083,
+      "offset": 5097,
       "length": 13,
       "value": "\"disconneted\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5155,
+      "offset": 5169,
       "length": 10,
       "value": "\"Conneted\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5620,
+      "offset": 6469,
       "length": 13,
       "value": "\"ErrorReason\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5662,
+      "offset": 6511,
       "length": 14,
       "value": "\"FirmwareName\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5698,
+      "offset": 6547,
       "length": 7,
       "value": "\"Model\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5735,
+      "offset": 6584,
       "length": 15,
       "value": "\"SoftBuildTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5782,
+      "offset": 6631,
       "length": 17,
       "value": "\"SoftWareVersion\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5822,
+      "offset": 6671,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5860,
+      "offset": 6709,
       "length": 15,
       "value": "\"UpgradeStatus\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5898,
+      "offset": 6747,
       "length": 8,
       "value": "\"Vendor\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 5930,
+      "offset": 6779,
       "length": 9,
       "value": "\"Network\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 6164,
+      "offset": 7013,
       "length": 9,
       "value": "\"Gateway\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 6202,
+      "offset": 7051,
       "length": 10,
       "value": "\"PublicIP\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 6237,
+      "offset": 7086,
       "length": 6,
       "value": "\"Wifi\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 6418,
+      "offset": 7267,
       "length": 4,
       "value": "\"IP\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 6446,
+      "offset": 7295,
       "length": 5,
       "value": "\"MAC\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 6675,
+      "offset": 7516,
       "length": 6,
       "value": "\"SSID\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 6708,
+      "offset": 7549,
       "length": 8,
       "value": "\"Signal\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 6743,
+      "offset": 7584,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7002,
+      "offset": 8344,
       "length": 13,
       "value": "\"CENTER_FRQ1\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7045,
+      "offset": 8387,
       "length": 11,
       "value": "\"FREQUENCY\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7086,
+      "offset": 8428,
       "length": 11,
       "value": "\"LINKSPEED\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7123,
+      "offset": 8465,
       "length": 7,
       "value": "\"NOISE\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7155,
+      "offset": 8497,
       "length": 6,
       "value": "\"RSSI\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7187,
+      "offset": 8529,
       "length": 7,
       "value": "\"WIDTH\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7409,
+      "offset": 8751,
       "length": 9,
       "value": "\"Details\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7443,
+      "offset": 8785,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7668,
+      "offset": 9010,
       "length": 13,
       "value": "\"Description\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7709,
+      "offset": 9051,
       "length": 9,
       "value": "\"ErrorAt\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 7996,
+      "offset": 9338,
       "length": 12,
       "value": "\"old_domain\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 8034,
+      "offset": 9376,
       "length": 12,
       "value": "\"new_domain\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 8073,
+      "offset": 9415,
       "length": 13,
       "value": "\"old_version\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 8113,
+      "offset": 9455,
       "length": 13,
       "value": "\"new_version\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 8157,
+      "offset": 9499,
       "length": 17,
       "value": "\"service_changes\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 8447,
+      "offset": 9789,
       "length": 15,
       "value": "\"list_endpoint\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 8799,
+      "offset": 10141,
       "length": 17,
       "value": "\"is_force_update\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Signal\/SignalDto.swift",
       "kind": "StringLiteral",
-      "offset": 8846,
+      "offset": 10188,
       "length": 16,
       "value": "\"latest_version\""
     },
@@ -39239,7 +39239,7 @@
       "kind": "IntegerLiteral",
       "offset": 1566,
       "length": 1,
-      "value": "2"
+      "value": "4"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
@@ -39300,301 +39300,308 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 14761,
+      "offset": 15115,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15449,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 14905,
+      "offset": 15593,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 15078,
+      "offset": 15766,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 15267,
+      "offset": 15955,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 15651,
+      "offset": 16339,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 16953,
+      "offset": 17641,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 17149,
+      "offset": 17837,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 17201,
+      "offset": 17889,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 17513,
+      "offset": 18201,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 17570,
+      "offset": 18258,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 17617,
+      "offset": 18305,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 17729,
+      "offset": 18417,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 17786,
+      "offset": 18474,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 17843,
+      "offset": 18531,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18225,
+      "offset": 18913,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18280,
+      "offset": 18968,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18341,
+      "offset": 19029,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18402,
+      "offset": 19090,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18462,
+      "offset": 19150,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18534,
+      "offset": 19222,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18595,
+      "offset": 19283,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18661,
+      "offset": 19349,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18720,
+      "offset": 19408,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18816,
+      "offset": 19504,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 18877,
+      "offset": 19565,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 18936,
+      "offset": 19624,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19009,
+      "offset": 19697,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19068,
+      "offset": 19756,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19136,
+      "offset": 19824,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19203,
+      "offset": 19891,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "Array",
-      "offset": 19309,
+      "offset": 19997,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19390,
+      "offset": 20078,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19480,
+      "offset": 20168,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19539,
+      "offset": 20227,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19596,
+      "offset": 20284,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19640,
+      "offset": 20328,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19692,
+      "offset": 20380,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19775,
+      "offset": 20463,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19779,
+      "offset": 20467,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19784,
+      "offset": 20472,
       "length": 4,
       "value": "3600"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19843,
+      "offset": 20531,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19848,
+      "offset": 20536,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/FConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 19853,
+      "offset": 20541,
       "length": 4,
       "value": "3600"
     },
@@ -41036,7 +41043,7 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Core\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 52049,
+      "offset": 52149,
       "length": 5,
       "value": "false"
     },
@@ -43220,28 +43227,35 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 35153,
+      "offset": 20168,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 36987,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 35176,
+      "offset": 37010,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 35198,
+      "offset": 37032,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 36947,
+      "offset": 38781,
       "length": 4,
       "value": "true"
     },
@@ -43388,21 +43402,42 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FInitialConnectAdmission.swift",
       "kind": "Array",
-      "offset": 1080,
+      "offset": 3016,
       "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FInitialConnectAdmission.swift",
+      "kind": "Dictionary",
+      "offset": 3286,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FInitialConnectAdmission.swift",
+      "kind": "Dictionary",
+      "offset": 3477,
+      "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FInitialConnectAdmission.swift",
       "kind": "Array",
-      "offset": 1123,
+      "offset": 3521,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FInitialConnectAdmission.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3903,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FInitialConnectAdmission.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 4071,
       "length": 37,
       "value": "\"com.flisdk.initialconnect.admission\""
     },

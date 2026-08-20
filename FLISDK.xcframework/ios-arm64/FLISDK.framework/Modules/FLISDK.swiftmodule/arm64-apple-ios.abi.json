@@ -7119,6 +7119,294 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NetworkStatus",
+        "printedName": "NetworkStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wifi",
+            "printedName": "wifi",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.NetworkStatus.Type) -> FLISDK.NetworkStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkStatus",
+                    "printedName": "FLISDK.NetworkStatus",
+                    "usr": "s:6FLISDK13NetworkStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.NetworkStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkStatus",
+                        "printedName": "FLISDK.NetworkStatus",
+                        "usr": "s:6FLISDK13NetworkStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK13NetworkStatusO4wifiyA2CmF",
+            "mangledName": "$s6FLISDK13NetworkStatusO4wifiyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "cellular",
+            "printedName": "cellular",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.NetworkStatus.Type) -> FLISDK.NetworkStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkStatus",
+                    "printedName": "FLISDK.NetworkStatus",
+                    "usr": "s:6FLISDK13NetworkStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.NetworkStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkStatus",
+                        "printedName": "FLISDK.NetworkStatus",
+                        "usr": "s:6FLISDK13NetworkStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK13NetworkStatusO8cellularyA2CmF",
+            "mangledName": "$s6FLISDK13NetworkStatusO8cellularyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "wiredEthernet",
+            "printedName": "wiredEthernet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.NetworkStatus.Type) -> FLISDK.NetworkStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkStatus",
+                    "printedName": "FLISDK.NetworkStatus",
+                    "usr": "s:6FLISDK13NetworkStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.NetworkStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkStatus",
+                        "printedName": "FLISDK.NetworkStatus",
+                        "usr": "s:6FLISDK13NetworkStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK13NetworkStatusO13wiredEthernetyA2CmF",
+            "mangledName": "$s6FLISDK13NetworkStatusO13wiredEthernetyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.NetworkStatus.Type) -> FLISDK.NetworkStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkStatus",
+                    "printedName": "FLISDK.NetworkStatus",
+                    "usr": "s:6FLISDK13NetworkStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.NetworkStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkStatus",
+                        "printedName": "FLISDK.NetworkStatus",
+                        "usr": "s:6FLISDK13NetworkStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK13NetworkStatusO5otheryA2CmF",
+            "mangledName": "$s6FLISDK13NetworkStatusO5otheryA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkStatus",
+                "printedName": "FLISDK.NetworkStatus",
+                "usr": "s:6FLISDK13NetworkStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkStatus",
+                "printedName": "FLISDK.NetworkStatus",
+                "usr": "s:6FLISDK13NetworkStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK13NetworkStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6FLISDK13NetworkStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "FLISDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK13NetworkStatusO9hashValueSivp",
+            "mangledName": "$s6FLISDK13NetworkStatusO9hashValueSivp",
+            "moduleName": "FLISDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK13NetworkStatusO9hashValueSivg",
+                "mangledName": "$s6FLISDK13NetworkStatusO9hashValueSivg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK13NetworkStatusO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6FLISDK13NetworkStatusO4hash4intoys6HasherVz_tF",
+            "moduleName": "FLISDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6FLISDK13NetworkStatusO",
+        "mangledName": "$s6FLISDK13NetworkStatusO",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FNetworkManager",
         "printedName": "FNetworkManager",
         "children": [
@@ -7169,6 +7457,46 @@
                 "declAttributes": [
                   "Final"
                 ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "usesInterfaceType",
+            "printedName": "usesInterfaceType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkStatus",
+                "printedName": "FLISDK.NetworkStatus",
+                "usr": "s:6FLISDK13NetworkStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK15FNetworkManagerC17usesInterfaceTypeAA13NetworkStatusOvp",
+            "mangledName": "$s6FLISDK15FNetworkManagerC17usesInterfaceTypeAA13NetworkStatusOvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkStatus",
+                    "printedName": "FLISDK.NetworkStatus",
+                    "usr": "s:6FLISDK13NetworkStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK15FNetworkManagerC17usesInterfaceTypeAA13NetworkStatusOvg",
+                "mangledName": "$s6FLISDK15FNetworkManagerC17usesInterfaceTypeAA13NetworkStatusOvg",
+                "moduleName": "FLISDK",
                 "accessorKind": "get"
               }
             ]
@@ -38429,35 +38757,35 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1921,
+      "offset": 1928,
       "length": 14,
       "value": "\"NetworkQueue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4424,
+      "offset": 4438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4798,
+      "offset": 4812,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5281,
+      "offset": 5295,
       "length": 9,
       "value": "\"8.8.8.8\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5314,
+      "offset": 5328,
       "length": 1,
       "value": "3"
     },

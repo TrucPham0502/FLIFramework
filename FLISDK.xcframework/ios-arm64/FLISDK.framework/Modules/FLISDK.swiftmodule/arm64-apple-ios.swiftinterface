@@ -248,9 +248,23 @@ public enum NetworkLatencyLevel {
     get
   }
 }
+public enum NetworkStatus {
+  case wifi
+  case cellular
+  case wiredEthernet
+  case other
+  public static func == (a: FLISDK.NetworkStatus, b: FLISDK.NetworkStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class FNetworkManager {
   @objc deinit
   public static let shared: FLISDK.FNetworkManager
+  public var usesInterfaceType: FLISDK.NetworkStatus {
+    get
+  }
 }
 extension FLISDK.FNetworkManager {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -1156,6 +1170,8 @@ extension FLISDK.PlaybackSpeedState : Swift.Hashable {}
 extension FLISDK.PlaybackSpeedState : Swift.RawRepresentable {}
 extension FLISDK.NetworkLatencyLevel : Swift.Equatable {}
 extension FLISDK.NetworkLatencyLevel : Swift.Hashable {}
+extension FLISDK.NetworkStatus : Swift.Equatable {}
+extension FLISDK.NetworkStatus : Swift.Hashable {}
 extension FLISDK.CameraType : Swift.Equatable {}
 extension FLISDK.CameraType : Swift.Hashable {}
 extension FLISDK.CameraType : Swift.RawRepresentable {}

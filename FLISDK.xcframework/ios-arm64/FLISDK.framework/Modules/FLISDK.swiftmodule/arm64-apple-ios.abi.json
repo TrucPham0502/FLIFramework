@@ -7119,6 +7119,294 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NetworkStatus",
+        "printedName": "NetworkStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wifi",
+            "printedName": "wifi",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.NetworkStatus.Type) -> FLISDK.NetworkStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkStatus",
+                    "printedName": "FLISDK.NetworkStatus",
+                    "usr": "s:6FLISDK13NetworkStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.NetworkStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkStatus",
+                        "printedName": "FLISDK.NetworkStatus",
+                        "usr": "s:6FLISDK13NetworkStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK13NetworkStatusO4wifiyA2CmF",
+            "mangledName": "$s6FLISDK13NetworkStatusO4wifiyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "cellular",
+            "printedName": "cellular",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.NetworkStatus.Type) -> FLISDK.NetworkStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkStatus",
+                    "printedName": "FLISDK.NetworkStatus",
+                    "usr": "s:6FLISDK13NetworkStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.NetworkStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkStatus",
+                        "printedName": "FLISDK.NetworkStatus",
+                        "usr": "s:6FLISDK13NetworkStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK13NetworkStatusO8cellularyA2CmF",
+            "mangledName": "$s6FLISDK13NetworkStatusO8cellularyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "wiredEthernet",
+            "printedName": "wiredEthernet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.NetworkStatus.Type) -> FLISDK.NetworkStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkStatus",
+                    "printedName": "FLISDK.NetworkStatus",
+                    "usr": "s:6FLISDK13NetworkStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.NetworkStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkStatus",
+                        "printedName": "FLISDK.NetworkStatus",
+                        "usr": "s:6FLISDK13NetworkStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK13NetworkStatusO13wiredEthernetyA2CmF",
+            "mangledName": "$s6FLISDK13NetworkStatusO13wiredEthernetyA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FLISDK.NetworkStatus.Type) -> FLISDK.NetworkStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkStatus",
+                    "printedName": "FLISDK.NetworkStatus",
+                    "usr": "s:6FLISDK13NetworkStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FLISDK.NetworkStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkStatus",
+                        "printedName": "FLISDK.NetworkStatus",
+                        "usr": "s:6FLISDK13NetworkStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FLISDK13NetworkStatusO5otheryA2CmF",
+            "mangledName": "$s6FLISDK13NetworkStatusO5otheryA2CmF",
+            "moduleName": "FLISDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkStatus",
+                "printedName": "FLISDK.NetworkStatus",
+                "usr": "s:6FLISDK13NetworkStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkStatus",
+                "printedName": "FLISDK.NetworkStatus",
+                "usr": "s:6FLISDK13NetworkStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK13NetworkStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6FLISDK13NetworkStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "FLISDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK13NetworkStatusO9hashValueSivp",
+            "mangledName": "$s6FLISDK13NetworkStatusO9hashValueSivp",
+            "moduleName": "FLISDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK13NetworkStatusO9hashValueSivg",
+                "mangledName": "$s6FLISDK13NetworkStatusO9hashValueSivg",
+                "moduleName": "FLISDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FLISDK13NetworkStatusO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6FLISDK13NetworkStatusO4hash4intoys6HasherVz_tF",
+            "moduleName": "FLISDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6FLISDK13NetworkStatusO",
+        "mangledName": "$s6FLISDK13NetworkStatusO",
+        "moduleName": "FLISDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FNetworkManager",
         "printedName": "FNetworkManager",
         "children": [
@@ -7169,6 +7457,46 @@
                 "declAttributes": [
                   "Final"
                 ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "usesInterfaceType",
+            "printedName": "usesInterfaceType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkStatus",
+                "printedName": "FLISDK.NetworkStatus",
+                "usr": "s:6FLISDK13NetworkStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FLISDK15FNetworkManagerC17usesInterfaceTypeAA13NetworkStatusOvp",
+            "mangledName": "$s6FLISDK15FNetworkManagerC17usesInterfaceTypeAA13NetworkStatusOvp",
+            "moduleName": "FLISDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkStatus",
+                    "printedName": "FLISDK.NetworkStatus",
+                    "usr": "s:6FLISDK13NetworkStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FLISDK15FNetworkManagerC17usesInterfaceTypeAA13NetworkStatusOvg",
+                "mangledName": "$s6FLISDK15FNetworkManagerC17usesInterfaceTypeAA13NetworkStatusOvg",
+                "moduleName": "FLISDK",
                 "accessorKind": "get"
               }
             ]
@@ -38433,267 +38761,281 @@
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1714,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1721,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 1639,
+      "offset": 1822,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1705,
+      "offset": 1888,
       "length": 6,
       "value": "\"Mode\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1734,
+      "offset": 1917,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2008,
+      "offset": 2191,
       "length": 11,
       "value": "\"Direction\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2043,
+      "offset": 2226,
       "length": 9,
       "value": "\"OneStep\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2323,
+      "offset": 2506,
       "length": 10,
       "value": "\"FileName\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2359,
+      "offset": 2542,
       "length": 11,
       "value": "\"BeginTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2394,
+      "offset": 2577,
       "length": 9,
       "value": "\"EndTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2426,
+      "offset": 2609,
       "length": 8,
       "value": "\"Status\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2458,
+      "offset": 2641,
       "length": 9,
       "value": "\"SeekPos\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2489,
+      "offset": 2672,
       "length": 7,
       "value": "\"Speed\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2567,
+      "offset": 2750,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2583,
+      "offset": 2766,
       "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2597,
+      "offset": 2780,
       "length": 2,
       "value": "3"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2609,
+      "offset": 2792,
       "length": 2,
       "value": "4"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2621,
+      "offset": 2804,
       "length": 3,
       "value": "5"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 2703,
+      "offset": 2886,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 2731,
+      "offset": 2914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 2761,
+      "offset": 2944,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2785,
+      "offset": 2968,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2856,
+      "offset": 3039,
       "length": 8,
       "value": "\"Enable\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2886,
+      "offset": 3069,
       "length": 7,
       "value": "\"Sound\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2918,
+      "offset": 3101,
       "length": 10,
       "value": "\"Lighting\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 2953,
+      "offset": 3136,
       "length": 10,
       "value": "\"Interval\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3095,
+      "offset": 3278,
       "length": 8,
       "value": "\"Format\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3271,
+      "offset": 3454,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3302,
+      "offset": 3485,
       "length": 10,
       "value": "\"DateTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3511,
+      "offset": 3694,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3543,
+      "offset": 3726,
       "length": 11,
       "value": "\"StartTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3578,
+      "offset": 3761,
       "length": 9,
       "value": "\"EndTime\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3844,
+      "offset": 4027,
       "length": 10,
       "value": "\"FileName\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3879,
+      "offset": 4062,
       "length": 10,
       "value": "\"FileType\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3912,
+      "offset": 4095,
       "length": 8,
       "value": "\"Signal\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3941,
+      "offset": 4124,
       "length": 6,
       "value": "\"Time\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4133,
+      "offset": 4316,
       "length": 8,
       "value": "\"Signal\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4345,
+      "offset": 4528,
       "length": 6,
       "value": "\"Type\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4376,
+      "offset": 4559,
       "length": 10,
       "value": "\"ClientId\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/WebRTC\/RTCSignalRequest.swift",
       "kind": "StringLiteral",
-      "offset": 4406,
+      "offset": 4589,
       "length": 5,
       "value": "\"Sdp\""
     },
@@ -38707,35 +39049,35 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1921,
+      "offset": 1928,
       "length": 14,
       "value": "\"NetworkQueue\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4424,
+      "offset": 4438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4798,
+      "offset": 4812,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 5281,
+      "offset": 5295,
       "length": 9,
       "value": "\"8.8.8.8\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/DeviceConfig\/FNetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5314,
+      "offset": 5328,
       "length": 1,
       "value": "3"
     },
@@ -41073,35 +41415,35 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Core\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 6646,
+      "offset": 7401,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Core\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 8504,
+      "offset": 9259,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Core\/FDeviceConnector.swift",
       "kind": "StringLiteral",
-      "offset": 8538,
+      "offset": 9293,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Core\/FDeviceConnector.swift",
       "kind": "IntegerLiteral",
-      "offset": 8890,
+      "offset": 9645,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Core\/FDeviceConnector.swift",
       "kind": "BooleanLiteral",
-      "offset": 52278,
+      "offset": 53769,
       "length": 5,
       "value": "false"
     },
@@ -41122,14 +41464,14 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Lifecycle\/FDeviceConnectorLifecycle.swift",
       "kind": "Array",
-      "offset": 2247,
+      "offset": 2251,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Connector\/Lifecycle\/FDeviceConnectorLifecycle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2277,
+      "offset": 2281,
       "length": 5,
       "value": "false"
     },
@@ -43299,28 +43641,28 @@
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 36820,
+      "offset": 36856,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 36843,
+      "offset": 36879,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "IntegerLiteral",
-      "offset": 36865,
+      "offset": 36901,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/trucpham\/Desktop\/Source\/FPT\/FLISDK\/Source\/FLISDK\/FLISDK\/Services\/Device\/FDevice.swift",
       "kind": "BooleanLiteral",
-      "offset": 38614,
+      "offset": 38650,
       "length": 4,
       "value": "true"
     },
